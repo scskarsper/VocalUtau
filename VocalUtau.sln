@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocalUtau", "VocalUtau.csproj", "{49F2A2D2-5ECD-4042-81D5-8A4C3A7C20E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalthasarLib.D2DPainter", "..\IncludeLib\BalthasarLib.D2DPainter\BalthasarLib.D2DPainter.csproj", "{8B6BA8CC-95BC-4599-95CB-A97D2B2AE1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalthasarLib.PianoRollWindow", "..\IncludeLib\BalthasarLib.PianoRollWindow\BalthasarLib.PianoRollWindow.csproj", "{EFA2E299-FE79-4BE5-9197-7EE86AE97EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49F2A2D2-5ECD-4042-81D5-8A4C3A7C20E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F2A2D2-5ECD-4042-81D5-8A4C3A7C20E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F2A2D2-5ECD-4042-81D5-8A4C3A7C20E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F2A2D2-5ECD-4042-81D5-8A4C3A7C20E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6BA8CC-95BC-4599-95CB-A97D2B2AE1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6BA8CC-95BC-4599-95CB-A97D2B2AE1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6BA8CC-95BC-4599-95CB-A97D2B2AE1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6BA8CC-95BC-4599-95CB-A97D2B2AE1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA2E299-FE79-4BE5-9197-7EE86AE97EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA2E299-FE79-4BE5-9197-7EE86AE97EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA2E299-FE79-4BE5-9197-7EE86AE97EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA2E299-FE79-4BE5-9197-7EE86AE97EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
