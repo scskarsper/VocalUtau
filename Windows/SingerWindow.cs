@@ -6,11 +6,14 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using VocalUtau.Functions.Utils;
+using VocalUtau.ParamCurveWorker;
 
 namespace VocalUtau.Windows
 {
     public partial class SingerWindow : Form
     {
+        IParamCurveWorker ParamWindowWorker;
         public SingerWindow()
         {
             InitializeComponent();
@@ -34,69 +37,73 @@ namespace VocalUtau.Windows
         SortedDictionary<long, double> Dics = new SortedDictionary<long, double>();
         bool parametersIsDown = false;
         long lastX = -1;
-        double lastY = -1;
-        bool lockt=false;
+        double lastY = -1; 
+        private Object mouseLock = new Object(); 
         private void parametersWindow1_ParamAreaMouseMove(object sender, BalthasarLib.PianoRollWindow.ParamMouseEventArgs e)
         {
+            long px = MathHelper.NearlyTick(e.Tick, 5);
             if (parametersIsDown == true)
             {
-                if (!lockt)
+                lock (mouseLock)
                 {
-                    lockt = true;
-                    long px = e.Tick / 5;
                     double py = e.TallPercent;
-
-                    long p1 = px; double r1 = py;
-                    long p2 = lastX; double r2 = lastY;
-                    if (p1 < p2)
+                    MathHelper.SegmentLine line = new MathHelper.SegmentLine(
+                        new MathHelper.SegmentLine.SegmentPoint(px, py),
+                        new MathHelper.SegmentLine.SegmentPoint(lastX, lastY));
+                    if (px < lastX)
                     {
-                        long t = p2;
-                        p2 = p1;
-                        p1 = t;
-                        double tt = r2;
-                        r2 = r1;
-                        r1 = r2;
+                        //R->L
+                        for (long i = lastX; i >= px; i = i - 5)
+                        {
+                            double w = line.CalcPointFromX(i).Y;
+                            if (Dics.ContainsKey(i))
+                            {
+                                Dics[i] = w;
+                            }
+                            else
+                            {
+                                Dics.Add(i, w);
+                            }
+                            lastX = i;
+                            lastY = w;
+                        }
                     }
-                    long dt1 = p1 - p2;
-                    double dy1 = r1 - r2;
-                    double k = dy1 / dt1;
-                    double b = r1 - k * p1;
-                    for (long i = p2; i <= p1; i = i + 5)
+                    else
                     {
-                        double w = k * i + b;
-                        if (Dics.ContainsKey(i))
+                        //L->R
+                        for (long i = lastX; i <= px; i = i + 5)
                         {
-                            Dics[i] = w;
+                            double w = line.CalcPointFromX(i).Y;
+                            if (Dics.ContainsKey(i))
+                            {
+                                Dics[i] = w;
+                            }
+                            else
+                            {
+                                Dics.Add(i, w);
+                            }
+                            lastX = i;
+                            lastY = w;
                         }
-                        else
-                        {
-                            Dics.Add(i, w);
-                        }
-                        lastX = i;
-                        lastY = w;
                     }
-                    lockt = false;
                 }
             }
             pct = e.TallPercent;
-            pcr = e.Tick;
+            pcr = px;
         }
         private void parametersWindow1_ParamAreaMouseDown(object sender, BalthasarLib.PianoRollWindow.ParamMouseEventArgs e)
         {
-            long px = e.Tick / 5;
-            if (px % 5 == 0)
+            long px = MathHelper.NearlyTick(e.Tick, 5);
+            if (Dics.ContainsKey(px))
             {
-                if (Dics.ContainsKey(e.Tick / 5))
-                {
-                    Dics[e.Tick / 5] = e.TallPercent;
-                }
-                else
-                {
-                    Dics.Add(e.Tick / 5, e.TallPercent);
-                }
-                lastX = e.Tick / 5;
-                lastY = e.TallPercent;
+                Dics[px] = e.TallPercent;
             }
+            else
+            {
+                Dics.Add(px, e.TallPercent);
+            }
+            lastX = px;
+            lastY = e.TallPercent;
             parametersIsDown = true;
         }
         private void parametersWindow1_ParamAreaMouseUp(object sender, BalthasarLib.PianoRollWindow.ParamMouseEventArgs e)
@@ -104,6 +111,11 @@ namespace VocalUtau.Windows
             parametersIsDown = false;
         }
         #endregion
+
+        private void parametersWindow1_Load(object sender, EventArgs e)
+        {
+
+        }
 
 
     }

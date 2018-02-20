@@ -30,7 +30,7 @@
         {
             this.Singer_WinSpliter = new System.Windows.Forms.SplitContainer();
             this.pianoRollWindow1 = new BalthasarLib.PianoRollWindow.PianoRollWindow();
-            this.parametersWindow1 = new BalthasarLib.PianoRollWindow.ParametersWindow();
+            this.parametersWindow1 = new BalthasarLib.PianoRollWindow.ParamCurveWindow();
             ((System.ComponentModel.ISupportInitialize)(this.Singer_WinSpliter)).BeginInit();
             this.Singer_WinSpliter.Panel1.SuspendLayout();
             this.Singer_WinSpliter.Panel2.SuspendLayout();
@@ -75,11 +75,12 @@
             this.parametersWindow1.Name = "parametersWindow1";
             this.parametersWindow1.Size = new System.Drawing.Size(543, 136);
             this.parametersWindow1.TabIndex = 0;
-            this.parametersWindow1.ParamBtnsPaint += new BalthasarLib.PianoRollWindow.ParametersWindow.OnParameterButtonsDrawHandler(this.parametersWindow1_ParamBtnsPaint);
-            this.parametersWindow1.ParamAreaPaint += new BalthasarLib.PianoRollWindow.ParametersWindow.OnParameterAreaDrawHandler(this.parametersWindow1_ParamAreaPaint);
-            this.parametersWindow1.ParamAreaMouseDown += new BalthasarLib.PianoRollWindow.ParametersWindow.OnMouseEventHandler(this.parametersWindow1_ParamAreaMouseDown);
-            this.parametersWindow1.ParamAreaMouseUp += new BalthasarLib.PianoRollWindow.ParametersWindow.OnMouseEventHandler(this.parametersWindow1_ParamAreaMouseUp);
-            this.parametersWindow1.ParamAreaMouseMove += new BalthasarLib.PianoRollWindow.ParametersWindow.OnMouseEventHandler(this.parametersWindow1_ParamAreaMouseMove);
+            this.parametersWindow1.ParamBtnsPaint += new BalthasarLib.PianoRollWindow.ParamCurveWindow.OnParameterButtonsDrawHandler(this.parametersWindow1_ParamBtnsPaint);
+            this.parametersWindow1.ParamAreaPaint += new BalthasarLib.PianoRollWindow.ParamCurveWindow.OnParameterAreaDrawHandler(this.parametersWindow1_ParamAreaPaint);
+            this.parametersWindow1.ParamAreaMouseDown += new BalthasarLib.PianoRollWindow.ParamCurveWindow.OnMouseEventHandler(this.parametersWindow1_ParamAreaMouseDown);
+            this.parametersWindow1.ParamAreaMouseUp += new BalthasarLib.PianoRollWindow.ParamCurveWindow.OnMouseEventHandler(this.parametersWindow1_ParamAreaMouseUp);
+            this.parametersWindow1.ParamAreaMouseMove += new BalthasarLib.PianoRollWindow.ParamCurveWindow.OnMouseEventHandler(this.parametersWindow1_ParamAreaMouseMove);
+            this.parametersWindow1.Load += new System.EventHandler(this.parametersWindow1_Load);
             // 
             // SingerWindow
             // 
@@ -101,6 +102,6 @@
 
         private System.Windows.Forms.SplitContainer Singer_WinSpliter;
         private BalthasarLib.PianoRollWindow.PianoRollWindow pianoRollWindow1;
-        private BalthasarLib.PianoRollWindow.ParametersWindow parametersWindow1;
+        private BalthasarLib.PianoRollWindow.ParamCurveWindow parametersWindow1;
     }
 }

@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Functions\Utils\MathHelper.cs" />
     <Compile Include="Functions\WindowActioner\MainActioner.cs" />
+    <Compile Include="ParamCurveWorker\IParamCurveWorker.cs" />
+    <Compile Include="ParamCurveWorker\ParamFullCurveWorker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Windows\MainWindow.cs">
