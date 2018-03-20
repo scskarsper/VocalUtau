@@ -6,107 +6,34 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using VocalUtau.Functions.Structs;
-using VocalUtau.Functions.WindowActioner;
+using VocalUtau.Formats.Model.USTs.Original;
+using VocalUtau.Formats.Model.VocalObject;
+using VocalUtau.DirectUI.Forms;
+using VocalUtau.ActionWorker;
 
 namespace VocalUtau.Windows
 {
     public partial class MainWindow : Form
     {
-        public WindowGroup Wins=new WindowGroup();
-        public MainActioner Actioner;
+        SingerWindow sw = new SingerWindow();
+        AttributesWindow aw = new AttributesWindow();
+        TrackerWindow tw = new TrackerWindow();
+        MainFormWorker Controller;
         public MainWindow()
         {
             InitializeComponent();
-            Actioner = new MainActioner(this);
-        }
+            sw.ShowOnDock(this.MainDock);
+            aw.ShowOnDock(this.MainDock);
+            tw.ShowOnDock(this.MainDock);
+            Controller = new MainFormWorker(ref sw, ref aw, ref tw);
 
-        private void ShowNewForm(object sender, EventArgs e)
-        {
-            Actioner.File_CreateNew();
         }
-
-        private void OpenFile(object sender, EventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
-            openFileDialog.Filter = "文本文件(*.txt)|*.txt|所有文件(*.*)|*.*";
-            if (openFileDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                string FileName = openFileDialog.FileName;
-            }
-        }
-
-        private void SaveAsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
-            saveFileDialog.Filter = "文本文件(*.txt)|*.txt|所有文件(*.*)|*.*";
-            if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                string FileName = saveFileDialog.FileName;
-            }
-        }
-
-        private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void CutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void CopyToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void PasteToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
-        }
-
-        private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            statusStrip.Visible = statusBarToolStripMenuItem.Checked;
-        }
-
-        private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.Cascade);
-        }
-
-        private void TileVerticalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.TileVertical);
-        }
-
-        private void TileHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.TileHorizontal);
-        }
-
-        private void ArrangeIconsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.ArrangeIcons);
-        }
-
-        private void CloseAllToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            foreach (Form childForm in MdiChildren)
-            {
-                childForm.Close();
-            }
-        }
-
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            Actioner.File_CreateNew();
+            Controller.NewProject();
         }
-    }
+        
+        
 
+    }
 }

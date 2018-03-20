@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VocalUtau.Properties
+namespace VocalUtau.Windows.Properties
 {
 
 
