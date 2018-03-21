@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{49F2A2D2-5ECD-4042-81D5-8A4C3A7C20E4}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VocalUtau</RootNamespace>
     <AssemblyName>VocalUtau</AssemblyName>
@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +55,12 @@
     <Compile Include="ActionWorker\GlobalPackage.cs" />
     <Compile Include="ActionWorker\MainFormWorker.cs" />
     <Compile Include="ActionWorker\SystemSingerWorker.cs" />
+    <Compile Include="ObjectUtils\UndoAbility.cs" />
+    <Compile Include="ToolIcon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ToolIcon.resx</DependentUpon>
+    </Compile>
     <Compile Include="Windows\MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +69,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ToolIcon.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToolIcon.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Windows\MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +113,93 @@
       <Project>{9ea2955f-3919-4939-bb75-0b38f4e6182d}</Project>
       <Name>VocalUtau.Formats</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\forward_1312.23657289px_1153743_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\media_323.78118161926px_1153765_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\media_394.26843317972px_1153766_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\multimedia_792.50173812283px_1153772_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\new_602.95560040363px_1153773_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\next_777.24333719583px_1153774_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\note_1006.1637596899px_1153775_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\open_1510.6537433155px_1153777_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\plus_790.00126262626px_1153782_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\reply_1108.3829787234px_1153787_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\Save_Archive_162.18316831683px_1190970_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\thin_1122.3065250379px_1153797_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\thin_1125.7229832572px_1153798_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\volume_1168.3137254902px_1153810_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\save_263px_1154784_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\ruler_512px_1170292_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\copy_512px_1168905_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\paste_256px_1075009_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\downloading_updates_512px_1170184_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\stop_233px_1187740_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\SLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\DLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\RLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\JLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\1-Eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\125-Mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\button_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\align_center_410.3141025641px_1159005_easyicon.net.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

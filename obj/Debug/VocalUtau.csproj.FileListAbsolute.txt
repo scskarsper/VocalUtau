@@ -22,3 +22,4 @@ D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.Formats.pdb
 D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.DirectUI.pdb
 D:\VocalUtau\VocalUtau\bin\Debug\NAudio.xml
 D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.MainWindow.resources
+D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.ToolIcon.resources

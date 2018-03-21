@@ -5,6 +5,7 @@ using System.Text;
 using System.Windows.Forms;
 using VocalUtau.DirectUI.Forms;
 using VocalUtau.Formats.Model.VocalObject;
+using VocalUtau.ObjectUtils;
 
 namespace VocalUtau.ActionWorker
 {
@@ -14,11 +15,13 @@ namespace VocalUtau.ActionWorker
         SingerWindow sw;
         AttributesWindow aw;
         TrackerWindow tw;
-        public MainFormWorker(ref SingerWindow sw,ref AttributesWindow aw,ref TrackerWindow tw)
+        UndoAbility ua;
+        public MainFormWorker(ref SingerWindow sw, ref AttributesWindow aw, ref TrackerWindow tw, ref UndoAbility ua)
         {
             this.sw = sw;
             this.aw = aw;
             this.tw = tw;
+            this.ua = ua;
             tw.BindAttributeWindow(aw);
             sw.BindAttributeWindow(aw);
             tw.ShowingEditorChanged += tw_ShowingEditorChanged;
@@ -28,6 +31,19 @@ namespace VocalUtau.ActionWorker
             sw.FormClosing += child_FormClosing;
             tw.FormClosing += child_FormClosing;
             aw.FormClosing += child_FormClosing;
+            sw.BaseController.NoteActionEnd += BaseController_NoteActionEnd;
+            //sw.BaseController.
+        }
+
+        void BaseController_NoteActionEnd(DirectUI.Utils.PianoUtils.NoteView.NoteDragingType eventType)
+        {
+            if (eventType == DirectUI.Utils.PianoUtils.NoteView.NoteDragingType.NoteMove ||
+                eventType == DirectUI.Utils.PianoUtils.NoteView.NoteDragingType.NoteAdd ||
+                eventType == DirectUI.Utils.PianoUtils.NoteView.NoteDragingType.NoteDelete ||
+                eventType == DirectUI.Utils.PianoUtils.NoteView.NoteDragingType.NoteLength)
+            {
+                tw.GuiRefresh();
+            }
         }
 
         void child_FormClosing(object sender, System.Windows.Forms.FormClosingEventArgs e)
@@ -62,6 +78,7 @@ namespace VocalUtau.ActionWorker
             sw.LoadProjectObject(ref projectObj);
             aw.LoadProjectObject(ref projectObj);
             tw.LoadProjectObject(ref projectObj);
+            ua.LoadProjectObject(ref projectObj);
         }
         public void NewProject()
         {
