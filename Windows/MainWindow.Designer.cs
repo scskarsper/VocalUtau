@@ -39,41 +39,41 @@
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripContainer = new System.Windows.Forms.ToolStripContainer();
-            this.ToolStrip_OpenAble = new System.Windows.Forms.ToolStrip();
-            this.ToolStrip_Player = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.ToolStrip_Drawer = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStrip_UndoAble = new System.Windows.Forms.ToolStrip();
             this.toolBtn_NoteSelect = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_NoteAdd = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolBtn_LyricEdits = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_NoteCopy = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_NotePaste = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_NoteDelete = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolBtn_G_Line = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_G_J = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_G_R = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_G_S = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_G_Earse = new System.Windows.Forms.ToolStripButton();
+            this.ToolStrip_UndoAble = new System.Windows.Forms.ToolStrip();
             this.toolBtn_Undo = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Repeat = new System.Windows.Forms.ToolStripButton();
+            this.ToolStrip_OpenAble = new System.Windows.Forms.ToolStrip();
             this.toolBtn_New = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Open = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Save = new System.Windows.Forms.ToolStripButton();
+            this.ToolStrip_Player = new System.Windows.Forms.ToolStrip();
             this.toolBtn_Play = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Paste = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Stop = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolBtn_WavOutput = new System.Windows.Forms.ToolStripButton();
             this.MenuStrip.SuspendLayout();
             this.ToolStripContainer.ContentPanel.SuspendLayout();
             this.ToolStripContainer.TopToolStripPanel.SuspendLayout();
             this.ToolStripContainer.SuspendLayout();
-            this.ToolStrip_OpenAble.SuspendLayout();
-            this.ToolStrip_Player.SuspendLayout();
             this.ToolStrip_Drawer.SuspendLayout();
             this.ToolStrip_UndoAble.SuspendLayout();
+            this.ToolStrip_OpenAble.SuspendLayout();
+            this.ToolStrip_Player.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainDock
@@ -177,38 +177,6 @@
             this.ToolStripContainer.TopToolStripPanel.Controls.Add(this.ToolStrip_OpenAble);
             this.ToolStripContainer.TopToolStripPanel.Controls.Add(this.ToolStrip_Player);
             // 
-            // ToolStrip_OpenAble
-            // 
-            this.ToolStrip_OpenAble.Dock = System.Windows.Forms.DockStyle.None;
-            this.ToolStrip_OpenAble.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolBtn_New,
-            this.toolBtn_Open,
-            this.toolBtn_Save});
-            this.ToolStrip_OpenAble.Location = new System.Drawing.Point(3, 70);
-            this.ToolStrip_OpenAble.Name = "ToolStrip_OpenAble";
-            this.ToolStrip_OpenAble.Size = new System.Drawing.Size(108, 35);
-            this.ToolStrip_OpenAble.TabIndex = 2;
-            this.ToolStrip_OpenAble.Text = "toolStrip1";
-            // 
-            // ToolStrip_Player
-            // 
-            this.ToolStrip_Player.Dock = System.Windows.Forms.DockStyle.None;
-            this.ToolStrip_Player.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolBtn_Play,
-            this.toolBtn_Paste,
-            this.toolBtn_Stop,
-            this.toolStripSeparator2,
-            this.toolBtn_WavOutput});
-            this.ToolStrip_Player.Location = new System.Drawing.Point(111, 70);
-            this.ToolStrip_Player.Name = "ToolStrip_Player";
-            this.ToolStrip_Player.Size = new System.Drawing.Size(146, 35);
-            this.ToolStrip_Player.TabIndex = 4;
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 35);
-            // 
             // ToolStrip_Drawer
             // 
             this.ToolStrip_Drawer.Dock = System.Windows.Forms.DockStyle.None;
@@ -230,27 +198,6 @@
             this.ToolStrip_Drawer.Name = "ToolStrip_Drawer";
             this.ToolStrip_Drawer.Size = new System.Drawing.Size(407, 35);
             this.ToolStrip_Drawer.TabIndex = 3;
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 35);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 35);
-            // 
-            // ToolStrip_UndoAble
-            // 
-            this.ToolStrip_UndoAble.Dock = System.Windows.Forms.DockStyle.None;
-            this.ToolStrip_UndoAble.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolBtn_Undo,
-            this.toolBtn_Repeat});
-            this.ToolStrip_UndoAble.Location = new System.Drawing.Point(74, 35);
-            this.ToolStrip_UndoAble.Name = "ToolStrip_UndoAble";
-            this.ToolStrip_UndoAble.Size = new System.Drawing.Size(76, 35);
-            this.ToolStrip_UndoAble.TabIndex = 0;
             // 
             // toolBtn_NoteSelect
             // 
@@ -277,6 +224,11 @@
             this.toolBtn_NoteAdd.Text = "音符添加";
             this.toolBtn_NoteAdd.Click += new System.EventHandler(this.toolBtn_NoteAdd_Click);
             // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 35);
+            // 
             // toolBtn_LyricEdits
             // 
             this.toolBtn_LyricEdits.AutoSize = false;
@@ -287,6 +239,7 @@
             this.toolBtn_LyricEdits.Name = "toolBtn_LyricEdits";
             this.toolBtn_LyricEdits.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_LyricEdits.Text = "音符歌词编辑";
+            this.toolBtn_LyricEdits.Click += new System.EventHandler(this.toolBtn_LyricEdits_Click);
             // 
             // toolBtn_NoteCopy
             // 
@@ -298,6 +251,7 @@
             this.toolBtn_NoteCopy.Name = "toolBtn_NoteCopy";
             this.toolBtn_NoteCopy.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_NoteCopy.Text = "音符复制";
+            this.toolBtn_NoteCopy.Click += new System.EventHandler(this.toolBtn_NoteCopy_Click);
             // 
             // toolBtn_NotePaste
             // 
@@ -309,6 +263,7 @@
             this.toolBtn_NotePaste.Name = "toolBtn_NotePaste";
             this.toolBtn_NotePaste.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_NotePaste.Text = "音符粘贴";
+            this.toolBtn_NotePaste.Click += new System.EventHandler(this.toolBtn_NotePaste_Click);
             // 
             // toolBtn_NoteDelete
             // 
@@ -320,6 +275,12 @@
             this.toolBtn_NoteDelete.Name = "toolBtn_NoteDelete";
             this.toolBtn_NoteDelete.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_NoteDelete.Text = "音符删除";
+            this.toolBtn_NoteDelete.Click += new System.EventHandler(this.toolBtn_NoteDelete_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 35);
             // 
             // toolBtn_G_Line
             // 
@@ -376,6 +337,17 @@
             this.toolBtn_G_Earse.Text = "擦除选中区域曲线";
             this.toolBtn_G_Earse.Click += new System.EventHandler(this.toolBtn_G_Earse_Click);
             // 
+            // ToolStrip_UndoAble
+            // 
+            this.ToolStrip_UndoAble.Dock = System.Windows.Forms.DockStyle.None;
+            this.ToolStrip_UndoAble.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolBtn_Undo,
+            this.toolBtn_Repeat});
+            this.ToolStrip_UndoAble.Location = new System.Drawing.Point(74, 35);
+            this.ToolStrip_UndoAble.Name = "ToolStrip_UndoAble";
+            this.ToolStrip_UndoAble.Size = new System.Drawing.Size(76, 35);
+            this.ToolStrip_UndoAble.TabIndex = 0;
+            // 
             // toolBtn_Undo
             // 
             this.toolBtn_Undo.AutoSize = false;
@@ -399,6 +371,19 @@
             this.toolBtn_Repeat.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_Repeat.Text = "重复";
             this.toolBtn_Repeat.Click += new System.EventHandler(this.toolBtn_Repeat_Click);
+            // 
+            // ToolStrip_OpenAble
+            // 
+            this.ToolStrip_OpenAble.Dock = System.Windows.Forms.DockStyle.None;
+            this.ToolStrip_OpenAble.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolBtn_New,
+            this.toolBtn_Open,
+            this.toolBtn_Save});
+            this.ToolStrip_OpenAble.Location = new System.Drawing.Point(3, 70);
+            this.ToolStrip_OpenAble.Name = "ToolStrip_OpenAble";
+            this.ToolStrip_OpenAble.Size = new System.Drawing.Size(108, 35);
+            this.ToolStrip_OpenAble.TabIndex = 2;
+            this.ToolStrip_OpenAble.Text = "toolStrip1";
             // 
             // toolBtn_New
             // 
@@ -431,6 +416,20 @@
             this.toolBtn_Save.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_Save.Text = "保存工程";
             // 
+            // ToolStrip_Player
+            // 
+            this.ToolStrip_Player.Dock = System.Windows.Forms.DockStyle.None;
+            this.ToolStrip_Player.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolBtn_Play,
+            this.toolBtn_Paste,
+            this.toolBtn_Stop,
+            this.toolStripSeparator2,
+            this.toolBtn_WavOutput});
+            this.ToolStrip_Player.Location = new System.Drawing.Point(111, 70);
+            this.ToolStrip_Player.Name = "ToolStrip_Player";
+            this.ToolStrip_Player.Size = new System.Drawing.Size(146, 35);
+            this.ToolStrip_Player.TabIndex = 4;
+            // 
             // toolBtn_Play
             // 
             this.toolBtn_Play.AutoSize = false;
@@ -460,6 +459,11 @@
             this.toolBtn_Stop.Name = "toolBtn_Stop";
             this.toolBtn_Stop.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_Stop.Text = "停止";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 35);
             // 
             // toolBtn_WavOutput
             // 
@@ -491,14 +495,14 @@
             this.ToolStripContainer.TopToolStripPanel.PerformLayout();
             this.ToolStripContainer.ResumeLayout(false);
             this.ToolStripContainer.PerformLayout();
-            this.ToolStrip_OpenAble.ResumeLayout(false);
-            this.ToolStrip_OpenAble.PerformLayout();
-            this.ToolStrip_Player.ResumeLayout(false);
-            this.ToolStrip_Player.PerformLayout();
             this.ToolStrip_Drawer.ResumeLayout(false);
             this.ToolStrip_Drawer.PerformLayout();
             this.ToolStrip_UndoAble.ResumeLayout(false);
             this.ToolStrip_UndoAble.PerformLayout();
+            this.ToolStrip_OpenAble.ResumeLayout(false);
+            this.ToolStrip_OpenAble.PerformLayout();
+            this.ToolStrip_Player.ResumeLayout(false);
+            this.ToolStrip_Player.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

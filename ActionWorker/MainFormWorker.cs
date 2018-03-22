@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using VocalUtau.DirectUI.Forms;
+using VocalUtau.DirectUI.Utils.SingerUtils;
 using VocalUtau.Formats.Model.VocalObject;
 using VocalUtau.ObjectUtils;
 
@@ -16,6 +17,7 @@ namespace VocalUtau.ActionWorker
         AttributesWindow aw;
         TrackerWindow tw;
         UndoAbility ua;
+        SingerLyricSpliter sls;
         public MainFormWorker(ref SingerWindow sw, ref AttributesWindow aw, ref TrackerWindow tw, ref UndoAbility ua)
         {
             this.sw = sw;
@@ -26,6 +28,7 @@ namespace VocalUtau.ActionWorker
             sw.BindAttributeWindow(aw);
             tw.ShowingEditorChanged += tw_ShowingEditorChanged;
             tw.SelectingPartChanged += tw_SelectingPartChanged;
+            tw.SelectingWavePartChanged += tw_SelectingWavePartChanged;
             tw.TotalTimePosChange += tw_TotalTimePosChange;
             sw.TotalTimePosChange += sw_TotalTimePosChange;
             sw.FormClosing += child_FormClosing;
@@ -33,6 +36,11 @@ namespace VocalUtau.ActionWorker
             aw.FormClosing += child_FormClosing;
             sw.BaseController.NoteActionEnd += BaseController_NoteActionEnd;
             //sw.BaseController.
+        }
+
+        void tw_SelectingWavePartChanged(WavePartsObject PartObject)
+        {
+            aw.LoadWavPartsPtr(ref PartObject);
         }
 
         void BaseController_NoteActionEnd(DirectUI.Utils.PianoUtils.NoteView.NoteDragingType eventType)
@@ -75,6 +83,10 @@ namespace VocalUtau.ActionWorker
         {
             projectObject = projectObj;
             Program.GlobalPackage.SingerWorker.FillSingerIn(projectObject.SingerList);
+            sls = new SingerLyricSpliter(ref projectObj);
+            sw.SetupLyricSpliter(ref sls);
+            aw.SetupLyricSpliter(ref sls);
+
             sw.LoadProjectObject(ref projectObj);
             aw.LoadProjectObject(ref projectObj);
             tw.LoadProjectObject(ref projectObj);

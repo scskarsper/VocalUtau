@@ -34,7 +34,42 @@ namespace VocalUtau.ObjectUtils
             sw.BaseController.PitchActionBegin += BaseController_PitchActionBegin;
             sw.BaseController.PitchActionEnd += BaseController_PitchActionEnd;
 
+            tw.BaseController.TrackerActionBegin += Track_View_TrackerActionBegin;
+            tw.BaseController.TrackerActionEnd += Track_View_TrackerActionEnd;
+
             aw.AttributeChange += aw_AttributeChange;
+        }
+
+        void Track_View_TrackerActionEnd(DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType eventType)
+        {
+            switch (eventType)
+            {
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.PartsMove:
+                    AddUndoPoint("段落区块:移动"); break; break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.TrackRename:
+                    AddUndoPoint("轨道:重命名"); break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.TrackSort:
+                    AddUndoPoint("轨道:顺序调整"); break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.VolumeMove:
+                    AddUndoPoint("轨道:音量变更"); break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.PartAdd:
+                    AddUndoPoint("段落区块:添加"); break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.PartDelete:
+                    AddUndoPoint("段落区块:删除"); break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.TrackAdd:
+                    AddUndoPoint("轨道:添加"); break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.TrackDelete:
+                    AddUndoPoint("轨道:删除"); break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.ImportWavAsPart:
+                    AddUndoPoint("伴奏:导入现有伴奏轨"); break;
+                case DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType.ImportWavAsTrack:
+                    AddUndoPoint("伴奏:导入并创建伴奏轨"); break;
+            }
+        }
+
+        void Track_View_TrackerActionBegin(DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType eventType)
+        {
+            RegisterPoint();
         }
 
         void aw_AttributeChange(PropertyValueChangedEventArgs e, ProjectObject oldObj)

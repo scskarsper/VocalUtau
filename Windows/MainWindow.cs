@@ -38,15 +38,24 @@ namespace VocalUtau.Windows
             ToolStrip_Drawer.Location = new Point(300, 0);
 
             sw.BaseController.ToolStatusChange += BaseController_ToolStatusChange;
+            sw.NoteCopyMemoryChanged += sw_NoteCopyMemoryChanged;
+            sw.NoteSelectListChange += sw_NoteSelectListChange;
+        }
+
+        void sw_NoteSelectListChange(List<int> SelectedIndexs)
+        {
+            BindNoteCopys();
+        }
+
+        void sw_NoteCopyMemoryChanged(bool isCopyed)
+        {
+            BindNoteCopys();
         }
 
         void BaseController_ToolStatusChange(object StatusEnum)
         {
             this.toolBtn_NoteSelect.Checked=false;
             this.toolBtn_NoteAdd.Checked=false;
-            /*this.toolBtn_NoteCopy,
-            this.toolBtn_NotePaste,
-            this.toolBtn_NoteDelete,*/
             this.toolBtn_G_Line.Checked=false;
             this.toolBtn_G_J.Checked=false;
             this.toolBtn_G_R.Checked=false;
@@ -183,7 +192,26 @@ namespace VocalUtau.Windows
             this.toolBtn_NoteCopy.Enabled = sw.BaseController.Track_NoteView.SelectedCount > 0;
             this.toolBtn_NoteDelete.Enabled = sw.BaseController.Track_NoteView.SelectedCount > 0;
             this.toolBtn_LyricEdits.Enabled = sw.BaseController.Track_NoteView.SelectedCount > 0;
-          //RollAction_EditLyrics.Enabled = sw.BaseController.Track_NoteView.SelectedCount > 0;
+        }
+
+        private void toolBtn_LyricEdits_Click(object sender, EventArgs e)
+        {
+            sw.EditLyrics();
+        }
+
+        private void toolBtn_NoteCopy_Click(object sender, EventArgs e)
+        {
+            sw.CopyNotes();
+        }
+
+        private void toolBtn_NotePaste_Click(object sender, EventArgs e)
+        {
+            sw.PasteNotes();
+        }
+
+        private void toolBtn_NoteDelete_Click(object sender, EventArgs e)
+        {
+            sw.NoteDeletes();
         }
         
 
