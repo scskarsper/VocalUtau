@@ -189,9 +189,13 @@ namespace VocalUtau.Windows
         void BindNoteCopys()
         {
             this.toolBtn_NotePaste.Enabled = sw.BaseController.CopyPasteController.isCopyed;
+            this.editItem_PasteNotes.Enabled = this.toolBtn_NotePaste.Enabled;
             this.toolBtn_NoteCopy.Enabled = sw.BaseController.Track_NoteView.SelectedCount > 0;
+            this.editItem_CopyNotes.Enabled = this.toolBtn_NoteCopy.Enabled;
             this.toolBtn_NoteDelete.Enabled = sw.BaseController.Track_NoteView.SelectedCount > 0;
+            this.editItem_DeleteNotes.Enabled = this.toolBtn_NoteDelete.Enabled;
             this.toolBtn_LyricEdits.Enabled = sw.BaseController.Track_NoteView.SelectedCount > 0;
+            this.editItem_EditLyrics.Enabled = this.toolBtn_LyricEdits.Enabled;
         }
 
         private void toolBtn_LyricEdits_Click(object sender, EventArgs e)
@@ -212,6 +216,61 @@ namespace VocalUtau.Windows
         private void toolBtn_NoteDelete_Click(object sender, EventArgs e)
         {
             sw.NoteDeletes();
+        }
+
+        private void toolBtn_Open_Click(object sender, EventArgs e)
+        {
+            if (Controller.OpenProject(this))
+            {
+                UndoAbility.ClearRepeat();
+                UndoAbility.ClearUndo();
+                GC.Collect();
+            }
+        }
+
+        private void toolBtn_New_Click(object sender, EventArgs e)
+        {
+            Controller.NewProject();
+            UndoAbility.ClearRepeat();
+            UndoAbility.ClearUndo();
+            GC.Collect();
+        }
+
+        private void toolBtn_Save_Click(object sender, EventArgs e)
+        {
+            if (Controller.SaveProject(this))
+            {
+                ;
+            }
+        }
+
+        private void FileMenu_Close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FileMenu_SaveAs_Click(object sender, EventArgs e)
+        {
+
+            if (Controller.SaveProject(this,true))
+            {
+                ;
+            }
+        }
+
+        private void FileMenu_OpenUSTs_Click(object sender, EventArgs e)
+        {
+            if (Controller.OpenUSTs(this))
+            {
+                UndoAbility.ClearRepeat();
+                UndoAbility.ClearUndo();
+                GC.Collect();
+            }
+        }
+
+        private void menuItem_EditProjectInformation_Click(object sender, EventArgs e)
+        {
+            Controller.SetupPassword(this);
         }
         
 

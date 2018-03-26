@@ -24,3 +24,7 @@ D:\VocalUtau\VocalUtau\bin\Debug\NAudio.xml
 D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.MainWindow.resources
 D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.ToolIcon.resources
 D:\VocalUtau\VocalUtau\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\VocalUtau\VocalUtau\bin\Debug\DeepCloner.dll
+D:\VocalUtau\VocalUtau\bin\Debug\DeepCloner.xml
+D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.IntroduceSwap.resources
+D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.FridenlySWindow.resources

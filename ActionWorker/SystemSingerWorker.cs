@@ -14,6 +14,8 @@ namespace VocalUtau.ActionWorker
         public SystemSingerWorker()
         {
             _GlobalSingerList.Add(new SingerObject());
+            //DefaultGUID:MD5("Merry Chrisytmas");
+            _GlobalSingerList[0].GUID = "b98a5c64-da35-6ce3-e87c-7b0cd37bc9f4";
             _GlobalSingerList[0].PartResampler = "resampler.exe";
             _GlobalSingerList[0].VocalName = "默认子";
             _GlobalSingerList[0].SingerFolder="voicedb\\uta";
@@ -25,7 +27,11 @@ namespace VocalUtau.ActionWorker
             {
                 if (ListBeFilled.IndexOf(so) == -1)
                 {
-                    ListBeFilled.Add(so);
+                    ListBeFilled.Add((SingerObject)so.Clone());
+                }
+                else
+                {
+                    ListBeFilled[ListBeFilled.IndexOf(so)] = (SingerObject)so.Clone();
                 }
             }
         }

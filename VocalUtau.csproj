@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{49F2A2D2-5ECD-4042-81D5-8A4C3A7C20E4}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VocalUtau</RootNamespace>
     <AssemblyName>VocalUtau</AssemblyName>
@@ -52,14 +52,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionWorker\FormSpaner.cs" />
     <Compile Include="ActionWorker\GlobalPackage.cs" />
     <Compile Include="ActionWorker\MainFormWorker.cs" />
     <Compile Include="ActionWorker\SystemSingerWorker.cs" />
+    <Compile Include="ObjectUtils\FileOpenHelper.cs" />
     <Compile Include="ObjectUtils\UndoAbility.cs" />
     <Compile Include="ToolIcon.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ToolIcon.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FridenlySWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FridenlySWindow.Designer.cs">
+      <DependentUpon>FridenlySWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\IntroduceSwap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\IntroduceSwap.Designer.cs">
+      <DependentUpon>IntroduceSwap.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\MainWindow.cs">
       <SubType>Form</SubType>
@@ -72,6 +86,12 @@
     <EmbeddedResource Include="ToolIcon.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ToolIcon.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FridenlySWindow.resx">
+      <DependentUpon>FridenlySWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\IntroduceSwap.resx">
+      <DependentUpon>IntroduceSwap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
