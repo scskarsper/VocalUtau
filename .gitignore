@@ -51,5 +51,14 @@ Module.symvers
 Mkfile.old
 dkms.conf
 *.cache
+*.bak
 
 !/packages/
+!DeepCloner.dll
+!WeifenLuo.WinFormsUI.Docking.dll
+!NAudio.dll
+!ICSharpCode.SharpZipLib.dll
+!BalthasarLib.D2DPainter.dll
+!SharpDX.Direct2D1.dll
+!SharpDX.dll
+!SharpDX.DXGI.dll
