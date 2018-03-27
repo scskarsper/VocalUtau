@@ -12,6 +12,7 @@ using VocalUtau.DirectUI.Forms;
 using VocalUtau.ActionWorker;
 using VocalUtau.ObjectUtils;
 using VocalUtau.DirectUI.Utils.PianoUtils;
+using System.Threading;
 
 namespace VocalUtau.Windows
 {
@@ -33,13 +34,11 @@ namespace VocalUtau.Windows
             Controller = new MainFormWorker(ref sw, ref aw, ref tw, ref UndoAbility);
 
             ToolStrip_OpenAble.Location = new Point(1, 0);
-            ToolStrip_UndoAble.Location = new Point(200, 0);
-            ToolStrip_Player.Location = new Point(250, 0);
-            ToolStrip_Drawer.Location = new Point(300, 0);
 
             sw.BaseController.ToolStatusChange += BaseController_ToolStatusChange;
             sw.NoteCopyMemoryChanged += sw_NoteCopyMemoryChanged;
             sw.NoteSelectListChange += sw_NoteSelectListChange;
+            this.ShowInTaskbar = false;
         }
 
         void sw_NoteSelectListChange(List<int> SelectedIndexs)
@@ -104,7 +103,33 @@ namespace VocalUtau.Windows
         }
         private void MainWindow_Load(object sender, EventArgs e)
         {
+            this.Visible = false;
             Controller.NewProject();
+            
+            SplashForm sf = new SplashForm();
+            sf.TopMost = true;
+            sf.Show();
+            Thread SplashWork = new Thread(new ParameterizedThreadStart((work) => {
+                MainWindow MWin = (MainWindow)((object[])work)[0];
+                SplashForm SWin = (SplashForm)((object[])work)[1];
+                if (Program.GlobalPackage.InitGlobal(SWin))
+                {
+                    SWin.Invoke(new Action(()=>{SWin.Close();}));
+                    MWin.Invoke(new Action(() =>
+                    {
+                        this.WindowState = FormWindowState.Maximized;
+                        this.ToolStrip_OpenAble.Location = new Point(1, 0);
+                        this.Visible = true;
+                        this.ShowInTaskbar = true;
+                    }));
+                }
+                else
+                {
+                    this.Close();
+                    Application.Exit();
+                }
+            }));
+            SplashWork.Start(new object[] {this,sf });
         }
 
         private void toolBtn_Undo_Click(object sender, EventArgs e)

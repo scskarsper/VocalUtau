@@ -7,23 +7,15 @@ using VocalUtau.Formats.Model.VocalObject;
 
 namespace VocalUtau.ActionWorker
 {
-    [Serializable]
-    [DataContract]
     public class SystemSingerWorker
     {
         public SystemSingerWorker()
         {
-            _GlobalSingerList.Add(new SingerObject());
-            //DefaultGUID:MD5("Merry Chrisytmas");
-            _GlobalSingerList[0].GUID = "b98a5c64-da35-6ce3-e87c-7b0cd37bc9f4";
-            _GlobalSingerList[0].PartResampler = "resampler.exe";
-            _GlobalSingerList[0].VocalName = "默认子";
-            _GlobalSingerList[0].SingerFolder="voicedb\\uta";
         }
 
         public void FillSingerIn(List<SingerObject> ListBeFilled)
         {
-            foreach (SingerObject so in _GlobalSingerList)
+            foreach (SingerObject so in Program.GlobalPackage.Configures.GlobalSingerList)
             {
                 if (ListBeFilled.IndexOf(so) == -1)
                 {
@@ -36,12 +28,18 @@ namespace VocalUtau.ActionWorker
             }
         }
 
-        List<SingerObject> _GlobalSingerList = new List<SingerObject>();
-        [DataMember]
-        public List<SingerObject> GlobalSingerList
+        Dictionary<string, object> SingerPathCache = new Dictionary<string, object>();
+        public void InitSingers(List<SingerObject> SingerList = null)
         {
-            get { return _GlobalSingerList; }
-            set { _GlobalSingerList = value; }
+            if (SingerList == null) SingerList = Program.GlobalPackage.Configures.GlobalSingerList;
+            foreach (SingerObject so in SingerList)
+            {
+                if (so == null) continue;
+                if (!SingerPathCache.ContainsKey(so.getRealSingerFolder()))
+                {
+                    //
+                }
+            }
         }
     }
 }

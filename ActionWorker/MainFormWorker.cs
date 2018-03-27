@@ -263,7 +263,6 @@ namespace VocalUtau.ActionWorker
                     Proj.BackerList.Clear();
 
                     FormSpaner.SetFromProcess(10, "正在装载UST文件", baseFrom);
-                    int Sfm = 0;
                     Object thisLock = new Object();
                     Parallel.For(0, RealList.Count, (i) =>
                     {

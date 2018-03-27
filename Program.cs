@@ -18,7 +18,9 @@ namespace VocalUtau
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainWindow());
+            MainWindow mw = new MainWindow();
+            mw.Visible = false;
+            Application.Run(mw);
         }
     }
 }

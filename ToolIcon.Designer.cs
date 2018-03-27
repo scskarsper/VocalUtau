@@ -323,6 +323,16 @@ namespace VocalUtau {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap Volet {
+            get {
+                object obj = ResourceManager.GetObject("Volet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap volume_1168_3137254902px_1153810_easyicon_net {
             get {
                 object obj = ResourceManager.GetObject("volume_1168_3137254902px_1153810_easyicon_net", resourceCulture);

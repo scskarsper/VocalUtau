@@ -70,7 +70,7 @@ namespace VocalUtau.Windows
 
         private void projectPwd_KeyDown(object sender, KeyEventArgs e)
         {
-            if (ShownMR.Enabled = false)
+            if (ShownMR.Enabled == false)
             {
                 projectPwd.Text = "";
             }
