@@ -62,3 +62,4 @@ dkms.conf
 !SharpDX.Direct2D1.dll
 !SharpDX.dll
 !SharpDX.DXGI.dll
+!NUniversalCharDet.dll
