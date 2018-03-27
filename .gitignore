@@ -53,7 +53,7 @@ dkms.conf
 *.cache
 *.bak
 
-!/packages/
+!/packages/*.dll
 !DeepCloner.dll
 !WeifenLuo.WinFormsUI.Docking.dll
 !NAudio.dll
