@@ -1,0 +1,2 @@
+name=デフォルト
+image=image.bmp

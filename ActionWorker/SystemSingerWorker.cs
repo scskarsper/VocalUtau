@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
+using VocalUtau.Formats.Model.Database;
 using VocalUtau.Formats.Model.VocalObject;
 
 namespace VocalUtau.ActionWorker
@@ -28,16 +29,17 @@ namespace VocalUtau.ActionWorker
             }
         }
 
-        Dictionary<string, object> SingerPathCache = new Dictionary<string, object>();
+        Dictionary<string, VocalIndexObject> SingerIndexerCache = new Dictionary<string, VocalIndexObject>();
         public void InitSingers(List<SingerObject> SingerList = null)
         {
             if (SingerList == null) SingerList = Program.GlobalPackage.Configures.GlobalSingerList;
             foreach (SingerObject so in SingerList)
             {
                 if (so == null) continue;
-                if (!SingerPathCache.ContainsKey(so.getRealSingerFolder()))
+                if (!SingerIndexerCache.ContainsKey(so.getRealSingerFolder()))
                 {
                     //
+                    VocalIndexObject vio = VocalIndexObject.Deseralize(so.getRealSingerFolder());
                 }
             }
         }
