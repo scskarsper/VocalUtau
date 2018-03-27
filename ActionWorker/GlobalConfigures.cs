@@ -24,6 +24,7 @@ namespace VocalUtau.ActionWorker
             _GlobalSingerList[0].PartResampler = "resampler.exe";
             _GlobalSingerList[0].VocalName = "默认子";
             _GlobalSingerList[0].SingerFolder = "voicedb\\uta";
+            _GlobalSingerList[0].Avatar = "image.bmp";
         }
 
         List<SingerObject> _GlobalSingerList = new List<SingerObject>();
@@ -33,6 +34,14 @@ namespace VocalUtau.ActionWorker
             get { return _GlobalSingerList; }
             set { _GlobalSingerList = value; }
         }
+
+        int _VocalDbSearchDeep = 3;
+        public int VocalDbSearchDeep
+        {
+            get { return _VocalDbSearchDeep; }
+            set { _VocalDbSearchDeep = value; if (_VocalDbSearchDeep < 1)_VocalDbSearchDeep = 1; }
+        }
+
 
         public static void SerializeTo(string FilePath)
         {

@@ -28,10 +28,15 @@ namespace VocalUtau.ActionWorker
 
         public bool InitGlobal(SplashForm Splash)
         {
+            Thread.Sleep(500);
             Splash.SetupStepMessage("正在读取配置文件");
             GlobalConfigure.SerializeFrom(AppDomain.CurrentDomain.BaseDirectory + "\\Config.json");
-            Splash.SetupStepMessage("正在初始化歌姬");
+            Splash.SetupStepMessage("正在更新系统歌姬表");
+            SingerWorker.UpdateGlobalSingerList();
+            Splash.SetupStepMessage("正在初始化系统歌姬");
             SingerWorker.InitSingers();
+            Splash.SetupStepMessage("正在移除无效歌姬");
+            SingerWorker.RemoveUnuseSinger();
             Splash.SetupStepMessage("正在初始化");
             Thread.Sleep(200);
             return true;

@@ -121,6 +121,7 @@ namespace VocalUtau.Windows
                         this.ToolStrip_OpenAble.Location = new Point(1, 0);
                         this.Visible = true;
                         this.ShowInTaskbar = true;
+                        Controller.NewProject();
                     }));
                 }
                 else
@@ -296,6 +297,18 @@ namespace VocalUtau.Windows
         private void menuItem_EditProjectInformation_Click(object sender, EventArgs e)
         {
             Controller.SetupPassword(this);
+        }
+
+        private void menuItem_AboutProgram_Click(object sender, EventArgs e)
+        {
+            SplashForm sp = new SplashForm(true);
+            StringBuilder msgbuilder = new StringBuilder();
+            msgbuilder.AppendLine("Chorista歌声合成系统,版本：Violet");
+            msgbuilder.AppendLine("Powered By Mitsuteru Hoshino");
+            msgbuilder.AppendLine("Alpha Version");
+            msgbuilder.AppendLine(Program.GlobalPackage.Configures.GlobalSingerList.Count.ToString() + "SystemSingers Loaded");
+            sp.SetupStepMessage(msgbuilder.ToString());
+            sp.ShowDialog(this);
         }
         
 

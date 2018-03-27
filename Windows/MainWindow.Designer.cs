@@ -59,13 +59,16 @@
             this.toolBtn_New = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Open = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Save = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.toolBtn_Undo = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Repeat = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
             this.toolBtn_Play = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Paste = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_Stop = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolBtn_WavOutput = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.toolBtn_NoteSelect = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_NoteAdd = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
@@ -79,9 +82,7 @@
             this.toolBtn_G_R = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_G_S = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_G_Earse = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.menuItem_AboutProgram = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStrip.SuspendLayout();
             this.ToolStripContainer.ContentPanel.SuspendLayout();
             this.ToolStripContainer.TopToolStripPanel.SuspendLayout();
@@ -279,6 +280,8 @@
             // 
             // helpToolStripMenuItem
             // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuItem_AboutProgram});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(61, 21);
             this.helpToolStripMenuItem.Text = "帮助(&H)";
@@ -377,6 +380,11 @@
             this.toolBtn_Save.Text = "保存工程";
             this.toolBtn_Save.Click += new System.EventHandler(this.toolBtn_Save_Click);
             // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 35);
+            // 
             // toolBtn_Undo
             // 
             this.toolBtn_Undo.AutoSize = false;
@@ -400,6 +408,11 @@
             this.toolBtn_Repeat.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_Repeat.Text = "重复";
             this.toolBtn_Repeat.Click += new System.EventHandler(this.toolBtn_Repeat_Click);
+            // 
+            // toolStripSeparator11
+            // 
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 35);
             // 
             // toolBtn_Play
             // 
@@ -445,6 +458,11 @@
             this.toolBtn_WavOutput.Name = "toolBtn_WavOutput";
             this.toolBtn_WavOutput.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_WavOutput.Text = "输出";
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 35);
             // 
             // toolBtn_NoteSelect
             // 
@@ -584,20 +602,12 @@
             this.toolBtn_G_Earse.Text = "擦除选中区域曲线";
             this.toolBtn_G_Earse.Click += new System.EventHandler(this.toolBtn_G_Earse_Click);
             // 
-            // toolStripSeparator9
+            // menuItem_AboutProgram
             // 
-            this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 35);
-            // 
-            // toolStripSeparator10
-            // 
-            this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 35);
-            // 
-            // toolStripSeparator11
-            // 
-            this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 35);
+            this.menuItem_AboutProgram.Name = "menuItem_AboutProgram";
+            this.menuItem_AboutProgram.Size = new System.Drawing.Size(152, 22);
+            this.menuItem_AboutProgram.Text = "关于(&A)";
+            this.menuItem_AboutProgram.Click += new System.EventHandler(this.menuItem_AboutProgram_Click);
             // 
             // MainWindow
             // 
@@ -681,6 +691,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripMenuItem menuItem_AboutProgram;
 
     }
 }

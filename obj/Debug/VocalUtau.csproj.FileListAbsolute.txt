@@ -30,4 +30,4 @@ D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.IntroduceSwap.resources
 D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.FridenlySWindow.resources
 D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.SplashForm.resources
 D:\VocalUtau\VocalUtau\bin\Debug\NUniversalCharDet.dll
-D:\VocalUtau\VocalUtau\bin\Debug\NUniversalCharDet.pdb
+D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.exe.config
