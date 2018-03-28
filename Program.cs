@@ -8,7 +8,7 @@ using VocalUtau.Windows;
 
 namespace VocalUtau
 {
-    static class Program
+    public static class Program
     {
         public static GlobalPackage GlobalPackage = new GlobalPackage();
         /// <summary>

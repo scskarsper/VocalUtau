@@ -87,7 +87,7 @@ namespace VocalUtau.ActionWorker
         {
             projectObject = projectObj;
             Program.GlobalPackage.SingerWorker.FillSingerIn(projectObject.SingerList);
-            sls = new SingerLyricSpliter(ref projectObj);
+            sls = new SingerLyricSpliter(ref projectObj,Program.GlobalPackage.SingerWorker.Indexer);
             sw.SetupLyricSpliter(ref sls);
             aw.SetupLyricSpliter(ref sls);
 

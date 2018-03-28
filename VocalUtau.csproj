@@ -142,7 +142,7 @@
       <Project>{10feb9fa-9308-42aa-b5fb-dac652508095}</Project>
       <Name>VocalUtau.DirectUI.Utils</Name>
     </ProjectReference>
-    <ProjectReference Include="..\IncludeLib\VocalUtau.Formats\VocalUtau.Formats.csproj">
+    <ProjectReference Include="..\IncludeLib\VocalUtau.Formats\VocalUtau.Formats\VocalUtau.Formats.csproj">
       <Project>{9ea2955f-3919-4939-bb75-0b38f4e6182d}</Project>
       <Name>VocalUtau.Formats</Name>
     </ProjectReference>

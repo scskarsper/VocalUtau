@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using VocalUtau.DirectUI.Utils.SingerUtils;
 using VocalUtau.Formats.Model.Database;
 using VocalUtau.Formats.Model.Utils;
 using VocalUtau.Formats.Model.VocalObject;
@@ -13,6 +14,13 @@ namespace VocalUtau.ActionWorker
 {
     public class SystemSingerWorker
     {
+        SingerIndexer _Indexer = new SingerIndexer();
+
+        public SingerIndexer Indexer
+        {
+            get { return _Indexer; }
+            set { _Indexer = value; }
+        }
         public SystemSingerWorker()
         {
         }
@@ -69,7 +77,7 @@ namespace VocalUtau.ActionWorker
                     nso.PartResampler = "resampler.exe";
                     lock (locker)
                     {
-                        SingerIndexerCache.Add(flist[i].Directory.FullName, vio);
+                        _Indexer.AddIndexer(flist[i].Directory.FullName, vio);
                         if (Program.GlobalPackage.Configures.GlobalSingerList.IndexOf(nso) == -1)
                         {
                             Program.GlobalPackage.Configures.GlobalSingerList.Add(nso);
@@ -87,18 +95,13 @@ namespace VocalUtau.ActionWorker
             if (SingerList == null) SingerList = Program.GlobalPackage.Configures.GlobalSingerList;
             //Check Unusful
         }
-        Dictionary<string, VocalIndexObject> SingerIndexerCache = new Dictionary<string, VocalIndexObject>();
         public void InitSingers(List<SingerObject> SingerList = null)
         {
             if (SingerList == null) SingerList = Program.GlobalPackage.Configures.GlobalSingerList;
             foreach (SingerObject so in SingerList)
             {
                 if (so == null) continue;
-                if (!SingerIndexerCache.ContainsKey(so.getRealSingerFolder()))
-                {
-                    //
-                    VocalIndexObject vio = VocalIndexObject.Deseralize(so.getRealSingerFolder());
-                }
+                _Indexer.LoadSinger(so.getRealSingerFolder());
             }
         }
     }
