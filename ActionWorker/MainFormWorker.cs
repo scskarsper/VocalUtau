@@ -21,7 +21,13 @@ namespace VocalUtau.ActionWorker
         AttributesWindow aw;
         TrackerWindow tw;
         UndoAbility ua;
-        SingerLyricSpliter sls;
+        SingerDataFinder sls;
+        PlayingWorker playworker = new PlayingWorker();
+
+        public PlayingWorker PlayingWorker
+        {
+            get { return playworker; }        }
+
         public MainFormWorker(ref SingerWindow sw, ref AttributesWindow aw, ref TrackerWindow tw, ref UndoAbility ua)
         {
             this.sw = sw;
@@ -87,14 +93,16 @@ namespace VocalUtau.ActionWorker
         {
             projectObject = projectObj;
             Program.GlobalPackage.SingerWorker.FillSingerIn(projectObject.SingerList);
-            sls = new SingerLyricSpliter(ref projectObj,Program.GlobalPackage.SingerWorker.Indexer);
-            sw.SetupLyricSpliter(ref sls);
-            aw.SetupLyricSpliter(ref sls);
+            sls = new SingerDataFinder(ref projectObj,Program.GlobalPackage.SingerWorker.Indexer);
+            sw.SetupSingerDataFinder(ref sls);
+            aw.SetupSingerDataFinder(ref sls);
+            playworker.SetupSingerDataFinder(ref sls);
 
             sw.LoadProjectObject(ref projectObj);
             aw.LoadProjectObject(ref projectObj);
             tw.LoadProjectObject(ref projectObj);
             ua.LoadProjectObject(ref projectObj);
+            playworker.LoadProjectObject(ref projectObj);
         }
         public void NewProject()
         {

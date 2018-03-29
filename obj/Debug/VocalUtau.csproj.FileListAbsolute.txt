@@ -31,3 +31,5 @@ D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.FridenlySWindow.resources
 D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.Windows.SplashForm.resources
 D:\VocalUtau\VocalUtau\bin\Debug\NUniversalCharDet.dll
 D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.exe.config
+D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.Calculators.dll
+D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.Calculators.pdb

@@ -37,7 +37,9 @@ namespace VocalUtau.ActionWorker
                 }
                 else
                 {
+                    string OldGUID = ListBeFilled[ListBeFilled.IndexOf(so)].getGuid();
                     ListBeFilled[ListBeFilled.IndexOf(so)] = (SingerObject)so.Clone();
+                    ListBeFilled[ListBeFilled.IndexOf(so)].GUID = OldGUID;
                     ListBeFilled[ListBeFilled.IndexOf(so)].IsSystemSinger = true;
                 }
             }
@@ -78,6 +80,7 @@ namespace VocalUtau.ActionWorker
                     lock (locker)
                     {
                         _Indexer.AddIndexer(flist[i].Directory.FullName, vio);
+                        if (vio.GUID != "") nso.GUID = vio.GUID;
                         if (Program.GlobalPackage.Configures.GlobalSingerList.IndexOf(nso) == -1)
                         {
                             Program.GlobalPackage.Configures.GlobalSingerList.Add(nso);
@@ -101,7 +104,13 @@ namespace VocalUtau.ActionWorker
             foreach (SingerObject so in SingerList)
             {
                 if (so == null) continue;
-                _Indexer.LoadSinger(so.getRealSingerFolder());
+                string RFolder=so.getRealSingerFolder();
+                _Indexer.LoadSinger(RFolder);
+                VocalIndexObject vio=_Indexer.getIndex(RFolder);
+                if (vio != null)
+                {
+                    if (vio.GUID != "") so.GUID = vio.GUID;
+                }
             }
         }
     }

@@ -58,6 +58,7 @@
     <Compile Include="ActionWorker\GlobalConfigures.cs" />
     <Compile Include="ActionWorker\GlobalPackage.cs" />
     <Compile Include="ActionWorker\MainFormWorker.cs" />
+    <Compile Include="ActionWorker\PlayingWorker.cs" />
     <Compile Include="ActionWorker\SystemSingerWorker.cs" />
     <Compile Include="ObjectUtils\FileOpenHelper.cs" />
     <Compile Include="ObjectUtils\UndoAbility.cs" />
@@ -95,6 +96,7 @@
     <EmbeddedResource Include="ToolIcon.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ToolIcon.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\FridenlySWindow.resx">
       <DependentUpon>FridenlySWindow.cs</DependentUpon>
@@ -133,6 +135,10 @@
     <ProjectReference Include="..\IncludeLib\BalthasarLib.D2DPainter\BalthasarLib.D2DPainter.csproj">
       <Project>{8b6ba8cc-95bc-4599-95cb-a97d2b2ae1d6}</Project>
       <Name>BalthasarLib.D2DPainter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IncludeLib\VocalUtau.Calculators\VocalUtau.Calculators\VocalUtau.Calculators.csproj">
+      <Project>{ec62095f-b97c-4c45-999a-6213ef3009e9}</Project>
+      <Name>VocalUtau.Calculators</Name>
     </ProjectReference>
     <ProjectReference Include="..\IncludeLib\VocalUtau.DirectUI\VocalUtau.DirectUI.Forms\VocalUtau.DirectUI.Forms.csproj">
       <Project>{eb4142f3-fa96-45d9-a817-0b0b9604541b}</Project>

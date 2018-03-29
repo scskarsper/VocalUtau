@@ -310,6 +310,11 @@ namespace VocalUtau.Windows
             sp.SetupStepMessage(msgbuilder.ToString());
             sp.ShowDialog(this);
         }
+
+        private void toolBtn_Play_Click(object sender, EventArgs e)
+        {
+            Controller.PlayingWorker.Play();
+        }
         
 
     }
