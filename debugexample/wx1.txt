@@ -1,0 +1,566 @@
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xin_xin_xin.wav" "temp$$$.wav" C#4 100 "B0Y0" 1397.366 600 245.213 -389.531 100 0 !110 +r+e+S+G969u9j9Z9Q9H9A86828z8x8x8y8083889C9I9Q9Z9i9s92+B+N+Y+j+u+5/E/O/X/g/o/u/0/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+18.985 0 5 15 0 100 100 0 34.718 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\qian_qian_qian.wav" "temp$$$.wav" D#4 100 "B0Y0" 1305.442 650 228.096 -355.888 100 0 !110 84#12#879C9N9b9s9++S+m+6/M/d/q/1/8//AA#25#///+/6/z/q/f/S/E+1+l+U+E919m9Z9O9F8+8584#32# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+50.728 0 5 15 0 100 100 0 10.682 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\nian_nian_nian.wav" "temp$$$.wav" C#4 100 "B0Y0" 1377.078 350 282.025 -404.31 100 0 0Q110 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+34.154 0 5 15 0 100 100 0 29.744 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\wo_wo_wo.wav" "temp$$$.wav" D#4 100 "B0Y0" 901.16 350 216.968 -401.837 100 0 !110 84#16#879B9J9T9g9t98+M+c+s+8/L/Z/l/v/3/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+29.742 0 5 15 0 100 100 0 30.846 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\men_men_men.wav" "temp$$$.wav" C#4 100 "B0Y0" 1308.798 300 186.181 -323.888 100 0 !110 DI#7#DGDBC4CsCcCLB4BkBQA9ArAcAPAGABAA#18#/9/2/q/Z/F+u+U 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-1.103 0 5 15 0 100 100 0 28.643 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\shi_shi_shi.wav" "temp$$$.wav" A#3 100 "B0Y0" 908.607 350 258.585 -435.325 100 0 !110 EsErElEbEMD5DiDJCvCTB4BdBFAvAdAOAFAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+42.356 0 5 15 0 100 100 0 40.229 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xin_xin_xin.wav" "temp$$$.wav" C#4 100 "B0Y0" 1397.366 650 245.213 -389.531 100 0 !110 7U#17#7X7b7h7p7y798I8W8k8z9C9S9j9z+D+T+j+y/A/N/Y/j/s/z/5/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+34.718 0 5 15 0 100 100 0 34.718 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xin_xin_xin.wav" "temp$$$.wav" C#4 100 "B0Y0" 1397.366 650 245.213 -389.531 100 0 !110 AA#51#///+/6/0/s/i/X/L+++w+h+S+E929p9d9S9J9C888584#34# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+59.974 0 5 15 0 100 100 0 34.718 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\ren_ren_ren.wav" "temp$$$.wav" B3 100 "B0Y0" 845.74 650 182.67 -336.872 100 0 0Q110 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+43.54 0 5 15 0 100 100 0 36.771 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\lei_lei_lei.wav" "temp$$$.wav" C#4 100 "B0Y0" 1361.678 350 160.842 -300.753 100 0 !110 84#7#879D9O9d9v+D+Y+u/C/V/l/x/6//AA#25#/+/7/1/s/h 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+21.872 0 5 15 0 100 100 0 28.643 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\ye_ye_ye.wav" "temp$$$.wav" A#3 100 "B0Y0" 871.836 350 224.186 -352.293 100 0 !110 EsEsErEoEjEbEQEED1DlDTDBCtCZCFBxBeBMA8AsAfAUALAFAB 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+6.984 0 5 15 0 100 100 0 34.398 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\cai_cai_cai.wav" "temp$$$.wav" C#4 100 "B0Y0" 1324.599 650 221.334 -368.89 100 0 !110 7U#13#7X7b7h7o7x778G8T8g8u899N9d9t99+M+c+q+4/F/S/c/m/u/1/6/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+46.671 0 5 15 0 100 100 0 12.485 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\niao_niao_niao.wav" "temp$$$.wav" C#4 100 "B0Y0" 1367.192 650 260.068 -381.175 100 0 !110 AA#106# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+55.922 0 5 15 0 100 100 0 28.643 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\da_da_da.wav" "temp$$$.wav" C#4 100 "B0Y0" 1410.33 250 163.45 -356.332 100 0 !110 AA#12# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-65.137 0 5 15 0 100 100 0 7.912 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xia_xia_xia.wav" "temp$$$.wav" D#4 100 "B0Y0" 814.397 400 290.884 -433.321 100 0 !110 84#25#85899E9N9Z9o93+I+Z+r+8/M/a/n/x/5/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+77.531 0 5 15 0 100 100 0 38.558 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\hai_hai_hai.wav" "temp$$$.wav" C#4 100 "B0Y0" 1418.719 350 180.717 -313.362 100 0 !110 DI#9#DGDBC4CsCcCLB4BkBQA9ArAcAPAGABAA#17#///7/z/p/b/L+5+k+P949h9K808g 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+43.65 0 5 15 0 100 100 0 37.692 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\you_you_you.wav" "temp$$$.wav" A#3 100 "B0Y0" 1348.176 300 191.549 -290.374 100 0 !110 DiDNC3CgCKBzBdBJA2AlAYANAFAB 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-15.868 0 5 15 0 100 100 0 36.601 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\piao_piao_piao.wav" "temp$$$.wav" C#4 100 "B0Y0" 1372.7 600 274.314 -408.716 100 0 !110 7U#15#7f7q718A8K8V8g8q818/9J9T9d9n9w95+C+L+U+c+k+s+z+6/B/I/O/U/Z/e/j/o/s/v/z/2/4/7/8/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+9.914 0 5 15 0 100 100 0 9.914 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\piao_piao_piao.wav" "temp$$$.wav" D#4 100 "B0Y0" 1372.7 650 274.314 -408.716 100 0 !110 84#13#889E9P9e9v+C+V+p+9/P/f/s/3/9//AA#23#///+/7/2/w/o/e/U/I+7+u+h+T+G959t9h9X9O9G9A8784#33# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+65.425 0 5 15 0 100 100 0 9.914 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\mei_mei_mei.wav" "temp$$$.wav" C#4 100 "B0Y0" 1324.222 650 176.605 -317.278 100 0 0Q110 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+30.846 0 5 15 0 100 100 0 30.846 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\mei_mei_mei.wav" "temp$$$.wav" D#4 100 "B0Y0" 1324.222 600 176.605 -317.278 100 0 !110 84#7#859A9M9b9t+C+Y+v/E/X/n/0/8//AA#29#/+/7/1/s/i/V/H+4+o+Y+I949q9c9R9H8/8684#31# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+24.236 0 5 15 0 100 100 0 30.846 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\yin_yin_yin.wav" "temp$$$.wav" C#4 100 "B0Y0" 1347.333 650 246.772 -412.021 100 0 !110 AA#104#// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+47.371 0 5 15 0 100 100 0 35.253 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\te_te_te.wav" "temp$$$.wav" C#4 100 "B0Y0" 1425.58 600 202.705 -404.31 100 0 !110 AA#2#/+/t/P+u+Z+W+W+Y+b+f+j+o+u+0+7/C/J/Q/X/e/k/q/v/0/4/7/+//AA#60#///8/2/t/i/W 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+3.305 0 5 15 0 100 100 0 11.016 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\wang_wang_wang.wav" "temp$$$.wav" C#4 100 "B0Y0" 1437.698 350 179.571 -333.803 100 0 !110 ///+/5/x/n/b/O/B+0+p+f+X+S+R+R+U+Y+e+l+u+3/B/L/V/f/o/v/2/7/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+5.506 0 5 15 0 100 100 0 27.541 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jiang_jiang_jiang.wav" "temp$$$.wav" D#4 100 "B0Y0" 1417.868 350 236.857 -384.48 100 0 !110 84#8#858+9H9U9j91+I+c+w/D/V/k/w/5/+AA#11#/////+/8/6/2/z/u/q/k/e/X/Q/J/B+4+v+m+c+S+I99 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+50.676 0 5 15 0 100 100 0 16.524 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\di_di_di.wav" "temp$$$.wav" C#4 100 "B0Y0" 1407.925 250 180.617 -378.972 100 0 !110 BaBPBFA6AvAkAYANAC 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-60.591 0 5 15 0 100 100 0 9.914 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\qiu_qiu_qiu.wav" "temp$$$.wav" B3 100 "B0Y0" 846.082 350 263.013 -366.21 100 0 !110 DI#14#DGDAC1CnCWCDBuBZBEAxAgASAHAB 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+29.743 0 5 15 0 100 100 0 12.118 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\cun_cun_cun.wav" "temp$$$.wav" C#4 100 "B0Y0" 1395.835 650 280.924 -382.277 100 0 !110 84#28#889D9N9a9p95+L+d+w/B/S/g/s/2/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+77.115 0 5 15 0 100 100 0 13.219 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\dou_dou_dou.wav" "temp$$$.wav" C#4 100 "B0Y0" 826.275 600 118.097 -289.738 100 0 !110 AA#13# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-8.813 0 5 15 0 100 100 0 8.812 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\lian_lian_lian.wav" "temp$$$.wav" D#4 100 "B0Y0" 824.067 600 236.857 -355.837 100 0 !110 84#46#868+9E9L9V9f9r94+F+T+h+v+9/K/W/g/q/y/4/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+2.608 0 5 15 0 100 100 0 35.253 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jie_jie_jie.wav" "temp$$$.wav" C#4 100 "B0Y0" 1444.308 600 289.631 -441.762 100 0 !110 DI#46#DHDHDEC/C5CxCoCeCSCGB5BrBeBQBDA3ArAhAXAPAJAEABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+1.097 0 5 15 0 100 100 0 11.417 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ke_ke_ke.wav" "temp$$$.wav" C#4 100 "B0Y0" 1422.275 600 291.94 -466.329 100 0 !110 AA#24# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+5.507 0 5 15 0 100 100 0 9.914 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xue_xue_xue.wav" "temp$$$.wav" C#4 100 "B0Y0" 1400.213 400 312.872 -462.698 100 0 !110 AA#30# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+84.829 0 5 15 0 100 100 0 39.659 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\rang_rang_rang.wav" "temp$$$.wav" B3 100 "B0Y0" 1363.568 300 213.013 -308.489 100 0 !110 DI#10#DHDGDCC8C0CpCdCQCBByBiBSBDA0AnAbARAJAEAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-2.208 0 5 15 0 100 100 0 30.845 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\sheng_sheng_sheng.wav" "temp$$$.wav" C#4 100 "B0Y0" 1344.051 350 261.094 -394.395 100 0 !110 84#14#889F9R9h90+I+d+y/G/Y/o/0/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+39.602 0 5 15 0 100 100 0 37.456 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\huo_huo_huo.wav" "temp$$$.wav" D#4 100 "B0Y0" 1402.445 400 336.007 -491.341 100 0 !110 84#20#86899B9H9N9V9d9n9x97+G+R+d+o+z++/J/S/c/k/r/y/3/7/+//AA#13#///6 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+77.175 0 5 15 0 100 100 0 35.253 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\bian_bian_bian.wav" "temp$$$.wav" C#4 100 "B0Y0" 1409.055 350 241.264 -389.988 100 0 !110 DIDIDHDCC6CuCfCOB7BoBTBAAuAeARAIACAA#32#///7 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+15.421 0 5 15 0 100 100 0 14.321 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\de_de_de.wav" "temp$$$.wav" B3 100 "B0Y0" 1422.274 300 256.182 -476.81 80 0 !110 DIDHDFC+CzClCTCABrBVBBAuAdAQAGAB 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-9.191 0 5 15 0 100 100 0 11.014 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ka_ka_ka.wav" "temp$$$.wav" C#4 100 "B0Y0" 825.425 600 193.685 -362.532 100 0 !110 84#20#879B9K9U9g9u9++O+e+u++/N/a/m/w/4/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+10.0 0 5 15 0 100 100 0 6.084 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\la_la_la.wav" "temp$$$.wav" D#4 100 "B0Y0" 1312.173 650 213.951 -387.347 100 0 !110 84#19#879B9K9V9j9z+E+W+o+5/K/Z/m/x/5/+//AA#60#///7/0/r/f/S/E+2+n+a+O+D 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+72.997 0 5 15 0 100 100 0 30.267 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ou.wav" "temp$$$.wav" D#4 100 "B0Y0" 430.707 600 87.011 -319.525 100 0 !110 AA///9/4/w/m/a/M+++v+h+U+J+A959191929498+B+I+P+X+g+q+0++/I/R/b/j/r/x/3/7/+//AA#57#///8/3/u/k 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+20.975 0 5 15 0 100 100 0 69.448 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\kei_kei_kei.wav" "temp$$$.wav" C#4 100 "B0Y0" 1427.755 650 192.911 -344.82 100 0 !110 DAC5CvCjCWCIB6BtBhBXBQBLBJBJBLBOBSBYBeBmBuB3CACKCTCcClCtC1C7DBDFDIDJ#6#DI#5#DHDEC/C3CtChCUCFB1BlBVBFA2ApAcASAKAEAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+37.455 0 5 15 0 100 100 0 9.914 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\bei_bei_bei.wav" "temp$$$.wav" D#4 100 "B0Y0" 1427.755 600 126.691 -291.94 100 0 !110 84#3#85879A9H9P9Z9k9w99+L+Y+m+0/B/O/Z/k/t/0/6/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-2.076 0 5 15 0 100 100 0 11.016 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\tou_tou_tou.wav" "temp$$$.wav" D#4 100 "B0Y0" 1285.649 550 166.967 -334.896 100 0 !110 AA#15# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-35.298 0 5 15 0 100 100 0 6.726 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\cai_cai_cai.wav" "temp$$$.wav" D#4 100 "B0Y0" 1324.599 400 221.334 -368.89 100 0 !110 AA#10#/3/S+f9x9a9a9c9h9m9u93+B+L+X+j+w+8/I/T/e/n/v/2/7/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+68.455 0 5 15 0 100 100 0 12.485 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\dian_dian_dian.wav" "temp$$$.wav" F4 100 "B0Y0" 986.169 300 202.873 -359.949 100 0 !110 84#5#878/9G9N9W9h9s95+G+T+g+u+7/I/T/e/n/w/2/7/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-17.177 0 5 15 0 100 100 0 7.912 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\huan_huan_huan.wav" "temp$$$.wav" D#4 100 "B0Y0" 1422.274 350 231.489 -332.702 100 0 !110 DI#7#DHDEC+CzClCVCDBvBbBHA1AkAWALADAA#15#///+/6/z/q/f/R/C+z+i+R+B9x9j9W9L9C 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+38.41 0 5 15 0 100 100 0 33.049 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\rao_rao_rao.wav" "temp$$$.wav" C#4 100 "B0Y0" 1458.532 300 183.329 -346.02 100 0 !110 A2AoAcARAJADAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-2.728 0 5 15 0 100 100 0 19.781 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jia_jia_jia.wav" "temp$$$.wav" D#4 100 "B0Y0" 837.488 650 240.362 -392.592 100 0 !110 84#19#878/9F9M9U9e9p91+B+O+b+o+1/C/N/Y/i/r/y/4/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+39.736 0 5 15 0 100 100 0 11.573 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ting_ting_ting.wav" "temp$$$.wav" D#4 100 "B0Y0" 860.421 600 157.537 -298.55 100 0 !110 AA#39#///+/7/3/x/r/j/b/R/H+8+x+l+a+O+D949t9j9a9R9K9E8/878584#29# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-7.71 0 5 15 0 100 100 0 7.711 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ying_ying_ying.wav" "temp$$$.wav" C#4 100 "B0Y0" 1328.628 650 197.585 -323.888 100 0 0Q110 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+52.878 0 5 15 0 100 100 0 42.964 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\yuan_yuan_yuan.wav" "temp$$$.wav" C#4 100 "B0Y0" 845.003 650 192.791 -338.21 100 0 !110 AA#7#ADAOAgA4BTBwCMCkC3DDDHDI#30#DHDGDCC8C1CsChCWCJB7BtBfBRBDA2AqAfAWANAHADAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+40.76 0 5 15 0 100 100 0 30.846 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\di_di_di.wav" "temp$$$.wav" D#4 100 "B0Y0" 1407.925 600 180.617 -378.972 100 0 !110 84#7#879A9G9O9Y9j9v97+J+X+l+z/A/N/Y/j/s/z/5/9//AA#66#// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-1.103 0 5 15 0 100 100 0 9.914 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\wei_wei_wei.wav" "temp$$$.wav" D#4 100 "B0Y0" 1439.896 650 134.402 -251.179 100 0 !110 AA#4#/8/q/O+v+W+L+L+M+O+Q+T+X+c+h+n+t+z+6/A/H/O/U/b/h/n/s/x/1/5/7/+////AA#57#///7/z/n/Y/I+2 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+34.151 0 5 15 0 100 100 0 23.134 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\di_di_di.wav" "temp$$$.wav" D#4 100 "B0Y0" 1407.925 300 180.617 -378.972 100 0 !110 /X/G+1+k+V+I+A9797989/+E+J+Q+Y+g+q+0++/H/R/a/j/r/x/3/7/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-12.999 0 5 15 0 100 100 0 9.914 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\zai_zai_zai.wav" "temp$$$.wav" F4 100 "B0Y0" 967.879 350 187.756 -338.797 100 0 !110 84#12#868+9E9M9W9i9v99+M+a+p+4/G/T/f/p/y/4/9//AA#19#///7/x/h 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+44.454 0 5 15 0 100 100 0 13.452 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\bo_bo_bo.wav" "temp$$$.wav" C#4 100 "B0Y0" 1449.908 300 215.834 -429.557 100 0 !110 GKF/FuFYE9EeD9DaC2CTBxBTA4AhAQAFAA#8#///8/2/t/i/U/D+x+e+J909f9J818h8P7/7x 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-38.646 0 5 15 0 100 100 0 9.1 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\fang_fang_fang.wav" "temp$$$.wav" A#3 100 "B0Y0" 1405.293 400 209.799 -341.882 100 0 !110 CEBvBbBIA2AnAaAPAHACAA#48#ADAK 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+63.357 0 5 15 0 100 100 0 27.541 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\liu_liu_liu.wav" "temp$$$.wav" D#4 100 "B0Y0" 1335.238 600 235.755 -361.345 100 0 !110 4M#4#4R4Z4l415J5f556U6x7P7u8N8s9K9n+C+c+z/I/Z/o/z/7//ACAFAIALAOARATAVAWAXAXAWAUARANAJAE///6/0/w/r/o/l/j/i/i/j/l/n/r/v/0/5/+ADAJAOASAWAZAcAdAeAeAcAaAXATAPAKAFAA/6/1/x/u/s/q#2#/r/t/v/y/1 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-12.117 0 5 15 0 100 100 0 27.005 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xing_xing_xing.wav" "temp$$$.wav" D#4 100 "B0Y0" 851.585 650 253.382 -366.853 100 0 !110 /q#2#/r/t/w/y/1/4/7/9//ABACAD#3#ACAA#37#///9/3/v/k/X/I+4+n+V+E9z9k9W9L9C8784#30# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+42.061 0 5 15 0 100 100 0 37.456 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\hua_hua_hua.wav" "temp$$$.wav" C#4 100 "B0Y0" 1371.138 650 284.896 -469.665 100 0 0Q110 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+65.9 0 5 15 0 100 100 0 37.456 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\yuan_yuan_yuan.wav" "temp$$$.wav" C#4 100 "B0Y0" 845.003 600 192.791 -338.21 100 0 !110 AA#7#ADAOAgA4BTBwCMCkC3DDDHDI#30#DHDFDAC4CtChCSCDByBhBQBAAxAjAXANAGABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+25.34 0 5 15 0 100 100 0 30.846 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\wo_wo_wo.wav" "temp$$$.wav" D#4 100 "B0Y0" 901.16 650 216.968 -401.837 100 0 !110 84#21#85889A9G9N9W9g9q92+C+O+b+o+0/A/M/X/h/p/x/3/7/+AAABACADAEAGAHAIAIAJAJAIAHAGAEAC///8/5/2/z/w/u/s/q/p/p/q/s/u/x/1/6//AEAJAOATAXAaAcAe#2#AcAaAXATAOAJAE///5/0/w/r/o/m/o/r/v/0/4/8 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+66.121 0 5 15 0 100 100 0 30.846 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ba_ba_ba.wav" "temp$$$.wav" C#4 100 "B0Y0" 1479.03 550 147.771 -401.198 100 0 !110 C+DDDGDI#29#DHDEC+C2CrCfCRCCBzBiBSBCA0AmAaAQAIADAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-63.579 0 5 15 0 100 100 0 4.747 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\sui_sui_sui.wav" "temp$$$.wav" D#4 100 "B0Y0" 1391.4 350 257.053 -382.277 100 0 !110 84#22#889C9K9V9i9x+B+R+i+z/D/S/f/r/0/6/+ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+36.244 0 5 15 0 100 100 0 31.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shen_shen_shen.wav" "temp$$$.wav" F4 100 "B0Y0" 1547.595 400 215.238 -353.667 100 0 !110 84#11#858/9J9V9l93+K+e+y/F/W/l/x/6//AA#13#///+/6/z/q/f/T/E+1+l+V+F929o9b9P9G8/86 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+62.716 0 5 15 0 100 100 0 22.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ting_ting_ting.wav" "temp$$$.wav" D#4 100 "B0Y0" 860.421 300 157.537 -298.55 100 0 !110 AJAEAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-3.304 0 5 15 0 100 100 0 7.711 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\huan_huan_huan.wav" "temp$$$.wav" C#4 100 "B0Y0" 1422.274 350 231.489 -332.702 100 0 !110 DI#7#DHDEC+CzClCVCDBvBbBHA1AkAWALADAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+13.229 0 5 15 0 100 100 0 33.049 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\cheng_cheng_cheng.wav" "temp$$$.wav" D#4 100 "B0Y0" 800.003 650 197.001 -313.778 100 0 !110 84#15#85889B9H9P9Y9i9t95+G+T+g+t+6/G/R/c/l/u/0/6/9//ABACADAFAGAIAKALAM#3#AKAIAFAC/+/6/2/x/t/p/l/j/i/i/j/l/o/s/w/1/6//AFAKAPATAXAaAcAeAeAdAcAaAWASAOAJAE/+/5/0/v/r/o/l/j/k/n/q/u/y/1/5/8/+AA#3# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+75.819 0 5 15 0 100 100 0 10.83 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ai.wav" "temp$$$.wav" D#4 100 "B0Y0" 428.502 550 163.088 -385.626 80 0 !110 /j/k/n/q/u/x/1/5/8/+AA#51#///7/1/t/i/V/H+3+n+W+F929n9Z9O9E898584#9# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110+24.28 0 5 15 0 100 100 0 69.45 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\mu_mu_mu.wav" "temp$$$.wav" C#4 100 "B0Y0" 1378.203 150 215.866 -412.021 100 0 0Q110 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+40.821 0 5 35 0 100 100 0 29.744 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\pi_pi_pi.wav" "temp$$$.wav" D#4 100 "B0Y0" 1424.473 650 262.195 -460.495 100 0 !110 84#29#86889A9F9K9R9Y9g9o9x97+F+P+Z+j+u+4/B/L/T/c/j/q/w/1/5/8/+//AA#35#ABADAGALARAYAgApAzA9BI 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 71.54 480@110-20.976 0 5 15 0 100 100 0 3.409572 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\san_san_san.wav" "temp$$$.wav" F4 100 "B0Y0" 925.841 650 193.277 -335.195 100 0 !110 9S9b9k9u94+D+O+a+l+w+7/G/Q/Z/i/q/w/2/6/9//AA#34#///8/1/q/c/K+2+e+F9q9O8y8W767g7H6x6e6N6A535x5w#25# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+37.53 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\yi_yi_yi.wav" "temp$$$.wav" D#4 100 "B0Y0" 1320.895 400 185.078 -377.869 100 0 !110 84#12#85878+9D9I9P9W9f9o9x98+G+R+c+n+x+8/G/P/Y/h/o/v/0/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+74.91 0 5 15 0 100 100 0 28.642 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\bai_bai_bai.wav" "temp$$$.wav" D#4 100 "B0Y0" 1436.97 600 148.691 -275.214 100 0 !110 AA#42#///7/2/u/l/Z/M+++v+g+Q+B9y9l9Y9O9F8+8684#40# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+29.511 0 5 15 0 100 100 0 10.215 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\er.wav" "temp$$$.wav" D#4 100 "B0Y0" 422.995 350 87.011 -423.082 100 0 !110 84#13#868/9H9R9d9r97+L+c+t++/N/b/n/x/5/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+13.661 0 5 15 0 100 100 0 69.45 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shi_shi_shi.wav" "temp$$$.wav" F4 100 "B0Y0" 1514.353 400 223.25 -549.272 100 0 !110 84#15#868/9F9O9Y9k9x9/+O+d+s+6/I/V/h/r/z/5/9//AA#20#///6/y/n/Y 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+72.406 0 5 15 0 100 100 0 26.509 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ba_ba_ba.wav" "temp$$$.wav" D#4 100 "B0Y0" 1479.03 300 147.771 -401.198 100 0 !110 CxCjCSCABsBYBEAyAiAUAJADAA#18#///+/7/2/v/m/c/R/F+4+q+c+O 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-32.217 0 5 15 0 100 100 0 4.747 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\zhao_zhao_zhao.wav" "temp$$$.wav" C#4 100 "B0Y0" 1433.663 350 179.199 -326.822 100 0 !110 B+BxBjBVBHA6AuAjAZAQAJAEABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+2.933 0 5 15 0 100 100 0 12.264 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\zui_zui_zui.wav" "temp$$$.wav" D#4 100 "B0Y0" 1431.083 350 222.535 -343.718 100 0 !110 84#7#85879A9G9N9V9f9p91+B+N+a+n+0/A/L/W/g/p/w/2/7/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+23.897 0 5 15 0 100 100 0 16.524 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\xin_xin_xin.wav" "temp$$$.wav" F4 100 "B0Y0" 1597.67 300 215.88 -379.041 100 0 !110 84#13#868/9F9M9W9g9s95+G+U+i+w+9/K/W/h/q/y/4/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-2.195 0 5 15 0 100 100 0 26.113 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\chao_chao_chao.wav" "temp$$$.wav" D#4 100 "B0Y0" 1433.413 400 222.861 -362.326 100 0 !110 DI#9#DHDFC/C0CnCXCFBxBdBKA3AmAXAMAEAA#13#///7/1/t/i/V/G+2+m+V+E909l9Y9N9D898584#3# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+63.775 0 5 15 0 100 100 0 13.094 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\de_de_de.wav" "temp$$$.wav" C#4 100 "B0Y0" 1422.275 300 175.164 -370.158 80 0 0Q110 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-7.713 0 5 15 0 100 100 0 11.016 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ge_ge_ge.wav" "temp$$$.wav" D#4 100 "B0Y0" 1459.731 650 225.84 -421.936 100 0 !110 84#13#889E9Q9e9v+C+W+q+9/P/f/t/3/9ACAJASAcAoAyAyAuApAhAXAMAA/0/p/f/X/S/P/O/R/W/e/n/y/+AKAVAfAnAuAxAyAwArAkAbAQAE/4/t/j/a/T/P/O/Q/U/b/k/u/6AFAQAZAgAkAmAlAjAeAYASALAE/+/5/2/z/y/z/0/2/4/7/9//AA#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+53.981 0 5 15 0 100 100 0 8.813 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\di_di_di.wav" "temp$$$.wav" F4 100 "B0Y0" 988.048 500 170.818 -439.395 100 0 !110 7H#5#7U7l728H8Y8p859J9Z9o92+F+S+f+r+3/B/L/V/d/l/r/x/2/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110-24.896 0 5 15 0 100 100 0 8.704 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\si_si_si.wav" "temp$$$.wav" F4 100 "B0Y0" 1576.495 150 229.739 -462.501 100 0 !110 AA#19#/9/o/C 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+54.692 0 5 35 0 100 100 0 34.026 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\kou_kou_kou.wav" "temp$$$.wav" F4 100 "B0Y0" 880.341 650 168.55 -282.104 100 0 !110 AAAA/5/f+1+A9I8V7s7V7V7i7v788J8W8i8v879H9T9f9q91+A+K+U+e+n+w+5/B/J/Q/X/d/j/o/t/x/1/4/7/9/+////AA#52#///t/D+N 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 13.879 480@110+23.228 0 5 15 0 100 100 0 4.962461 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\bao_bao_bao.wav" "temp$$$.wav" F4 100 "B0Y0" 1505.482 600 138.733 -325.253 100 0 !110 /l+39/9O8w8w899K9X9k9x99+J+V+g+r+1+//I/R/Z/g/m/s/x/2/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+22.155 0 5 15 0 100 100 0 6.33 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\wen_wen_wen.wav" "temp$$$.wav" F4 100 "B0Y0" 1586.367 600 127.718 -221.173 100 0 !110 84#31#85878+9B9F9K9P9U9b9i9p9x96+C+M+V+g+q+1/A/L/W/i/t/5ACAFAJAOATAYAbAbAYATANAG///4/x/r/n/k/i/i/k/o/s/y/5AAAHAOAUAYAZAZAYAVARANAIAC/9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-8.963 0 5 15 0 100 100 0 20.178 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\nuan_nuan_nuan.wav" "temp$$$.wav" D#4 100 "B0Y0" 1402.445 300 230.888 -338.209 100 0 !110 DfDcDYDUDPDJDDC8C0CsCkCcCTCKCAB0BoBbBPBDA4AtAjAaATAMAHADAA#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-9.915 0 5 15 0 100 100 0 28.642 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\zhe_zhe_zhe.wav" "temp$$$.wav" D#4 100 "B0Y0" 791.017 400 274.314 -429.648 100 0 !110 AA#10#/+/x/b+++d989h9N9F9F9I9N9U9d9o90+B+P+d+s+6/I/U/g/q/y/5/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+57.285 0 5 15 0 100 100 0 11.016 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ge_ge_ge.wav" "temp$$$.wav" C#4 100 "B0Y0" 1459.731 350 225.84 -421.936 100 0 !110 DI#3#DHDDC7CwCiCRB+BqBWBDAwAgATAJACAA#27#///7/x/i 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+7.713 0 5 15 0 100 100 0 8.813 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ye_ye_ye.wav" "temp$$$.wav" C#4 100 "B0Y0" 869.238 600 256.687 -417.527 100 0 !110 AA#2#/+/2/o/W/C+t+Z+J999392919z9w9s9o9j9d9Y9S9N9J9F9C9A8/8/9C9I9R9d9s98+N+f+x/C/S/g/s/2/8//AAABACAEAFAHAJAKAKAJAIAFAC/+/6/1/w/s/p/n/m/n/q/u/0/7ACAJAQAVAaAdAeAeAcAYATANAG///4/y/s/n/k/i/i/k/n/s/y/5ACALAUAc 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+28.641 0 5 15 0 100 100 0 26.438 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\wan_wan_wan.wav" "temp$$$.wav" D#4 100 "B0Y0" 1410.157 400 167.452 -297.448 100 0 !110 8o8u839A9J9R9Y9e9i9n9s9w9198+F+O+Y+h+r+0+9/G/O/W/d/k/q/w/1/4/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+73.809 0 5 15 0 100 100 0 29.744 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\xing_xing_xing.wav" "temp$$$.wav" F4 100 "B0Y0" 1640.96 650 195.87 -371.259 100 0 !110 8n8k8h8e8b8Y8V8T8R8P8O8N8N8O8Z8j8t839B9L9V9f9p9y97+E+N+W+e+m+u+2+9/E/K/R/X/c/h/m/q/u/y/1/4/6/8/+////AA#44#///7/y/n/Y/H+0+g+M959n9X9K9A8684 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+77.964 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\e.wav" "temp$$$.wav" F4 100 "B0Y0" 495.517 650 87.013 -540.241 100 0 !110 /v/i/T/B+u+a+G9z9h9S9G89858484878+9D9I9P9W9f9o9y98+H+S+d+o+z++/I/R/a/j/q/w/2/6/9////AA#22#/////+/8/6/3/z/v/q/l/f/Y/R/J/B+4+v+l+a+P+E949r9e9R9D818n8Y8J757p7Z7J646o6X6F50 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+39.608 0 5 15 0 100 100 0 69.45 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\lao_lao_lao.wav" "temp$$$.wav" F4 100 "B0Y0" 1489.26 650 147.856 -304.978 100 0 !110 6/6u6d6M575p5Y5G404j4R4O4Z4s5H5p6R697r8b9K92+e/B/d/x/9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+53.58 0 5 15 0 100 100 0 23.739 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\chang_chang_chang.wav" "temp$$$.wav" F4 100 "B0Y0" 1481.168 600 226.104 -390.271 100 0 !110 8y#39#8083889C9K9T9d9o9z9/+M+Z+m+y++/K/V/f/n/v/1/6/9//AA#27#///7/x/h/M 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-.313 0 5 15 0 100 100 0 13.41 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shen_shen_shen.wav" "temp$$$.wav" D#4 100 "B0Y0" 1416.738 650 225.552 -349.227 100 0 !110 DI#2#DHDBC1CjCNByBUAzAQ/t/K+p+K9v9Y9G858z8y8z8184889B9H9O9V9d9m9w96+E+O+Z+j+u+4/C/L/U/c/k/r/w/1/6/9//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+70.506 0 5 15 0 100 100 0 36.823 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\me_me_me.wav" "temp$$$.wav" C#4 100 "B0Y0" 1337.418 350 256.642 -453.885 100 0 !110 DI#16#DHDGDDC/C6C0CtClCcCSCHB8BxBmBaBPBEA5AvAmAdAVAPAJAFACAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+6.611 0 5 15 0 100 100 0 33.049 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\sui_sui_sui.wav" "temp$$$.wav" C#4 100 "B0Y0" 1391.4 700 257.053 -382.277 100 0 !110 AA#21#///+/9/9/8/7/7/8/8/9//ABADAFAHAJALAM#2#ALAJAGAD///7/3/z/w/u/s/s/t/v/y/2/7ABAGAMASAWAaAcAcAbAYAUAOAIAA/5/z/t/o/k/i/i/k/n/r/x/3/+AFAMASAXAbAdAeAdAaAWAQAKAD/8/1/v/p/l/l/n/q/u/z/3/7// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+82.623 0 5 15 0 100 100 0 31.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\bian_bian_bian.wav" "temp$$$.wav" D#4 100 "B0Y0" 1409.055 450 241.264 -389.988 100 0 !110 8q8u8z82848686858484868+9D9J9R9a9k9u96+G+T+f+s+4/E/P/Z/j/r/y/4/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 300@110+41.862 0 5 15 0 100 100 0 14.321 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ou.wav" "temp$$$.wav" F4 100 "B0Y0" 456.32 650 87.012 -296.816 100 0 !110 7r7m7h7d7Z7V7S7P7M7K7J7I7H7H7U7i7w7/8N8b8p829E9R9d9q92+C+N+Y+j+t+2+//I/Q/X/e/k/q/v/z/3/6/8/+////AA#51#/8/w/d 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+32.537 0 5 15 0 100 100 0 69.449 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\fa_fa_fa.wav" "temp$$$.wav" F4 100 "B0Y0" 1502.317 600 195.671 -477.765 100 0 !110 AA///4/o/T+4+b9/9l9Q9C889F9R9c9o9z9++J+U+e+o+y+7/E/M/U/b/h/n/t/x/1/5/7/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-19.204 0 5 15 0 100 100 0 17.804 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shen_shen_shen.wav" "temp$$$.wav" F4 100 "B0Y0" 1547.595 700 215.238 -353.667 100 0 !110 AA#8#/8/q/K+h929P8y8k#2#8m8o8r8u8y82879A9F9L9R9Z9k9v95+E+O+Y+i+s+1++/G/O/V/c/j/o/u/y/2/5/8/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+96.868 0 5 15 0 100 100 0 22.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\fan_fan_fan.wav" "temp$$$.wav" F4 100 "B0Y0" 1555.505 650 200.292 -350.319 100 0 !110 84#35#86899B9G9N9U9b9k9t93+B+M+W+h+r+2/A/K/T/c/j/q/x/2/6/9//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+31.885 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\gu_gu_gu.wav" "temp$$$.wav" D#4 100 "B0Y0" 900.059 300 186.181 -366.71 100 0 !110 DI#2#DHDFC/C1CoCYCGByBeBLA4AnAYANAEAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-30.333 0 5 15 0 100 100 0 11.016 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jiu_jiu_jiu.wav" "temp$$$.wav" D#4 100 "B0Y0" 1311.314 350 273.978 -394.06 100 0 !110 AA#29#/////9/7/5/2/z/v/q/l/g/a/U/N/G+++2+u+l+c+T+J9/ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+22.798 0 5 15 0 100 100 0 17.803 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shi_shi_shi.wav" "temp$$$.wav" D#4 100 "B0Y0" 865.907 400 263.297 -425.241 100 0 !110 +7+z+r+i+Z+Q+G989y9n9d9S9H888x8m8g889z+z/n//AA#11#///+/7/3/z/t/n/g/Y/Q/H+9+z+p+f+V+L+B939u9l9c9V9O9I9D8+8785 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+79.885 0 5 15 0 100 100 0 37.456 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\liu_liu_liu.wav" "temp$$$.wav" C#4 100 "B0Y0" 1335.238 600 235.755 -361.345 100 0 !110 AVAPAKAGADABAA#6#/////+/9/8#4#/9//AAACAEAHAJAKALAMAMALAJAHAEAA/8/4/1/x/v/t/s/t/v/x/1/6//AFAKAQAUAYAaAbAbAZAVAQAKAD/7/1/u/p/l/j/i/j/m/q/v/1/8ADAKARAWAaAdAeAdAbAXASAMAF/+/3/x/u/r 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-12.117 0 5 15 0 100 100 0 27.005 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xing_xing_xing.wav" "temp$$$.wav" D#4 100 "B0Y0" 851.585 700 253.382 -366.853 100 0 !110 9J9D88818u8p8l8j8j8k8m8p8t8w80879F9S9h9x+E+X+r+//R/h/u/3/9/////+/9/9/8/7#2#/8/9//ABADAFAIAKAMAN#2#AMAKAHAD///7/3/z/v/t/r/q/r/t/w/1/6AAAGAMASAXAbAeAeAcAZAVAPAJAC/6/0/t/o/l/k/l/n/q/u/z/5/+ADAHALANAP#2#ANALAJAGAEAB///+/9/8/8/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+95.737 0 5 15.1 0 100 100 100 37.456 15.128 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\dang_dang_dang.wav" "temp$$$.wav" F4 100 "B0Y0" 1512.775 500 132.611 -266.418 100 0 !110 8181849A9H9N9U9a9g9n9t9z959/+F+L+R+X+c+i+n+t+y+3+8/B/F/K/O/S/W/a/e/h/l/o/r/t/w/y/1/3/4/6/7/9/+/+//#2# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110-31.626 15.1 5 0 100 100 100 100 8.704 43.059 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\si_si_si.wav" "temp$$$.wav" F4 100 "B0Y0" 1576.495 150 229.739 -462.501 100 0 !110 AA#17#///8/0/o/Z 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+54.692 43.1 0 16.9 100 100 100 100 34.026 18.14532 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ru_ru_ru.wav" "temp$$$.wav" D#4 100 "B0Y0" 1402.44 250 206.01 -377.87 100 0 !110 DI#2#DHDFC+CzCkCTB/BqBVBAAtAdAPAGABAA#3#ADAMAUAdAmAuA3A/BIBQBYBgBnBvB2B9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 20.382 120@110+52.326 18.1 5 40 100 100 100 100 18.23507 100 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ai.wav" "temp$$$.wav" F4 100 "B0Y0" 441.453 550 87.013 -421.976 100 0 !110 84#2#889F9O9X9f9o9w95+B+J+R+Z+g+o+v+2+9/D/J/P/V/a/f/k/o/s/w/z/2/4/6/8/+//#2#AA#40#///2/l/M+v+P9x 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 360@110+75.844 100 5 18.9 100 100 100 100 100 18.911 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\nao_nao_nao.wav" "temp$$$.wav" F4 100 "B0Y0" 1529.78 650 152.011 -302.038 100 0 !110 /p/S+1+W939c9H87859B9J9R9Z9h9p9w949/+H+O+V+c+j+q+w+3+9/D/I/O/T/Y/c/h/l/p/s/w/z/1/4/6/7/9/+//#2# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+43.543 18.9 5 15 100 100 100 0 19.387 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\zuo_zuo_zuo.wav" "temp$$$.wav" F4 100 "B0Y0" 1567.771 600 315.305 -523.45 100 0 !110 84#9#86899B9G9M9S9a9i9r909++I+T+d+o+y+8/G/P/Y/g/n/t/z/3/7/+//AA//#2#AAACAEAGAIAKAMANANAMAKAHAE///6/1/w/s/o/m/l/l/o/s/y/5AAAHAOAUAYAcAeAeAcAZAVAPAIAA/1/o/b/L+8+t+c+N9+9x9l9Y9L8+ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-5.649 0 5 15 0 100 100 0 11.869 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\tian_tian_tian.wav" "temp$$$.wav" D#4 100 "B0Y0" 1390.321 300 293.042 -443.97 100 0 !110 AaAOAA/z/l/Y/L+/+1+s+m+i+h+i+m+r+y+6/C/L/U/d/m/t/0/5/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-7.199 0 5 15 0 100 100 0 7.711 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jiu_jiu_jiu.wav" "temp$$$.wav" D#4 100 "B0Y0" 1311.314 350 273.978 -394.06 100 0 !110 AA#28#/////+/9/7/5/2/z/w/s/o/j/f/Z/U/N/H/A+5+y+r+j+b+T 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+22.798 0 5 15 0 100 100 0 17.803 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shi_shi_shi.wav" "temp$$$.wav" C#4 100 "B0Y0" 865.907 400 263.297 -425.241 100 0 !110 CNCGB/B4BwBoBgBYBPBHA+A1AsAjAZAQAHAA#44#AFAaA9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+85.853 0 5 15 0 100 100 0 37.456 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ming_ming_ming.wav" "temp$$$.wav" G#4 100 "B0Y0" 1581.448 600 184.796 -402.69 100 0 !110 1E1E1L1i2H243x4w5v6s7h8N8s878+#13#8/9D9J9R9a9m9z+A+P+e+t+7/J/W/i/s/0/6//ABADAFAHAIAJAKAJAIAGAD///6/1/x/t/p/n/m/n/p/t/z/6ABAIAPAUAZAcAeAeAcAZAUAOAHAA/5/y/t/q/p/p/q/t/x/1/5 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-9.967 0 5 15 0 100 100 0 16.222 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\tian_tian_tian.wav" "temp$$$.wav" A#4 100 "B0Y0" 1626.34 650 216.82 -385.371 100 0 !110 8p8t8x808486878887868584#4#85889A9F9L9T9b9k9u94+D+O+a+l+w+7/G/Q/Z/i/p/w/2/6/9//AA#39#/+/5/w/j/T+/+o+P9z9W838Y747Y646a5+5j5L414j4U 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+38.584 0 5 15 0 100 100 0 5.934 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\di_di_di.wav" "temp$$$.wav" G#4 100 "B0Y0" 988.048 500 170.818 -439.395 100 0 !110 787q7b7R7K7H7U7l728H8Y8p859J9Z9o92+F+S+f+r+3/B/L/V/d/l/r/x/2/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110-24.896 0 5 15 0 100 100 0 8.704 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\si_si_si.wav" "temp$$$.wav" G#4 100 "B0Y0" 1576.495 150 229.739 -462.501 100 0 !110 AA#19#///4/r 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+54.692 0 5 35 0 100 100 0 34.026 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\kou_kou_kou.wav" "temp$$$.wav" A#4 100 "B0Y0" 880.341 650 168.55 -282.104 100 0 !110 8484818t8e8M757o7a7S7V7i7v788J8W8i8v879H9T9f9q91+A+K+U+e+n+w+5/B/J/Q/X/d/j/o/t/x/1/4/7/9/+////AA#52#///t/D+N 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 13.879 480@110+23.228 0 5 15 0 100 100 0 4.962461 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\bao_bao_bao.wav" "temp$$$.wav" A#4 100 "B0Y0" 1505.482 600 138.733 -325.253 100 0 !110 /l+39/9O8w8w899K9X9k9x99+J+V+g+r+1+//I/R/Z/g/m/s/x/2/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+22.155 0 5 15 0 100 100 0 6.33 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\wen_wen_wen.wav" "temp$$$.wav" A#4 100 "B0Y0" 1586.367 600 127.718 -221.173 100 0 !110 84#31#86889A9E9J9P9V9c9k9s919++H+Q+a+j+t+2+//I/Q/Y/f/m/s/x/2/5/8/+//AA#29#///+/8/4/z/s 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+9.906 0 5 15 0 100 100 0 20.178 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\nuan_nuan_nuan.wav" "temp$$$.wav" G#4 100 "B0Y0" 1563.827 300 216.381 -344.106 100 0 !110 DGDEDAC6C0CsCjCZCOCCB2BqBeBSBGA6AvAlAcAUANAIADABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-16.642 0 5 15 0 100 100 0 20.178 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\zhe_zhe_zhe.wav" "temp$$$.wav" G#4 100 "B0Y0" 981.234 350 229.793 -401.344 100 0 !110 AA#6#///2/i/G+l+E9n9R9G9F9G9J9N9S9Y9g9o9x97+G+Q+c+n+y+9/H/R/b/j/r/x/3/7/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+42.827 0 5 15 0 100 100 0 10.287 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ge_ge_ge.wav" "temp$$$.wav" F4 100 "B0Y0" 1644.358 350 311.397 -489.132 100 0 !110 Es#2#EpEgESD/DoDNCwCSB0BYA+AnAVAIABAA#27#ACAVA2BjCYDQ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+13.013 0 5 15 0 100 100 0 7.517 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ye_ye_ye.wav" "temp$$$.wav" A#4 100 "B0Y0" 1601.816 600 232.425 -453.443 100 0 !110 4M4U4s5T6E677y8l9O9q92929z9v9p9i9b9T9M9G9C8/8/9B9I9S9g9v+B+V+o+7/N/d/r/1/8//AA#8#///9/6/1/v/o/f/W/M/B+2+q+e+S+G979w9l9c9T9L9F8/878584#28# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+22.509 0 5 15 0 100 100 0 27.3 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\wan_wan_wan.wav" "temp$$$.wav" G#4 100 "B0Y0" 1588.758 400 147.763 -304.884 100 0 !110 AA#11#///+/8/7/5/3/3/2/3/4/7/+ACAHALAQAUAXAZAaAZAWASALAF/9/2/w/q/m/j/i/j/l/o/t/z/6ABAIAPAUAUARAMAHABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+58.555 0 5 15 0 100 100 0 20.969 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\xing_xing_xing.wav" "temp$$$.wav" A#4 100 "B0Y0" 1640.96 650 195.87 -371.259 100 0 !110 8n8k8h8e8b8Y8V8T8R8P8O8N8N8O8Z8j8t839B9L9V9f9p9y97+E+N+W+e+m+u+2+9/E/K/R/X/c/h/m/q/u/y/1/4/6/8/+////AA#44#///7/y/n/Y/H+0+g+M959n9X9K9A8684 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+77.964 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\e.wav" "temp$$$.wav" A#4 100 "B0Y0" 495.517 650 87.013 -540.241 100 0 !110 /v/i/T/B+u+a+G9z9h9S9G89858484878+9D9I9P9W9f9o9y98+H+S+d+o+z++/I/R/a/j/q/w/2/6/9////AA#22#/////+/8/6/3/z/v/q/l/f/Y/R/J/B+4+v+l+a+P+E949r9e9R9D818n8Y8J757p7Z7J646o6X6F50 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+39.608 0 5 15 0 100 100 0 69.45 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\lao_lao_lao.wav" "temp$$$.wav" A#4 100 "B0Y0" 1489.26 650 147.856 -304.978 100 0 !110 6/6u6d6M575p5Y5G404j4R4O4Z4s5H5p6R697r8b9K92+e/B/d/x/9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+53.58 0 5 15 0 100 100 0 23.739 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\chang_chang_chang.wav" "temp$$$.wav" A#4 100 "B0Y0" 1481.168 600 226.104 -390.271 100 0 !110 8y#39#8083889C9K9T9d9o9z9/+M+Z+m+y++/K/V/f/n/v/1/6/9//AA#27#///7/x/h/M+z+V 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+11.228 0 5 15 0 100 100 0 13.41 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shen_shen_shen.wav" "temp$$$.wav" G#4 100 "B0Y0" 1547.595 650 215.238 -353.667 100 0 !110 C8CtCZCBBkBFAjAA/d+7+a999k9P8/818y8y8z82858+9D9K9R9Z9h9r909++J+T+e+o+y+8/G/P/Y/g/n/t/z/3/7/+//AAABACAEAFAHAJAJAKAJAHAFAC/+/5/1/w/s/p/n/m/o/q/v/1/8ADAKAQAWAaAdAeAdAbAYASAMAG/+/3/x/r/n/k/i/i/k/o/t/y/5AAAHAOATAWAWAVASAP 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+60.013 0 5 15 0 100 100 0 22.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\me_me_me.wav" "temp$$$.wav" F4 100 "B0Y0" 1641.926 300 243.043 -466.056 100 0 !110 FCFCFBE+E7E2EyEuEpElEiEeEaEVEQEKEDD8D0DsDjDaDQDGC8CxCmCaCOCCB1BpBcBOBBA0AmAYAL 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-13.873 0 5 15 0 100 100 0 18.991 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\sui_sui_sui.wav" "temp$$$.wav" F4 100 "B0Y0" 1576.877 650 273.683 -393.3 100 0 !110 AA#18#/////+/9/9/8#3#/9/+AAACAEAGAIAJAL#3#AJAHAEAB/+/6/2/z/w/u/t/t/v/x/0/4/9ADAIANASAWAZAaAaAYAVARALAF/+/3/w/r/m/j/i/i/l/o/t/z/6ABAIAPAUAZAcAeAeAcAZAUAOAHAA/6/1/y/v#2#/w/z/1/4/7/+AAAB 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+76.841 0 5 15 0 100 100 0 26.904 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\bian_bian_bian.wav" "temp$$$.wav" G#4 100 "B0Y0" 1035.535 400 196.365 -363.287 100 0 !110 7S7T7V#2#7U7W7m718E8T8i8x8/9N9b9p92+C+P+a+m+w+6/E/N/V/c/j/p/v/z/3/7/9//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 300@110+28.09 0 5 15 0 100 100 0 8.308 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ou.wav" "temp$$$.wav" A#4 100 "B0Y0" 456.32 650 87.012 -296.816 100 0 !110 7r7m7h7d7Z7V7S7P7M7K7J7I7H7H7U7i7w7/8N8b8p829E9R9d9q92+C+N+Y+j+t+2+//I/Q/X/e/k/q/v/z/3/6/8/+////AA#51#/8/w/d 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+32.537 0 5 15 0 100 100 0 69.449 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\fa_fa_fa.wav" "temp$$$.wav" A#4 100 "B0Y0" 1502.317 600 195.671 -477.765 100 0 !110 AA///4/o/T+4+b9/9l9Q9C889F9R9c9o9z9++J+U+e+o+y+7/E/M/U/b/h/n/t/x/1/5/7/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-19.204 0 5 15 0 100 100 0 17.804 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shen_shen_shen.wav" "temp$$$.wav" A#4 100 "B0Y0" 1547.595 700 215.238 -353.667 100 0 !110 AA#8#/8/q/K+h929P8y8k#2#8m8o8r8u8y82879A9F9L9R9Z9k9v95+E+O+Y+i+s+1++/G/O/V/c/j/o/u/y/2/5/8/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+96.868 0 5 15 0 100 100 0 22.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\fan_fan_fan.wav" "temp$$$.wav" A#4 100 "B0Y0" 1555.505 650 200.292 -350.319 100 0 !110 84#35#86899B9G9N9U9b9k9t93+B+M+W+h+r+2/A/K/T/c/j/q/x/2/6/9////ABAEAJAOAUAZAdAcAZAUAOAIAA/5/z/t/o/k/i/i/k/n/r/x/3/+AFAMASAXAbAdAeAdAaAUANAHAC/9/2 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+42.32 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\gu_gu_gu.wav" "temp$$$.wav" G#4 100 "B0Y0" 1641.37 300 178.49 -417.335 100 0 !110 DLDFDAC2CrCfCRCABsBYBFAyAiAUAKADAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-39.012 0 5 15 0 100 100 0 8.308 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\jiu_jiu_jiu.wav" "temp$$$.wav" G#4 100 "B0Y0" 998.74 350 252.826 -378.728 100 0 !110 AA#27#/////9/7/4/1/x/t/n/i/b/U/N/F+8+z+q+g+V+K9/9z9n9b9P9C81 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+33.024 0 5 15 0 100 100 0 12.265 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shi_shi_shi.wav" "temp$$$.wav" G#4 100 "B0Y0" 1514.353 350 223.25 -549.272 100 0 !110 9z9n9a9O9B808n8Z8M7+7w7i7f8j+S/rAA#14#///+/6/0/t/k/Z/N/A+x+i+R+B9w9f9O898t8e8Q8D737t7k7d7Y7V 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+48.71 0 5 15 0 100 100 0 26.509 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\liu_liu_liu.wav" "temp$$$.wav" F4 100 "B0Y0" 1579.259 600 208.907 -360.049 100 0 !110 AUAMAGACAA#6#/////+/9/8/8/7/7/8/9/+AAACAEAGAIAKALAMAMALAKAHAEAB/9/5/1/y/v/t/s/s/u/w/0/5/+AEAKAPAUAYAbAcAcAaAWARALAE/9/2/v/q/m/j/i/j/l/p/u/0/7ACAJAQAVAaAdAeAeAcAYATAMAG///6/1/y/w#2#/y/0 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-2.438 0 5 15 0 100 100 0 16.617 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\xing_xing_xing.wav" "temp$$$.wav" G#4 100 "B0Y0" 1640.96 650 195.87 -371.259 100 0 !110 7G7E#2#7G7I7K7N7Q7W7j708J8h889Z93+V+x/K/f/v/6// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+63.536 0 5 15.1 0 100 100 100 25.322 15.128 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\dang_dang_dang.wav" "temp$$$.wav" A#4 100 "B0Y0" 1512.775 500 132.611 -266.418 100 0 !110 8484869B9H9N9U9a9g9n9t9z959/+F+L+R+X+c+i+n+t+y+3+8/B/F/K/O/S/W/a/e/h/l/o/r/t/w/y/1/3/4/6/7/9/+/+//#2# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110-31.626 15.1 5 0 100 100 100 100 8.704 43.059 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\si_si_si.wav" "temp$$$.wav" A#4 100 "B0Y0" 1576.495 150 229.739 -462.501 100 0 !110 AA#17#///8/0/o/Z 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+55.153 43.1 0 16.9 100 100 100 100 34.026 18.14532 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ru_ru_ru.wav" "temp$$$.wav" G#4 100 "B0Y0" 1633.458 250 192.389 -387.374 100 0 !110 DGDAC2CoCYCEBwBbBGAyAhATAIACAA#3#ABAJASAbAkAsA1A9BFBOBWBeBlBtB0B7 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 120@110+51.434 18.1 5 40 100 100 100 100 17.804 100 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ai.wav" "temp$$$.wav" A#4 100 "B0Y0" 441.453 550 87.013 -421.976 100 0 !110 84#2#889F9O9X9f9o9w95+B+J+R+Z+g+o+v+2+9/D/J/P/V/a/f/k/o/s/w/z/2/4/6/8/+//#2#AA#40#///2/l/M+v+P9x 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 360@110+75.844 100 5 18.9 100 100 100 100 100 18.911 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\nao_nao_nao.wav" "temp$$$.wav" A#4 100 "B0Y0" 1529.78 650 152.011 -302.038 100 0 !110 /p/S+1+W939c9H87859B9J9R9Z9h9p9w949/+H+O+V+c+j+q+w+3+9/D/I/O/T/Y/c/h/l/p/s/w/z/1/4/6/7/9/+//#2# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+43.543 18.9 5 15 100 100 100 0 19.387 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\zuo_zuo_zuo.wav" "temp$$$.wav" A#4 100 "B0Y0" 1567.771 600 315.305 -523.45 100 0 !110 84#34#85899D9K9T9e9p92+E+R+g+u+7/J/V/g/p/x/4/8//AEANATAYAcAeAeAcAZAVAPAJAC/7/0/u/p/l/j/i/j/m/q/w/2/9AEALARAXAbAdAeAdAbAWAPAG/9/z/p/d/S 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+6.644 0 5 15 0 100 100 0 11.869 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\tian_tian_tian.wav" "temp$$$.wav" G#4 100 "B0Y0" 1626.34 300 216.82 -385.371 100 0 !110 CxClCbCQCGB8ByBnBdBSBIA8AwAmAcAUANAHADABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-16.805 0 5 15 0 100 100 0 5.934 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\jiu_jiu_jiu.wav" "temp$$$.wav" G#4 100 "B0Y0" 998.74 350 252.826 -378.728 100 0 !110 AA#27#///+/7/2/v/n/d/S/F+3+n+W+E9x9d9I8z8d8H7w7Z7U#5# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+33.024 0 5 15 0 100 100 0 12.265 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shi_shi_shi.wav" "temp$$$.wav" F4 100 "B0Y0" 1514.353 400 223.25 -549.272 100 0 !110 AA#49#ADATAtBQB4CkDODzES 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+54.678 0 5 15 0 100 100 0 26.509 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ming_ming_ming.wav" "temp$$$.wav" A#4 100 "B0Y0" 1581.448 600 184.796 -402.69 100 0 !110 6h7M708V8t8688#3#87#4#899C9J9U9h9v9/+Q+i+z/E/T/h/s/1/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-9.967 0 5 15 0 100 100 0 16.222 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\tian_tian_tian.wav" "temp$$$.wav" A#4 100 "B0Y0" 1626.34 650 216.82 -385.371 100 0 !110 AA#12#///+/9/8/7/6#2#/7/8/+ABAEAGAJAMAOAPAQAQAOAMAIAE///6/1/w/s/o/m#2#/p/t/y/5AAAHAPAWAcAhAkAlAkAgAbAUAMAC/4/u/l/d/W/S/R/S/W/c/l/w/7AHATAdAmAtAxAyAxAsAmAdASAH/7/v/n/h/e/d/f/j/o/u/0/5/+ABACACABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+59.741 0 5 15 0 100 100 0 5.934 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ha_ha_ha.wav" "temp$$$.wav" D#4 100 "B0Y0" 700.146 350 236.775 -420.189 100 0 !110 9C#15#9D9X9q98+O+f+v+//M/Z/k/t/0/6/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+41.229 0 5 0 0 100 100 100 35.641 20.482 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\lou_lou_lou.wav" "temp$$$.wav" D#4 100 "B0Y0" 1449.816 400 178.469 -317.279 100 0 !110 AA#8#ACAnBnCjC8ClCNB2BgBMA5ApAbAPAHACAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+79.318 20.5 0 15 100 100 100 0 29.744 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\mi_mi_mi.wav" "temp$$$.wav" D#4 100 "B0Y0" 1383.711 150 202.705 -406.513 70 0 !110 AA#18# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+37.516 0 5 16.9 0 100 100 100 24.236 16.93865 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\si_si_si.wav" "temp$$$.wav" D#4 100 "B0Y0" 856.02 200 241.264 -418.631 70 100 !110 AA#19#/6/d+u96 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 60.031 30@110+33.088 16.9 5 20 100 100 100 100 16.04291 15 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\te_te_te.wav" "temp$$$.wav" C#4 100 "B0Y0" 1425.58 150 202.705 -404.31 110 100 !110 DIDIDHC5CTBhAvAL 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 22.623 30@110+22.544 7.1 5 35 100 100 100 0 5.498308 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\di_di_di.wav" "temp$$$.wav" D#4 100 "B0Y0" 1407.925 300 180.617 -378.972 100 0 !110 8t#6#8x9H9d9y+H+a+t++/N/a/m/v/3/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-7.028 0 5 0 0 100 100 100 9.914 27.057 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\zhei_zhei_zhei.wav" "temp$$$.wav" F4 100 "B0Y0" 1020.112 500 147.811 -311.354 100 0 !110 84#8#899G9S9h9y+F+Z+t/A/S/i/v/4/+AA#39#///8/0/o/Y/F+u+U939Y838U7x 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 330@110+56.578 27.1 0 15 100 100 100 0 9.891 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\qing_qing_qing.wav" "temp$$$.wav" C#4 100 "B0Y0" 1453.093 350 210.979 -358.04 100 0 !110 AA#39#///+/7/2/v/n/e/T/H+6+t+g+S+E939r9g9V 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+51.611 0 5 15 0 100 100 0 12.118 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\lai_lai_lai.wav" "temp$$$.wav" D#4 100 "B0Y0" 1343.895 600 150.404 -295.112 100 0 !110 696v6j6Y6N6E59535z5w516T6w7O7q8G8i889V9s+D+Y+r+8/M/a/l/v/2/8//AA#25#ADAJATAfAtA9BPBiB0CGCXCnC0C/DHDMDO#27# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+19.563 0 5 15 0 100 100 0 22.7 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\yi_yi_yi.wav" "temp$$$.wav" D#4 100 "B0Y0" 1320.895 350 185.078 -377.869 100 0 !110 DO#5#DNDLDEC6CsCcCKB3BjBPA8AqAbAPAGABAA#24#///9/3/u/h/S 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+17.623 0 5 15 0 100 100 0 28.642 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\zhang_zhang_zhang.wav" "temp$$$.wav" C#4 100 "B0Y0" 1400.242 350 206.264 -351.821 100 0 !110 DBC5CtCfCPB9BqBXBEAyAjAVALAEAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+19.832 0 5 15 0 100 100 0 13.219 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\hei_hei_hei.wav" "temp$$$.wav" C#4 100 "B0Y0" 1437.698 600 176.266 -305.16 100 0 !110 AA#17#///+/9/8/8/7#2#/8/+//ABAEAGAIAKAMANANAMALAJAGAC/+/6/2/y/v/s/r/r/s/u/y/2/8ACAIAOATAYAbAdAeAbAXASAMAG///5/0/w/s/q#2#/s/v/z/3/7AAAEAHAKAMAOAOANAMAKAIAFADAB/+ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-5.51 0 5 15 0 100 100 0 23.134 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jiao_jiao_jiao.wav" "temp$$$.wav" D#4 100 "B0Y0" 1447.585 650 237.39 -365.752 100 0 !110 8+878582818z8z8y8y8z8081849A9K9Y9o96+O+i+2/I/Z/o/z/7//AA#26#///8/1/s/f/R/B+v+d+L959o9Y9L9A848z8y#32#828+ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+50.677 0 5 15 0 100 100 0 16.524 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\wo_wo_wo.wav" "temp$$$.wav" D#4 100 "B0Y0" 901.16 650 216.968 -401.837 100 0 !110 8y#4#859B9J9R9Z9h9p9x94+A+H+P+W+d+k+q+x+3+9/D/J/O/T/Y/d/h/l/p/t/w/z/2/4/6/8/9/+////AA#30#ABAHAPAZAmA1BGBXBpB7CNCdCrC4DBDIDMDN#4#DMDMDL#4#DKDE 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+49.572 0 5 15 0 100 100 0 30.846 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\de_de_de.wav" "temp$$$.wav" D#4 100 "B0Y0" 1422.275 600 175.164 -370.158 80 0 !110 DLDKDHC/CzCjCQB7BmBQA7AoAYAMADAA#66#///8/3/v/m/a/N+/+w+g+Q9/9w9h9T 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-1.047 0 5 15 0 100 100 0 11.016 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\wai_wai_wai.wav" "temp$$$.wav" D#4 100 "B0Y0" 1427.268 350 140.233 -273.535 100 0 !110 +R+A9x9i9U9H88808t8p8n8y9C9S9i9x+B+P+d+q+3/D/O/X/g/o/v/1/5/9//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+26.013 0 5 15 0 100 100 0 21.142 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\po_po_po.wav" "temp$$$.wav" F4 100 "B0Y0" 1543.069 300 250.984 -497.312 100 0 !110 84#8#889K9X9l9y9/+L+X+j+u+5/D/M/V/d/k/q/w/1/5/8/+//AA#11#///9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-21.167 0 5 15 0 100 100 0 7.517 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jia_jia_jia.wav" "temp$$$.wav" C#4 100 "B0Y0" 837.488 350 240.362 -392.592 100 0 !110 GQGQGPGMGFF6FsFaFGEuEVD6DeDCCmCKBwBXBBAtAdAQAHABAA#10#///9/4/v/i/T/C+u+Z+D9s9U8+8o8U8C7z7m7d 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+25.254 0 5 15 0 100 100 0 11.573 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\B3\ye_ye_ye.wav" "temp$$$.wav" A#3 100 "B0Y0" 871.836 350 224.186 -352.293 100 0 !110 B5BjBOA7ApAbAPAGAB 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+36.762 0 5 15 0 100 100 0 34.398 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\yang_yang_yang.wav" "temp$$$.wav" D#4 100 "B0Y0" 835.061 650 203.806 -338.209 100 0 !110 4M#7#4U4m5B5i6I6w7Y778Z8v879B9N9Z9k9w97+G+R+c+m+v+5/C/K/S/Z/g/m/s/x/1/4/7/9//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+45.167 0 5 15 0 100 100 0 33.048 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\guo_guo_guo.wav" "temp$$$.wav" D#4 100 "B0Y0" 1487.273 550 264.399 -418.631 100 0 !110 AA#43#///+/8/5/0/v/o/h/Z/Q/H+9+y+o+d+S+I999z9q9h9Y9R9K9E8/888584#20# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-22.033 0 5 15 0 100 100 0 14.321 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xiao_xiao_xiao.wav" "temp$$$.wav" C#4 100 "B0Y0" 1396.937 650 271.976 -402.106 100 0 !110 AA#21#///+/9/8/8/7/7/8/8/+//ABAEAGAIAKAMANANAMALAJAGAC/+/6/2/y/v/s/r/r/s/u/y/2/8ACAIAOATAYAbAdAeAcAYATANAG///4/x/s/n/k/i/i/k/n/s/y/5AAAHANATAYAcAdAcAaAWARAMAGAB/8/4/1/z#2#/0/1/3/6 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+67.2 0 5 15 0 100 100 0 38.558 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\mao_mao_mao.wav" "temp$$$.wav" C#4 100 "B0Y0" 830.682 600 169.936 -311.853 100 0 !110 /z/y/z/0/2/4/7/9AAAJAZAtBEBeB5CSCoC4DDDHDI#24#DGDDC+C3CuCjCXCKB8BtBeBQBCA0AoAdATALAFABAA#19#///7/1/s/h/U/F+1+l+U+E909m 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+3.305 0 5 15 0 100 100 0 29.744 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ju_ju_ju.wav" "temp$$$.wav" D#4 100 "B0Y0" 1489.476 600 218.068 -378.972 100 0 !110 6+6u6g6U6J6C59575/6P6q7L7u8O8m8z869G9S9d9o9z9++J+T+d+n+w+5/C/K/R/Z/f/l/q/v/0/3/6/8/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-1.102 0 5 15 0 100 100 0 8.813 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shuo_shuo_shuo.wav" "temp$$$.wav" D#4 100 "B0Y0" 815.23 650 297.448 -432.953 100 0 !110 AA#31# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+43.609 0 5 15 0 100 100 0 33.049 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ji_ji_ji.wav" "temp$$$.wav" D#4 100 "B0Y0" 1485.041 350 201.604 -356.938 100 0 !110 AA#22# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+8.246 0 5 15 0 100 100 0 9.458 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\xie_xie_xie.wav" "temp$$$.wav" F4 100 "B0Y0" 1549.573 350 311.14 -507.122 100 0 !110 84#18#899E9O9b9r97+N+g+y/D/U/i/u/3/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+22.583 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jian_jian_jian.wav" "temp$$$.wav" D#4 100 "B0Y0" 1368.265 350 232.45 -378.972 100 0 !110 DI#9#DGDAC3CrCbCKB2BiBOA7AqAbAOAGABAA#22#/+/4/v/i/T/B+u+a+G90 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+46.204 0 5 15 0 100 100 0 14.321 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\pan_pan_pan.wav" "temp$$$.wav" C#4 100 "B0Y0" 801.342 300 136.205 -251.98 100 0 !110 B1BhBOA7AqAbAPAGAB 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-20.531 0 5 15 0 100 100 0 11.35 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shou_shou_shou.wav" "temp$$$.wav" D#4 100 "B0Y0" 1359.452 650 235.521 -373.463 100 0 !110 84#22#85889C9K9U9g9t97+K+a+q+5/I/V/h/r/0/6/+//AA#36#ACAJAUAjA1BIBdBzCHCaCrC4DBDGDI#14# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+63.794 0 5 15 0 100 100 0 33.049 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\gan_gan_gan.wav" "temp$$$.wav" D#4 100 "B0Y0" 1373.408 600 168.908 -312.137 100 0 !110 DI#6#DHDBC0ChCJBvBTA5AiAQAEAA#34#///9/6/0/t/l/b/Q/E+3+q+d+P+C919p9e9U9L9E8+8684#26# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+29.14 0 5 15 0 100 100 0 12.485 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\bi_bi_bi.wav" "temp$$$.wav" C#4 100 "B0Y0" 1485.07 300 143.216 -336.007 100 0 0Q110 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-30.455 0 5 15 0 100 100 0 15.423 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\jiao_jiao_jiao.wav" "temp$$$.wav" F4 100 "B0Y0" 1558.672 350 231.585 -376.543 100 0 !110 5w#12#5x5z53576C6J6S6b6m6y7A7O7d7t7+8Q8j829K9e90+J+f+1/M/i/5 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+35.288 0 5 15 0 100 100 0 11.474 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\hao_hao_hao.wav" "temp$$$.wav" D#4 100 "B0Y0" 1324.198 650 192.791 -334.905 100 0 !110 DI#7#DGC/CzCkCSB9BnBQA7AoAYALADAA#33#/+/5/w/j/U/D+w+d+K939m9Y9M9D8/8+#33# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+35.793 0 5 15 0 100 100 0 24.236 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\na_na_na.wav" "temp$$$.wav" D#4 100 "B0Y0" 1353.302 600 200.194 -395.905 100 0 !110 8+#9#8/9E9N9a9p97+O+i+2/I/Z/o/z/7//AA#48#ABAHAQAdAsA9BQBkB4CLCdCtC6DEDLDNDO#6#DNDKDD 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+12.974 0 5 15 0 100 100 0 24.529 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\yi_yi_yi.wav" "temp$$$.wav" D#4 100 "B0Y0" 1320.895 350 185.078 -377.869 100 0 !110 DO#3#DNDKDDC4CqCZCGByBeBKA3AmAXAMAEAA#27#///+/5 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+3.304 0 5 15 0 100 100 0 28.642 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shou_shou_shou.wav" "temp$$$.wav" C#4 100 "B0Y0" 1359.452 400 235.521 -373.463 100 0 !110 DI#4#DGDDC8CzCoCbCMB8BrBbBKA6ArAeATAKAEAA#22#///8/3/u/k/X/J+5+p+Y+I959q9e9T9L 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+66.098 0 5 15 0 100 100 0 33.049 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\lao_lao_lao.wav" "temp$$$.wav" D#4 100 "B0Y0" 1427.783 350 162.577 -304.058 100 0 !110 7L676s6e6S6I6B5857586A6H6Q6d6s697Q7l778S8q9C9a9y+J+e+y/F/V/j/u/3/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+30.01 0 5 15 0 100 100 0 29.744 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ge_ge_ge.wav" "temp$$$.wav" F4 100 "B0Y0" 1644.358 300 311.397 -489.132 100 0 !110 84#2#858/9I9V9l92+K+e+y/F/W/l/x/6/+AA#16#///+/5/z/q/g/U/H+4+p+a+L989t 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-2.851 0 5 15 0 100 100 0 7.517 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\hai_hai_hai.wav" "temp$$$.wav" D#4 100 "B0Y0" 1418.719 350 180.717 -313.362 100 0 !110 CfCSCDB0BlBWBHA4ArAfAVAMAGABAA#28#///9/5/y/p/d/Q/C+z+j+T 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+23.923 0 5 15 0 100 100 0 37.692 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\zai_zai_zai.wav" "temp$$$.wav" C#4 100 "B0Y0" 1355.245 350 196.363 -322.353 100 0 !110 CLB8BsBcBMA9AvAiAWANAGACAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+36.355 0 5 15 0 100 100 0 12.485 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\liao_liao_liao.wav" "temp$$$.wav" D#4 100 "B0Y0" 1393.632 350 246.772 -382.175 100 0 !110 84#13#85889B9I9R9b9n90+B+P+e+s+6/H/U/f/p/x/4/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+44.736 0 5 15 0 100 100 0 23.134 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\dong_dong_dong.wav" "temp$$$.wav" F4 100 "B0Y0" 1577.887 300 167.407 -354.89 100 0 !110 84#3#879B9I9T9f9s97+L+b+r+7/K/Y/k/u/2/8//AA#11#AOArBXCODNEOFOGIG5HcHw 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-23.123 0 5 15 0 100 100 0 9.495 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ni_ni_ni.wav" "temp$$$.wav" D#4 100 "B0Y0" 873.618 300 201.604 -394.395 100 0 !110 H9I6JvKYKyK7K3KnKNJpI9IKHRGVFXEZDdCmB0BJAoAQACAA#15#AGAaA7BnCcDWESFOGFG1 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-.078 0 5 15 0 100 100 0 24.236 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xin_xin_xin.wav" "temp$$$.wav" C#4 100 "B0Y0" 1397.366 400 245.213 -389.531 100 0 !110 EmFZGSHOIKJDJ1KdK6LJLLLCKwKVJyJIIXHiGqFvE1D8DFCTBnBBAjAOAC 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+52.422 0 5 15 0 100 100 0 34.718 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\tiao_tiao_tiao.wav" "temp$$$.wav" D#4 100 "B0Y0" 809.746 600 209.315 -332.701 100 0 !110 84#25#85899G9S9h9z+G+Z+t/B/T/i/v/4/+ABACAFAIALAOAQASASAQANAIAB/5/x/p/g/a/U/R/R/V/c/m/w/8AIATAeAmAtAxAyAwAsAlAcASAG/6/v/k/b/U/Q/P/S/Y/g/o/xAAAdBHB8C2D1EzFvGjHO 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+25.913 0 5 15 0 100 100 0 7.711 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\wo_wo_wo.wav" "temp$$$.wav" F4 100 "B0Y0" 1535.949 450 204.261 -468.785 100 0 !110 /qApBnCjDXEDEkE1E5E0ErEdELD0DbC/ChCEBnBMA1AgAQAGAA#19#///+/7/3/w/o/e/T/G+4+o+W+D9v9a9D8r8T757e7D6n6K5t5Q4y4U/O 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 300@110+63.304 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\di_di_di.wav" "temp$$$.wav" F4 100 "B0Y0" 988.048 500 170.818 -439.395 100 0 !110 7H#5#7U7l728H8Y8p859J9Z9o92+F+S+f+r+3/B/L/V/d/l/r/x/2/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110-24.896 0 5 15 0 100 100 0 8.704 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\si_si_si.wav" "temp$$$.wav" F4 100 "B0Y0" 1576.495 150 229.739 -462.501 100 0 !110 AA#19#/9/o/C 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+54.692 0 5 35 0 100 100 0 34.026 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\kou_kou_kou.wav" "temp$$$.wav" F4 100 "B0Y0" 880.341 650 168.55 -282.104 100 0 !110 AAAA/5/f+1+A9I8V7s7V7V7i7v788J8W8i8v879H9T9f9q91+A+K+U+e+n+w+5/B/J/Q/X/d/j/o/t/x/1/4/7/9/+////AA#52#///t/D+N 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 13.879 480@110+23.228 0 5 15 0 100 100 0 4.962461 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\bao_bao_bao.wav" "temp$$$.wav" F4 100 "B0Y0" 1505.482 600 138.733 -325.253 100 0 !110 /l+39/9O8w8w899K9X9k9x99+J+V+g+r+1+//I/R/Z/g/m/s/x/2/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+22.155 0 5 15 0 100 100 0 6.33 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\wen_wen_wen.wav" "temp$$$.wav" F4 100 "B0Y0" 1586.367 600 127.718 -221.173 100 0 !110 84#31#85878+9B9F9K9P9U9b9i9p9x96+C+M+V+g+q+1/A/L/W/i/t/5ACAFAJAOATAYAbAbAYATANAG///4/x/r/n/k/i/i/k/o/s/y/5AAAHAOAUAYAZAZAYAVARANAIAC/9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-8.963 0 5 15 0 100 100 0 20.178 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\nuan_nuan_nuan.wav" "temp$$$.wav" D#4 100 "B0Y0" 1402.445 300 230.888 -338.209 100 0 !110 DfDcDYDUDPDJDDC8C0CsCkCcCTCKCAB0BoBbBPBDA4AtAjAaATAMAHADAA#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-9.915 0 5 15 0 100 100 0 28.642 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\zhe_zhe_zhe.wav" "temp$$$.wav" D#4 100 "B0Y0" 791.017 400 274.314 -429.648 100 0 !110 AA#10#/+/x/b+++d989h9N9F9F9I9N9U9d9o90+B+P+d+s+6/I/U/g/q/y/5/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+57.285 0 5 15 0 100 100 0 11.016 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ge_ge_ge.wav" "temp$$$.wav" C#4 100 "B0Y0" 1459.731 350 225.84 -421.936 100 0 !110 DI#3#DHDDC7CwCiCRB+BqBWBDAwAgATAJACAA#27#///7/x/i 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+7.713 0 5 15 0 100 100 0 8.813 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ye_ye_ye.wav" "temp$$$.wav" C#4 100 "B0Y0" 869.238 600 256.687 -417.527 100 0 !110 AA#2#/+/2/o/W/C+t+Z+J999392919z9w9s9o9j9d9Y9S9N9J9F9C9A8/8/9C9I9R9d9s98+N+f+x/C/S/g/s/2/8//AAABACAEAFAHAJAKAKAJAIAFAC/+/6/1/w/s/p/n/m/n/q/u/0/7ACAJAQAVAaAdAeAeAcAYATANAG///4/y/s/n/k/i/i/k/n/s/y/5ACALAUAc 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+28.641 0 5 15 0 100 100 0 26.438 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\wan_wan_wan.wav" "temp$$$.wav" D#4 100 "B0Y0" 1410.157 400 167.452 -297.448 100 0 !110 8o8u839A9J9R9Y9e9i9n9s9w9198+F+O+Y+h+r+0+9/G/O/W/d/k/q/w/1/4/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+73.809 0 5 15 0 100 100 0 29.744 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\xing_xing_xing.wav" "temp$$$.wav" F4 100 "B0Y0" 1640.96 650 195.87 -371.259 100 0 !110 8n8k8h8e8b8Y8V8T8R8P8O8N8N8O8Z8j8t839B9L9V9f9p9y97+E+N+W+e+m+u+2+9/E/K/R/X/c/h/m/q/u/y/1/4/6/8/+////AA#44#///7/y/n/Y/H+0+g+M959n9X9K9A8684 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+77.964 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\e.wav" "temp$$$.wav" F4 100 "B0Y0" 495.517 650 87.013 -540.241 100 0 !110 /v/i/T/B+u+a+G9z9h9S9G89858484878+9D9I9P9W9f9o9y98+H+S+d+o+z++/I/R/a/j/q/w/2/6/9////AA#22#/////+/8/6/3/z/v/q/l/f/Y/R/J/B+4+v+l+a+P+E949r9e9R9D818n8Y8J757p7Z7J646o6X6F50 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+39.608 0 5 15 0 100 100 0 69.45 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\lao_lao_lao.wav" "temp$$$.wav" F4 100 "B0Y0" 1489.26 650 147.856 -304.978 100 0 !110 6/6u6d6M575p5Y5G404j4R4O4Z4s5H5p6R697r8b9K92+e/B/d/x/9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+53.58 0 5 15 0 100 100 0 23.739 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\chang_chang_chang.wav" "temp$$$.wav" F4 100 "B0Y0" 1481.168 600 226.104 -390.271 100 0 !110 8y#39#8083889C9K9T9d9o9z9/+M+Z+m+y++/K/V/f/n/v/1/6/9//AA#27#///7/x/h/M 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-.313 0 5 15 0 100 100 0 13.41 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shen_shen_shen.wav" "temp$$$.wav" D#4 100 "B0Y0" 1416.738 650 225.552 -349.227 100 0 !110 DI#2#DHDBC1CjCNByBUAzAQ/t/K+p+K9v9Y9G858z8y8z8184889B9H9O9V9d9m9w96+E+O+Z+j+u+4/C/L/U/c/k/r/w/1/6/9//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+70.506 0 5 15 0 100 100 0 36.823 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\me_me_me.wav" "temp$$$.wav" C#4 100 "B0Y0" 1337.418 350 256.642 -453.885 100 0 !110 DI#16#DHDGDDC/C6C0CtClCcCSCHB8BxBmBaBPBEA5AvAmAdAVAPAJAFACAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+6.611 0 5 15 0 100 100 0 33.049 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\sui_sui_sui.wav" "temp$$$.wav" C#4 100 "B0Y0" 1391.4 700 257.053 -382.277 100 0 !110 AA#21#///+/9/9/8/7/7/8/8/9//ABADAFAHAJALAM#2#ALAJAGAD///7/3/z/w/u/s/s/t/v/y/2/7ABAGAMASAWAaAcAcAbAYAUAOAIAA/5/z/t/o/k/i/i/k/n/r/x/3/+AFAMASAXAbAdAeAdAaAWAQAKAD/8/1/v/p/l/l/n/q/u/z/3/7// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+82.623 0 5 15 0 100 100 0 31.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\bian_bian_bian.wav" "temp$$$.wav" D#4 100 "B0Y0" 1409.055 450 241.264 -389.988 100 0 !110 8q8u8z82848686858484868+9D9J9R9a9k9u96+G+T+f+s+4/E/P/Z/j/r/y/4/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 300@110+41.862 0 5 15 0 100 100 0 14.321 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ou.wav" "temp$$$.wav" F4 100 "B0Y0" 456.32 650 87.012 -296.816 100 0 !110 7r7m7h7d7Z7V7S7P7M7K7J7I7H7H7U7i7w7/8N8b8p829E9R9d9q92+C+N+Y+j+t+2+//I/Q/X/e/k/q/v/z/3/6/8/+////AA#51#/8/w/d 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+32.537 0 5 15 0 100 100 0 69.449 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\fa_fa_fa.wav" "temp$$$.wav" F4 100 "B0Y0" 1502.317 600 195.671 -477.765 100 0 !110 AA///4/o/T+4+b9/9l9Q9C889F9R9c9o9z9++J+U+e+o+y+7/E/M/U/b/h/n/t/x/1/5/7/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-19.204 0 5 15 0 100 100 0 17.804 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shen_shen_shen.wav" "temp$$$.wav" F4 100 "B0Y0" 1547.595 700 215.238 -353.667 100 0 !110 AA#8#/8/q/K+h929P8y8k#2#8m8o8r8u8y82879A9F9L9R9Z9k9v95+E+O+Y+i+s+1++/G/O/V/c/j/o/u/y/2/5/8/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+96.868 0 5 15 0 100 100 0 22.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\fan_fan_fan.wav" "temp$$$.wav" F4 100 "B0Y0" 1555.505 650 200.292 -350.319 100 0 !110 84#35#86899B9G9N9U9b9k9t93+B+M+W+h+r+2/A/K/T/c/j/q/x/2/6/9//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+31.885 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\gu_gu_gu.wav" "temp$$$.wav" D#4 100 "B0Y0" 900.059 300 186.181 -366.71 100 0 !110 DI#2#DHDFC/C1CoCYCGByBeBLA4AnAYANAEAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-30.333 0 5 15 0 100 100 0 11.016 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jiu_jiu_jiu.wav" "temp$$$.wav" D#4 100 "B0Y0" 1311.314 350 273.978 -394.06 100 0 !110 AA#29#/////9/7/5/2/z/v/q/l/g/a/U/N/G+++2+u+l+c+T+J9/ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+22.798 0 5 15 0 100 100 0 17.803 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shi_shi_shi.wav" "temp$$$.wav" D#4 100 "B0Y0" 865.907 400 263.297 -425.241 100 0 !110 +7+z+r+i+Z+Q+G989y9n9d9S9H888x8m8g889z+z/n//AA#11#///+/7/3/z/t/n/g/Y/Q/H+9+z+p+f+V+L+B939u9l9c9V9O9I9D8+8785 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+79.885 0 5 15 0 100 100 0 37.456 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\liu_liu_liu.wav" "temp$$$.wav" C#4 100 "B0Y0" 1335.238 600 235.755 -361.345 100 0 !110 AVAPAKAGADABAA#6#/////+/9/8#4#/9//AAACAEAHAJAKALAMAMALAJAHAEAA/8/4/1/x/v/t/s/t/v/x/1/6//AFAKAQAUAYAaAbAbAZAVAQAKAD/7/1/u/p/l/j/i/j/m/q/v/1/8ADAKARAWAaAdAeAdAbAXASAMAF/+/3/x/u/r 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-12.117 0 5 15 0 100 100 0 27.005 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\xing_xing_xing.wav" "temp$$$.wav" D#4 100 "B0Y0" 851.585 700 253.382 -366.853 100 0 !110 9J9D88818u8p8l8j8j8k8m8p8t8w80879F9S9h9x+E+X+r+//R/h/u/3/9/////+/9/9/8/7#2#/8/9//ABADAFAIAKAMAN#2#AMAKAHAD///7/3/z/v/t/r/q/r/t/w/1/6AAAGAMASAXAbAeAeAcAZAVAPAJAC/6/0/t/o/l/k/l/n/q/u/z/5/+ADAHALANAP#2#ANALAJAGAEAB///+/9/8/8/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+95.737 0 5 15.1 0 100 100 100 37.456 15.128 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\dang_dang_dang.wav" "temp$$$.wav" F4 100 "B0Y0" 1512.775 500 132.611 -266.418 100 0 !110 8181849A9H9N9U9a9g9n9t9z959/+F+L+R+X+c+i+n+t+y+3+8/B/F/K/O/S/W/a/e/h/l/o/r/t/w/y/1/3/4/6/7/9/+/+//#2# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110-31.626 15.1 5 0 100 100 100 100 8.704 43.059 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\si_si_si.wav" "temp$$$.wav" F4 100 "B0Y0" 1576.495 150 229.739 -462.501 100 0 !110 AA#17#///8/0/o/Z 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+54.692 43.1 0 16.9 100 100 100 100 34.026 18.14532 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\ru_ru_ru.wav" "temp$$$.wav" D#4 100 "B0Y0" 1402.44 250 206.01 -377.87 100 0 !110 DI#2#DHDFC+CzCkCTB/BqBVBAAtAdAPAGABAA#3#ADAMAUAdAmAuA3A/BIBQBYBgBnBvB2B9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 20.382 120@110+52.326 18.1 5 40 100 100 100 100 18.23507 100 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ai.wav" "temp$$$.wav" F4 100 "B0Y0" 441.453 550 87.013 -421.976 100 0 !110 84#2#889F9O9X9f9o9w95+B+J+R+Z+g+o+v+2+9/D/J/P/V/a/f/k/o/s/w/z/2/4/6/8/+//#2#AA#40#///2/l/M+v+P9x 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 360@110+75.844 100 5 18.9 100 100 100 100 100 18.911 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\nao_nao_nao.wav" "temp$$$.wav" F4 100 "B0Y0" 1529.78 650 152.011 -302.038 100 0 !110 /p/S+1+W939c9H87859B9J9R9Z9h9p9w949/+H+O+V+c+j+q+w+3+9/D/I/O/T/Y/c/h/l/p/s/w/z/1/4/6/7/9/+//#2# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+43.543 18.9 5 15 100 100 100 0 19.387 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\zuo_zuo_zuo.wav" "temp$$$.wav" F4 100 "B0Y0" 1567.771 600 315.305 -523.45 100 0 !110 84#9#86899B9G9M9S9a9i9r909++I+T+d+o+y+8/G/P/Y/g/n/t/z/3/7/+//AA//#2#AAACAEAGAIAKAMANANAMAKAHAE///6/1/w/s/o/m/l/l/o/s/y/5AAAHAOAUAYAcAeAeAcAZAVAPAIAA/1/o/b/L+8+t+c+N9+9x9l9Y9L8+ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-5.649 0 5 15 0 100 100 0 11.869 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\tian_tian_tian.wav" "temp$$$.wav" D#4 100 "B0Y0" 1390.321 300 293.042 -443.97 100 0 !110 AaAOAA/z/l/Y/L+/+1+s+m+i+h+i+m+r+y+6/C/L/U/d/m/t/0/5/9// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-7.199 0 5 15 0 100 100 0 7.711 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\jiu_jiu_jiu.wav" "temp$$$.wav" D#4 100 "B0Y0" 1311.314 350 273.978 -394.06 100 0 !110 AA#28#/////+/9/7/5/2/z/w/s/o/j/f/Z/U/N/H/A+5+y+r+j+b+T 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+22.798 0 5 15 0 100 100 0 17.803 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\D4\shi_shi_shi.wav" "temp$$$.wav" C#4 100 "B0Y0" 865.907 400 263.297 -425.241 100 0 !110 CNCGB/B4BwBoBgBYBPBHA+A1AsAjAZAQAHAA#44#AFAaA9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+85.853 0 5 15 0 100 100 0 37.456 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ming_ming_ming.wav" "temp$$$.wav" G#4 100 "B0Y0" 1581.448 600 184.796 -402.69 100 0 !110 1E1E1L1i2H243x4w5v6s7h8N8s878+#13#8/9D9J9R9a9m9z+A+P+e+t+7/J/W/i/s/0/6//ABADAFAHAIAJAKAJAIAGAD///6/1/x/t/p/n/m/n/p/t/z/6ABAIAPAUAZAcAeAeAcAZAUAOAHAA/5/y/t/q/p/p/q/t/x/1/5 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-9.967 0 5 15 0 100 100 0 16.222 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\tian_tian_tian.wav" "temp$$$.wav" A#4 100 "B0Y0" 1626.34 650 216.82 -385.371 100 0 !110 8p8t8x808486878887868584#4#85889A9F9L9T9b9k9u94+D+O+a+l+w+7/G/Q/Z/i/p/w/2/6/9//AA#39#/+/5/w/j/T+/+o+P9z9W838Y747Y646a5+5j5L414j4U 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+38.584 0 5 15 0 100 100 0 5.934 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\di_di_di.wav" "temp$$$.wav" G#4 100 "B0Y0" 988.048 500 170.818 -439.395 100 0 !110 787q7b7R7K7H7U7l728H8Y8p859J9Z9o92+F+S+f+r+3/B/L/V/d/l/r/x/2/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110-24.896 0 5 15 0 100 100 0 8.704 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\si_si_si.wav" "temp$$$.wav" G#4 100 "B0Y0" 1576.495 150 229.739 -462.501 100 0 !110 AA#19#///4/r 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+54.692 0 5 35 0 100 100 0 34.026 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\kou_kou_kou.wav" "temp$$$.wav" A#4 100 "B0Y0" 880.341 650 168.55 -282.104 100 0 !110 8484818t8e8M757o7a7S7V7i7v788J8W8i8v879H9T9f9q91+A+K+U+e+n+w+5/B/J/Q/X/d/j/o/t/x/1/4/7/9/+////AA#52#///t/D+N 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 13.879 480@110+23.228 0 5 15 0 100 100 0 4.962461 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\bao_bao_bao.wav" "temp$$$.wav" A#4 100 "B0Y0" 1505.482 600 138.733 -325.253 100 0 !110 /l+39/9O8w8w899K9X9k9x99+J+V+g+r+1+//I/R/Z/g/m/s/x/2/5/8/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+22.155 0 5 15 0 100 100 0 6.33 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\wen_wen_wen.wav" "temp$$$.wav" A#4 100 "B0Y0" 1586.367 600 127.718 -221.173 100 0 !110 84#31#86889A9E9J9P9V9c9k9s919++H+Q+a+j+t+2+//I/Q/Y/f/m/s/x/2/5/8/+//AA#29#///+/8/4/z/s 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+9.906 0 5 15 0 100 100 0 20.178 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\nuan_nuan_nuan.wav" "temp$$$.wav" G#4 100 "B0Y0" 1563.827 300 216.381 -344.106 100 0 !110 DGDEDAC6C0CsCjCZCOCCB2BqBeBSBGA6AvAlAcAUANAIADABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-16.642 0 5 15 0 100 100 0 20.178 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\zhe_zhe_zhe.wav" "temp$$$.wav" G#4 100 "B0Y0" 981.234 350 229.793 -401.344 100 0 !110 AA#6#///2/i/G+l+E9n9R9G9F9G9J9N9S9Y9g9o9x97+G+Q+c+n+y+9/H/R/b/j/r/x/3/7/+// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+42.827 0 5 15 0 100 100 0 10.287 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ge_ge_ge.wav" "temp$$$.wav" F4 100 "B0Y0" 1644.358 350 311.397 -489.132 100 0 !110 Es#2#EpEgESD/DoDNCwCSB0BYA+AnAVAIABAA#27#ACAVA2BjCYDQ 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+13.013 0 5 15 0 100 100 0 7.517 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ye_ye_ye.wav" "temp$$$.wav" A#4 100 "B0Y0" 1601.816 600 232.425 -453.443 100 0 !110 4M4U4s5T6E677y8l9O9q92929z9v9p9i9b9T9M9G9C8/8/9B9I9S9g9v+B+V+o+7/N/d/r/1/8//AA#8#///9/6/1/v/o/f/W/M/B+2+q+e+S+G979w9l9c9T9L9F8/878584#28# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+22.509 0 5 15 0 100 100 0 27.3 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\wan_wan_wan.wav" "temp$$$.wav" G#4 100 "B0Y0" 1588.758 400 147.763 -304.884 100 0 !110 AA#11#///+/8/7/5/3/3/2/3/4/7/+ACAHALAQAUAXAZAaAZAWASALAF/9/2/w/q/m/j/i/j/l/o/t/z/6ABAIAPAUAUARAMAHABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+58.555 0 5 15 0 100 100 0 20.969 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\xing_xing_xing.wav" "temp$$$.wav" A#4 100 "B0Y0" 1640.96 650 195.87 -371.259 100 0 !110 8n8k8h8e8b8Y8V8T8R8P8O8N8N8O8Z8j8t839B9L9V9f9p9y97+E+N+W+e+m+u+2+9/E/K/R/X/c/h/m/q/u/y/1/4/6/8/+////AA#44#///7/y/n/Y/H+0+g+M959n9X9K9A8684 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+77.964 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\e.wav" "temp$$$.wav" A#4 100 "B0Y0" 495.517 650 87.013 -540.241 100 0 !110 /v/i/T/B+u+a+G9z9h9S9G89858484878+9D9I9P9W9f9o9y98+H+S+d+o+z++/I/R/a/j/q/w/2/6/9////AA#22#/////+/8/6/3/z/v/q/l/f/Y/R/J/B+4+v+l+a+P+E949r9e9R9D818n8Y8J757p7Z7J646o6X6F50 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+39.608 0 5 15 0 100 100 0 69.45 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\lao_lao_lao.wav" "temp$$$.wav" A#4 100 "B0Y0" 1489.26 650 147.856 -304.978 100 0 !110 6/6u6d6M575p5Y5G404j4R4O4Z4s5H5p6R697r8b9K92+e/B/d/x/9 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+53.58 0 5 15 0 100 100 0 23.739 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\chang_chang_chang.wav" "temp$$$.wav" A#4 100 "B0Y0" 1481.168 600 226.104 -390.271 100 0 !110 8y#39#8083889C9K9T9d9o9z9/+M+Z+m+y++/K/V/f/n/v/1/6/9//AA#27#///7/x/h/M+z+V 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+11.228 0 5 15 0 100 100 0 13.41 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shen_shen_shen.wav" "temp$$$.wav" G#4 100 "B0Y0" 1547.595 650 215.238 -353.667 100 0 !110 C8CtCZCBBkBFAjAA/d+7+a999k9P8/818y8y8z82858+9D9K9R9Z9h9r909++J+T+e+o+y+8/G/P/Y/g/n/t/z/3/7/+//AAABACAEAFAHAJAJAKAJAHAFAC/+/5/1/w/s/p/n/m/o/q/v/1/8ADAKAQAWAaAdAeAdAbAYASAMAG/+/3/x/r/n/k/i/i/k/o/t/y/5AAAHAOATAWAWAVASAP 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+60.013 0 5 15 0 100 100 0 22.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\me_me_me.wav" "temp$$$.wav" F4 100 "B0Y0" 1641.926 300 243.043 -466.056 100 0 !110 FCFCFBE+E7E2EyEuEpElEiEeEaEVEQEKEDD8D0DsDjDaDQDGC8CxCmCaCOCCB1BpBcBOBBA0AmAYAL 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-13.873 0 5 15 0 100 100 0 18.991 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\sui_sui_sui.wav" "temp$$$.wav" F4 100 "B0Y0" 1576.877 650 273.683 -393.3 100 0 !110 AA#18#/////+/9/9/8#3#/9/+AAACAEAGAIAJAL#3#AJAHAEAB/+/6/2/z/w/u/t/t/v/x/0/4/9ADAIANASAWAZAaAaAYAVARALAF/+/3/w/r/m/j/i/i/l/o/t/z/6ABAIAPAUAZAcAeAeAcAZAUAOAHAA/6/1/y/v#2#/w/z/1/4/7/+AAAB 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+76.841 0 5 15 0 100 100 0 26.904 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\bian_bian_bian.wav" "temp$$$.wav" G#4 100 "B0Y0" 1035.535 400 196.365 -363.287 100 0 !110 7S7T7V#2#7U7W7m718E8T8i8x8/9N9b9p92+C+P+a+m+w+6/E/N/V/c/j/p/v/z/3/7/9//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 300@110+28.09 0 5 15 0 100 100 0 8.308 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ou.wav" "temp$$$.wav" A#4 100 "B0Y0" 456.32 650 87.012 -296.816 100 0 !110 7r7m7h7d7Z7V7S7P7M7K7J7I7H7H7U7i7w7/8N8b8p829E9R9d9q92+C+N+Y+j+t+2+//I/Q/X/e/k/q/v/z/3/6/8/+////AA#51#/8/w/d 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+32.537 0 5 15 0 100 100 0 69.449 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\fa_fa_fa.wav" "temp$$$.wav" A#4 100 "B0Y0" 1502.317 600 195.671 -477.765 100 0 !110 AA///4/o/T+4+b9/9l9Q9C889F9R9c9o9z9++J+U+e+o+y+7/E/M/U/b/h/n/t/x/1/5/7/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-19.204 0 5 15 0 100 100 0 17.804 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shen_shen_shen.wav" "temp$$$.wav" A#4 100 "B0Y0" 1547.595 700 215.238 -353.667 100 0 !110 AA#8#/8/q/K+h929P8y8k#2#8m8o8r8u8y82879A9F9L9R9Z9k9v95+E+O+Y+i+s+1++/G/O/V/c/j/o/u/y/2/5/8/+//#1# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+96.868 0 5 15 0 100 100 0 22.948 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\fan_fan_fan.wav" "temp$$$.wav" A#4 100 "B0Y0" 1555.505 650 200.292 -350.319 100 0 !110 84#35#86899B9G9N9U9b9k9t93+B+M+W+h+r+2/A/K/T/c/j/q/x/2/6/9////ABAEAJAOAUAZAdAcAZAUAOAIAA/5/z/t/o/k/i/i/k/n/r/x/3/+AFAMASAXAbAdAeAdAaAUANAHAC/9/2 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+42.32 0 5 15 0 100 100 0 25.322 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\gu_gu_gu.wav" "temp$$$.wav" G#4 100 "B0Y0" 1641.37 300 178.49 -417.335 100 0 !110 DLDFDAC2CrCfCRCABsBYBFAyAiAUAKADAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-39.012 0 5 15 0 100 100 0 8.308 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\jiu_jiu_jiu.wav" "temp$$$.wav" G#4 100 "B0Y0" 998.74 350 252.826 -378.728 100 0 !110 AA#27#/////9/7/4/1/x/t/n/i/b/U/N/F+8+z+q+g+V+K9/9z9n9b9P9C81 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+33.024 0 5 15 0 100 100 0 12.265 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shi_shi_shi.wav" "temp$$$.wav" G#4 100 "B0Y0" 1514.353 350 223.25 -549.272 100 0 !110 9z9n9a9O9B808n8Z8M7+7w7i7f8j+S/rAA#14#///+/6/0/t/k/Z/N/A+x+i+R+B9w9f9O898t8e8Q8D737t7k7d7Y7V 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+48.71 0 5 15 0 100 100 0 26.509 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\liu_liu_liu.wav" "temp$$$.wav" F4 100 "B0Y0" 1579.259 600 208.907 -360.049 100 0 !110 AUAMAGACAA#6#/////+/9/8/8/7/7/8/9/+AAACAEAGAIAKALAMAMALAKAHAEAB/9/5/1/y/v/t/s/s/u/w/0/5/+AEAKAPAUAYAbAcAcAaAWARALAE/9/2/v/q/m/j/i/j/l/p/u/0/7ACAJAQAVAaAdAeAeAcAYATAMAG///6/1/y/w#2#/y/0 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-2.438 0 5 15 0 100 100 0 16.617 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\xing_xing_xing.wav" "temp$$$.wav" G#4 100 "B0Y0" 1640.96 650 195.87 -371.259 100 0 !110 7G7E#2#7G7I7K7N7Q7W7j708J8h889Z93+V+x/K/f/v/6// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+63.536 0 5 15.1 0 100 100 100 25.322 15.128 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\dang_dang_dang.wav" "temp$$$.wav" A#4 100 "B0Y0" 1512.775 500 132.611 -266.418 100 0 !110 8484869B9H9N9U9a9g9n9t9z959/+F+L+R+X+c+i+n+t+y+3+8/B/F/K/O/S/W/a/e/h/l/o/r/t/w/y/1/3/4/6/7/9/+/+//#2# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 420@110-31.626 15.1 5 0 100 100 100 100 8.704 43.059 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\si_si_si.wav" "temp$$$.wav" A#4 100 "B0Y0" 1576.495 150 229.739 -462.501 100 0 !110 AA#17#///8/0/o/Z 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 60@110+55.153 43.1 0 16.9 100 100 100 100 34.026 18.14532 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ru_ru_ru.wav" "temp$$$.wav" G#4 100 "B0Y0" 1633.458 250 192.389 -387.374 100 0 !110 DGDAC2CoCYCEBwBbBGAyAhATAIACAA#3#ABAJASAbAkAsA1A9BFBOBWBeBlBtB0B7 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 120@110+51.434 18.1 5 40 100 100 100 100 17.804 100 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ai.wav" "temp$$$.wav" A#4 100 "B0Y0" 441.453 550 87.013 -421.976 100 0 !110 84#2#889F9O9X9f9o9w95+B+J+R+Z+g+o+v+2+9/D/J/P/V/a/f/k/o/s/w/z/2/4/6/8/+//#2#AA#40#///2/l/M+v+P9x 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 360@110+75.844 100 5 18.9 100 100 100 100 100 18.911 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\nao_nao_nao.wav" "temp$$$.wav" A#4 100 "B0Y0" 1529.78 650 152.011 -302.038 100 0 !110 /p/S+1+W939c9H87859B9J9R9Z9h9p9w949/+H+O+V+c+j+q+w+3+9/D/I/O/T/Y/c/h/l/p/s/w/z/1/4/6/7/9/+//#2# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+43.543 18.9 5 15 100 100 100 0 19.387 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\zuo_zuo_zuo.wav" "temp$$$.wav" A#4 100 "B0Y0" 1567.771 600 315.305 -523.45 100 0 !110 84#34#85899D9K9T9e9p92+E+R+g+u+7/J/V/g/p/x/4/8//AEANATAYAcAeAeAcAZAVAPAJAC/7/0/u/p/l/j/i/j/m/q/w/2/9AEALARAXAbAdAeAdAbAWAPAG/9/z/p/d/S 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+6.644 0 5 15 0 100 100 0 11.869 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\tian_tian_tian.wav" "temp$$$.wav" G#4 100 "B0Y0" 1626.34 300 216.82 -385.371 100 0 !110 CxClCbCQCGB8ByBnBdBSBIA8AwAmAcAUANAHADABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110-16.805 0 5 15 0 100 100 0 5.934 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\jiu_jiu_jiu.wav" "temp$$$.wav" G#4 100 "B0Y0" 998.74 350 252.826 -378.728 100 0 !110 AA#27#///+/7/2/v/n/d/S/F+3+n+W+E9x9d9I8z8d8H7w7Z7U#5# 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+33.024 0 5 15 0 100 100 0 12.265 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\shi_shi_shi.wav" "temp$$$.wav" F4 100 "B0Y0" 1514.353 400 223.25 -549.272 100 0 !110 AA#49#ADATAtBQB4CkDODzES 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 240@110+54.678 0 5 15 0 100 100 0 26.509 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\ming_ming_ming.wav" "temp$$$.wav" A#4 100 "B0Y0" 1581.448 600 184.796 -402.69 100 0 !110 6h7M708V8t8688#3#87#4#899C9J9U9h9v9/+Q+i+z/E/T/h/s/1/8// 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110-9.967 0 5 15 0 100 100 0 16.222 
+"G:\UtauLoader\utau\bin\Debug\resampler.exe" "D:\VocalUtau\VocalUtau\bin\Debug\voicedb\YongQi_CVVChinese_Version2\F4\tian_tian_tian.wav" "temp$$$.wav" A#4 100 "B0Y0" 1626.34 650 216.82 -385.371 100 0 !110 AA#12#///+/9/8/7/6#2#/7/8/+ABAEAGAJAMAOAPAQAQAOAMAIAE///6/1/w/s/o/m#2#/p/t/y/5AAAHAPAWAcAhAkAlAkAgAbAUAMAC/4/u/l/d/W/S/R/S/W/c/l/w/7AHATAdAmAtAxAyAxAsAmAdASAH/7/v/n/h/e/d/f/j/o/u/0/5/+ABACACABAA 
+"G:\UtauLoader\utau\bin\Debug\wavtool.exe" "temp.wav" "temp$$$.wav" 0 480@110+59.741 0 5 15 0 100 100 0 5.934 
