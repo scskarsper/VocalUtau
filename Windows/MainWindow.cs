@@ -29,6 +29,7 @@ namespace VocalUtau.Windows
             sw.ShowOnDock(this.MainDock);
             aw.ShowOnDock(this.MainDock);
             tw.ShowOnDock(this.MainDock);
+            
             UndoAbility = new UndoAbility(ref sw, ref aw, ref tw);
             UndoAbility.UndoWorked += UndoAbility_UndoWorked;
             Controller = new MainFormWorker(ref sw, ref aw, ref tw, ref UndoAbility);
@@ -130,7 +131,7 @@ namespace VocalUtau.Windows
                     Application.Exit();
                 }
             }));
-            SplashWork.Start(new object[] {this,sf });
+            SplashWork.Start(new object[] { this, sf });
         }
 
         private void toolBtn_Undo_Click(object sender, EventArgs e)
@@ -314,6 +315,81 @@ namespace VocalUtau.Windows
         private void toolBtn_Play_Click(object sender, EventArgs e)
         {
             Controller.PlayingWorker.Play();
+        }
+
+        private void trackToolStripMenuItem_DropDownOpening(object sender, EventArgs e)
+        {
+            VocalUtau.DirectUI.Utils.TrackerUtils.TrackerView.PartLocation pl = tw.BaseController.Track_View.getSelectingParts();
+            if (pl == null)
+            {
+                track_DelectParts.Enabled = false;
+                track_DelTracks.Enabled = false;
+                track_AddParts.Enabled = false;
+                track_ImportAsPart.Enabled = false;
+            }
+            else
+            {
+                track_DelectParts.Enabled = true;
+                track_DelTracks.Enabled = true;
+                track_AddParts.Enabled = true;
+                track_ImportAsPart.Enabled = pl.TrackLocation.Type == VocalUtau.DirectUI.Utils.TrackerUtils.TrackerView.TrackLocation.TrackType.Barker;
+            }
+        }
+
+        private void track_AddNewBackerTrack_Click(object sender, EventArgs e)
+        {
+            tw.BaseController.AddNewTrack(true);
+        }
+
+        private void track_AddNewTrack_Click(object sender, EventArgs e)
+        {
+            tw.BaseController.AddNewTrack(false);
+        }
+
+        private void track_AddParts_Click(object sender, EventArgs e)
+        {
+            tw.BaseController.AddNewPart();
+        }
+
+        private void track_DelTracks_Click(object sender, EventArgs e)
+        {
+            tw.BaseController.DeleteTrack();
+        }
+
+        private void track_DelectParts_Click(object sender, EventArgs e)
+        {
+            tw.BaseController.DeletePart();
+        }
+
+        private void track_ImportAsTrack_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Wav音频文件|*.wav|所有文件|*.*";
+            ofd.CheckFileExists = true;
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                tw.BaseController.ImportAsTrack(ofd.FileName);
+            }
+        }
+
+        private void track_ImportAsPart_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Wav音频文件|*.wav|所有文件|*.*";
+            ofd.CheckFileExists = true;
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                tw.BaseController.ImportAsPart(ofd.FileName);
+            }
+        }
+
+        private void item_TrackNormalize_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                tw.BaseController.NormalizeTracks();
+            }
+            catch { ;}
         }
         
 

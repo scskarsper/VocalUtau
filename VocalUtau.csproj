@@ -34,7 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>VocalUtau.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons\exeicons\icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +63,11 @@
     <Compile Include="ActionWorker\MainFormWorker.cs" />
     <Compile Include="ActionWorker\PlayingWorker.cs" />
     <Compile Include="ActionWorker\SystemSingerWorker.cs" />
+    <Compile Include="ExeIcon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExeIcon.resx</DependentUpon>
+    </Compile>
     <Compile Include="ObjectUtils\FileOpenHelper.cs" />
     <Compile Include="ObjectUtils\UndoAbility.cs" />
     <Compile Include="ToolIcon.Designer.cs">
@@ -93,6 +101,10 @@
     <Compile Include="Windows\SplashForm.Designer.cs">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ExeIcon.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExeIcon.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="ToolIcon.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ToolIcon.Designer.cs</LastGenOutput>
@@ -242,6 +254,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="icons\Volet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\exeicons\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\exeicons\icon-nop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\exeicons\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\exeicons\icon-nop.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -37,7 +37,20 @@ namespace VocalUtau.ObjectUtils
             tw.BaseController.TrackerActionBegin += Track_View_TrackerActionBegin;
             tw.BaseController.TrackerActionEnd += Track_View_TrackerActionEnd;
 
+            tw.BaseController.BeforeTrackNormalize += Track_View_BeforeTrackNormalize;
+            tw.BaseController.AfterTrackNormalize += BaseController_AfterTrackNormalize;
+
             aw.AttributeChange += aw_AttributeChange;
+        }
+
+        void BaseController_AfterTrackNormalize()
+        {
+            AddUndoPoint("工程标准化"); 
+        }
+
+        void Track_View_BeforeTrackNormalize()
+        {
+            RegisterPoint();
         }
 
         void Track_View_TrackerActionEnd(DirectUI.Utils.TrackerUtils.TrackerView.PartsDragingType eventType)

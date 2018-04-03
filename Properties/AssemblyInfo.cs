@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("VocalUtau")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Chorista Violet")]
+[assembly: AssemblyDescription("A Utau Frontend")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VocalUtau")]
+[assembly: AssemblyCompany("Balthasar")]
+[assembly: AssemblyProduct("Chorista Violet")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

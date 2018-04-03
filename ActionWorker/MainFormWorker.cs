@@ -40,12 +40,19 @@ namespace VocalUtau.ActionWorker
             tw.SelectingPartChanged += tw_SelectingPartChanged;
             tw.SelectingWavePartChanged += tw_SelectingWavePartChanged;
             tw.TotalTimePosChange += tw_TotalTimePosChange;
+            tw.AfterTrackNormalize += tw_AfterTrackNormalize;
             sw.TotalTimePosChange += sw_TotalTimePosChange;
             sw.FormClosing += child_FormClosing;
             tw.FormClosing += child_FormClosing;
             aw.FormClosing += child_FormClosing;
             sw.BaseController.NoteActionEnd += BaseController_NoteActionEnd;
             //sw.BaseController.
+        }
+
+        void tw_AfterTrackNormalize()
+        {
+            tw.GuiRefresh();
+            sw.GuiRefresh();
         }
 
         void tw_SelectingWavePartChanged(WavePartsObject PartObject)

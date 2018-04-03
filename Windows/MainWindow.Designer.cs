@@ -52,6 +52,16 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.menuItem_EditProjectInformation = new System.Windows.Forms.ToolStripMenuItem();
             this.trackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.track_AddNewTrack = new System.Windows.Forms.ToolStripMenuItem();
+            this.track_AddNewBackerTrack = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.track_AddParts = new System.Windows.Forms.ToolStripMenuItem();
+            this.track_ImportWav = new System.Windows.Forms.ToolStripMenuItem();
+            this.track_ImportAsTrack = new System.Windows.Forms.ToolStripMenuItem();
+            this.track_ImportAsPart = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.track_DelTracks = new System.Windows.Forms.ToolStripMenuItem();
+            this.track_DelectParts = new System.Windows.Forms.ToolStripMenuItem();
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_AboutProgram = new System.Windows.Forms.ToolStripMenuItem();
@@ -83,6 +93,8 @@
             this.toolBtn_G_R = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_G_S = new System.Windows.Forms.ToolStripButton();
             this.toolBtn_G_Earse = new System.Windows.Forms.ToolStripButton();
+            this.item_TrackNormalize = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
             this.MenuStrip.SuspendLayout();
             this.ToolStripContainer.ContentPanel.SuspendLayout();
             this.ToolStripContainer.TopToolStripPanel.SuspendLayout();
@@ -99,7 +111,7 @@
             this.MainDock.DockTopPortion = 0.15D;
             this.MainDock.DocumentStyle = WeifenLuo.WinFormsUI.Docking.DocumentStyle.DockingWindow;
             this.MainDock.Location = new System.Drawing.Point(0, 0);
-            this.MainDock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MainDock.Margin = new System.Windows.Forms.Padding(4);
             this.MainDock.Name = "MainDock";
             this.MainDock.Size = new System.Drawing.Size(1341, 637);
             this.MainDock.TabIndex = 1;
@@ -270,9 +282,89 @@
             // 
             // trackToolStripMenuItem
             // 
+            this.trackToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.item_TrackNormalize,
+            this.toolStripSeparator14,
+            this.track_AddNewTrack,
+            this.track_AddNewBackerTrack,
+            this.toolStripSeparator12,
+            this.track_AddParts,
+            this.track_ImportWav,
+            this.toolStripSeparator13,
+            this.track_DelTracks,
+            this.track_DelectParts});
             this.trackToolStripMenuItem.Name = "trackToolStripMenuItem";
             this.trackToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
             this.trackToolStripMenuItem.Text = "轨道(&T)";
+            this.trackToolStripMenuItem.DropDownOpening += new System.EventHandler(this.trackToolStripMenuItem_DropDownOpening);
+            // 
+            // track_AddNewTrack
+            // 
+            this.track_AddNewTrack.Name = "track_AddNewTrack";
+            this.track_AddNewTrack.Size = new System.Drawing.Size(213, 24);
+            this.track_AddNewTrack.Text = "添加新声轨";
+            this.track_AddNewTrack.Click += new System.EventHandler(this.track_AddNewTrack_Click);
+            // 
+            // track_AddNewBackerTrack
+            // 
+            this.track_AddNewBackerTrack.Name = "track_AddNewBackerTrack";
+            this.track_AddNewBackerTrack.Size = new System.Drawing.Size(213, 24);
+            this.track_AddNewBackerTrack.Text = "添加新伴奏轨";
+            this.track_AddNewBackerTrack.Click += new System.EventHandler(this.track_AddNewBackerTrack_Click);
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            this.toolStripSeparator12.Size = new System.Drawing.Size(210, 6);
+            // 
+            // track_AddParts
+            // 
+            this.track_AddParts.Name = "track_AddParts";
+            this.track_AddParts.Size = new System.Drawing.Size(213, 24);
+            this.track_AddParts.Text = "在选中轨道添加区块";
+            this.track_AddParts.Click += new System.EventHandler(this.track_AddParts_Click);
+            // 
+            // track_ImportWav
+            // 
+            this.track_ImportWav.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.track_ImportAsTrack,
+            this.track_ImportAsPart});
+            this.track_ImportWav.Name = "track_ImportWav";
+            this.track_ImportWav.Size = new System.Drawing.Size(213, 24);
+            this.track_ImportWav.Text = "导入伴奏";
+            // 
+            // track_ImportAsTrack
+            // 
+            this.track_ImportAsTrack.Name = "track_ImportAsTrack";
+            this.track_ImportAsTrack.Size = new System.Drawing.Size(243, 24);
+            this.track_ImportAsTrack.Text = "导入为新的伴奏轨";
+            this.track_ImportAsTrack.Click += new System.EventHandler(this.track_ImportAsTrack_Click);
+            // 
+            // track_ImportAsPart
+            // 
+            this.track_ImportAsPart.Name = "track_ImportAsPart";
+            this.track_ImportAsPart.Size = new System.Drawing.Size(243, 24);
+            this.track_ImportAsPart.Text = "在当前轨道末尾导入伴奏";
+            this.track_ImportAsPart.Click += new System.EventHandler(this.track_ImportAsPart_Click);
+            // 
+            // toolStripSeparator13
+            // 
+            this.toolStripSeparator13.Name = "toolStripSeparator13";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(210, 6);
+            // 
+            // track_DelTracks
+            // 
+            this.track_DelTracks.Name = "track_DelTracks";
+            this.track_DelTracks.Size = new System.Drawing.Size(213, 24);
+            this.track_DelTracks.Text = "删除选中的轨道";
+            this.track_DelTracks.Click += new System.EventHandler(this.track_DelTracks_Click);
+            // 
+            // track_DelectParts
+            // 
+            this.track_DelectParts.Name = "track_DelectParts";
+            this.track_DelectParts.Size = new System.Drawing.Size(213, 24);
+            this.track_DelectParts.Text = "删除选中区块";
+            this.track_DelectParts.Click += new System.EventHandler(this.track_DelectParts_Click);
             // 
             // settingToolStripMenuItem
             // 
@@ -291,7 +383,7 @@
             // menuItem_AboutProgram
             // 
             this.menuItem_AboutProgram.Name = "menuItem_AboutProgram";
-            this.menuItem_AboutProgram.Size = new System.Drawing.Size(129, 24);
+            this.menuItem_AboutProgram.Size = new System.Drawing.Size(152, 24);
             this.menuItem_AboutProgram.Text = "关于(&A)";
             this.menuItem_AboutProgram.Click += new System.EventHandler(this.menuItem_AboutProgram_Click);
             // 
@@ -351,7 +443,7 @@
             this.toolBtn_G_Earse});
             this.ToolStrip_OpenAble.Location = new System.Drawing.Point(3, 0);
             this.ToolStrip_OpenAble.Name = "ToolStrip_OpenAble";
-            this.ToolStrip_OpenAble.Size = new System.Drawing.Size(719, 35);
+            this.ToolStrip_OpenAble.Size = new System.Drawing.Size(688, 35);
             this.ToolStrip_OpenAble.TabIndex = 2;
             this.ToolStrip_OpenAble.Text = "toolStrip1";
             // 
@@ -612,6 +704,18 @@
             this.toolBtn_G_Earse.Text = "擦除选中区域曲线";
             this.toolBtn_G_Earse.Click += new System.EventHandler(this.toolBtn_G_Earse_Click);
             // 
+            // item_TrackNormalize
+            // 
+            this.item_TrackNormalize.Name = "item_TrackNormalize";
+            this.item_TrackNormalize.Size = new System.Drawing.Size(213, 24);
+            this.item_TrackNormalize.Text = "项目标准化";
+            this.item_TrackNormalize.Click += new System.EventHandler(this.item_TrackNormalize_Click);
+            // 
+            // toolStripSeparator14
+            // 
+            this.toolStripSeparator14.Name = "toolStripSeparator14";
+            this.toolStripSeparator14.Size = new System.Drawing.Size(210, 6);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -619,8 +723,9 @@
             this.ClientSize = new System.Drawing.Size(1341, 700);
             this.Controls.Add(this.ToolStripContainer);
             this.Controls.Add(this.MenuStrip);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.MenuStrip;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainWindow";
             this.ShowInTaskbar = false;
             this.Text = "Chorista Violet";
@@ -696,6 +801,18 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
         private System.Windows.Forms.ToolStripMenuItem menuItem_AboutProgram;
+        private System.Windows.Forms.ToolStripMenuItem track_AddNewTrack;
+        private System.Windows.Forms.ToolStripMenuItem track_AddNewBackerTrack;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
+        private System.Windows.Forms.ToolStripMenuItem track_AddParts;
+        private System.Windows.Forms.ToolStripMenuItem track_ImportWav;
+        private System.Windows.Forms.ToolStripMenuItem track_ImportAsTrack;
+        private System.Windows.Forms.ToolStripMenuItem track_ImportAsPart;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
+        private System.Windows.Forms.ToolStripMenuItem track_DelTracks;
+        private System.Windows.Forms.ToolStripMenuItem track_DelectParts;
+        private System.Windows.Forms.ToolStripMenuItem item_TrackNormalize;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator14;
 
     }
 }
