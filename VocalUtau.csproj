@@ -37,7 +37,7 @@
     <StartupObject>VocalUtau.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icons\exeicons\icon.ico</ApplicationIcon>
+    <ApplicationIcon>icon_256.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -266,6 +266,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="icons\exeicons\icon-nop.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\exeicons\icon_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\exeicons\icon_256.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon_256.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
