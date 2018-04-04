@@ -387,6 +387,15 @@ namespace VocalUtau.Windows
         {
             try
             {
+                tw.BaseController.NormalizeTracksAndParts();
+            }
+            catch { ;}
+        }
+
+        private void item_TrackNormalizeOnly_Click(object sender, EventArgs e)
+        {
+            try
+            {
                 tw.BaseController.NormalizeTracks();
             }
             catch { ;}
