@@ -400,6 +400,16 @@ namespace VocalUtau.Windows
             }
             catch { ;}
         }
+
+        private void toolBtn_Stop_Click(object sender, EventArgs e)
+        {
+            Controller.PlayingWorker.Stop();
+        }
+
+        private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Controller.PlayingWorker.Stop();
+        }
         
 
     }

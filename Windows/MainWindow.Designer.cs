@@ -575,6 +575,7 @@
             this.toolBtn_Stop.Name = "toolBtn_Stop";
             this.toolBtn_Stop.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_Stop.Text = "停止";
+            this.toolBtn_Stop.Click += new System.EventHandler(this.toolBtn_Stop_Click);
             // 
             // toolStripSeparator2
             // 
@@ -748,6 +749,7 @@
             this.ShowInTaskbar = false;
             this.Text = "Chorista Violet";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.MenuStrip.ResumeLayout(false);
             this.MenuStrip.PerformLayout();

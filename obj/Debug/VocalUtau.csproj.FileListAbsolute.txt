@@ -34,3 +34,5 @@ D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.exe.config
 D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.Calculators.dll
 D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.Calculators.pdb
 D:\VocalUtau\VocalUtau\obj\Debug\VocalUtau.ExeIcon.resources
+D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.WavTools.dll
+D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.WavTools.pdb

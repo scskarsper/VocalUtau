@@ -47,6 +47,7 @@ namespace VocalUtau.ActionWorker
             aw.FormClosing += child_FormClosing;
             sw.BaseController.NoteActionEnd += BaseController_NoteActionEnd;
             //sw.BaseController.
+            PlayingWorker.SetDockPanel(aw.DockerPanel);
         }
 
         void tw_AfterTrackNormalize()
