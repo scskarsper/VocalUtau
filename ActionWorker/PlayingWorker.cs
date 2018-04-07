@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VocalUtau.DirectUI.Forms;
 using VocalUtau.DirectUI.Utils.SingerUtils;
 using VocalUtau.Formats.Model.VocalObject;
+using VocalUtau.Wavtools.Render;
 using WeifenLuo.WinFormsUI.Docking;
 
 namespace VocalUtau.ActionWorker
@@ -16,6 +19,10 @@ namespace VocalUtau.ActionWorker
         SingerDataFinder SingerDataFinder;
         PlayerWindow pw = new PlayerWindow();
         DockPanel PanelWin;
+        public PlayingWorker()
+        {
+            PipeServer.OnRecieve += PipeServer_OnRecieve;
+        }
         public void LoadProjectObject(ref ProjectObject projectObj)
         {
             projectObject = projectObj;
@@ -63,59 +70,87 @@ namespace VocalUtau.ActionWorker
             CreatePw();
         }
 
-        public void Play()
+        public void GenerateBinaryFile()
         {
-
+            string temp = System.Environment.GetEnvironmentVariable("TEMP");
+            DirectoryInfo info = new DirectoryInfo(temp);
+            DirectoryInfo baseDir = info.CreateSubdirectory("Chorista\\Instance." + System.Diagnostics.Process.GetCurrentProcess().Id.ToString());
             Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>> rst2 = new Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>>();
             for (int i = 0; i < projectObject.TrackerList.Count; i++)
             {
                 Calculators.VocalTrackCalculator tc = new Calculators.VocalTrackCalculator(SingerDataFinder);
                 rst2.Add(i, tc.CalcTracker(projectObject.TrackerList[i], projectObject.BaseTempo));
             }
-            using (System.IO.FileStream ms = new System.IO.FileStream(@"D:\\temp.binary",System.IO.FileMode.Create))
+            using (System.IO.FileStream ms = new System.IO.FileStream(baseDir.FullName + @"\\RendCmd.binary", System.IO.FileMode.Create))
             {
                 //序列化操作，把内存中的东西写到硬盘中
-                System.Runtime.Serialization.Formatters.Binary.BinaryFormatter fomatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter(null,new System.Runtime.Serialization.StreamingContext( System.Runtime.Serialization.StreamingContextStates.File));
-                fomatter.Serialize(ms, rst2[0]);
+                System.Runtime.Serialization.Formatters.Binary.BinaryFormatter fomatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter(null, new System.Runtime.Serialization.StreamingContext(System.Runtime.Serialization.StreamingContextStates.File));
+                fomatter.Serialize(ms, rst2);
                 ms.Flush();
             }
-            /*
-             导出到Binary供测试
-             */
-            /*
-             
-             * TODO：重构一下吧
-             
-             */
-
-            if (SingerDataFinder == null) return;
-            CreatwNewPw();
-            var TrackListPanel = Task.Factory.StartNew(() =>
+        }
+        int PlayProcessId = 0;
+        CommandPipe_Server PipeServer = new CommandPipe_Server(Process.GetCurrentProcess().Id);
+        public void Play()
+        {
+            if (PlayProcessId != 0)
             {
-                Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>> rst = new Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>>();
-                for (int i = 0; i < projectObject.TrackerList.Count; i++)
+                try
                 {
-                    Calculators.VocalTrackCalculator tc = new Calculators.VocalTrackCalculator(SingerDataFinder);
-                    rst.Add(i, tc.CalcTracker(projectObject.TrackerList[i], projectObject.BaseTempo));
+                    if (Process.GetProcessById(PlayProcessId).HasExited)
+                    {
+                        PlayProcessId = 0;
+                    }
+                    else
+                    {
+                        CommandPipe_Client client = new CommandPipe_Client(PlayProcessId);
+                        client.SendData("Cmd:Play");
+                        return;
+                    }
                 }
-                return rst;
-            })
-            .ContinueWith<Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>>>(r =>
-            {
-                  return r.Result;
-            });
-            Task.WaitAll(new Task[] { TrackListPanel });
-            foreach(KeyValuePair<int, List<Calculators.NoteListCalculator.NotePreRender>> kv in TrackListPanel.Result)
-            {
-                pw.AddPlayTrack(kv.Key, kv.Value);
+                catch { PlayProcessId = 0; }
             }
-            pw.ListenAll();
-            pw.RunAll();
+            if (SingerDataFinder == null) return;
+            GenerateBinaryFile();
+            string[] args = new string[] {
+                Process.GetCurrentProcess().Id.ToString()
+            };
+            
+            ProcessStartInfo psi = new ProcessStartInfo(AppDomain.CurrentDomain.BaseDirectory+"\\VocalUtau.Wavtools.Render.exe",String.Join(" ",args));
+
+            if (PlayProcessId != 0)
+            {
+                Process.GetProcessById(PlayProcessId).Kill();
+                PlayProcessId = 0;
+            }
+            Process p = new Process();
+            p.StartInfo = psi;
+            p.Start();
+            PlayProcessId = p.Id;
         }
 
         public void Stop()
         {
-            DisposePw();
+            if (PlayProcessId != 0)
+            {
+                Process.GetProcessById(PlayProcessId).Kill();
+                PlayProcessId = 0;
+            }
+        }
+
+        public void Pause()
+        {
+            if (PlayProcessId != 0)
+            {
+                CommandPipe_Client client = new CommandPipe_Client(PlayProcessId);
+                client.SendData("Cmd:Pause");
+                Console.WriteLine("ClientCmd:Pause_" + PlayProcessId.ToString());
+            }
+        }
+
+        void PipeServer_OnRecieve(string data)
+        {
+            Console.WriteLine(data);
         }
     }
 }

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocalUtau.Calculators", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocalUtau.WavTools", "..\IncludeLib\VocalUtau.WavTools\VocalUtau.WavTools.csproj", "{B7EE4878-4670-49B5-A94A-8C0DFDA02B6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocalUtau.Wavtools.Render", "..\IncludeLib\VocalUtau.WavTools\VocalUtau.Wavtools.Render\VocalUtau.Wavtools.Render.csproj", "{5CF6DF17-5CE2-40E0-98A2-D70E8E89F7F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{B7EE4878-4670-49B5-A94A-8C0DFDA02B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7EE4878-4670-49B5-A94A-8C0DFDA02B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7EE4878-4670-49B5-A94A-8C0DFDA02B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF6DF17-5CE2-40E0-98A2-D70E8E89F7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF6DF17-5CE2-40E0-98A2-D70E8E89F7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF6DF17-5CE2-40E0-98A2-D70E8E89F7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF6DF17-5CE2-40E0-98A2-D70E8E89F7F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

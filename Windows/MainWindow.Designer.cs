@@ -473,7 +473,7 @@
             this.toolBtn_G_Earse});
             this.ToolStrip_OpenAble.Location = new System.Drawing.Point(3, 0);
             this.ToolStrip_OpenAble.Name = "ToolStrip_OpenAble";
-            this.ToolStrip_OpenAble.Size = new System.Drawing.Size(688, 35);
+            this.ToolStrip_OpenAble.Size = new System.Drawing.Size(719, 35);
             this.ToolStrip_OpenAble.TabIndex = 2;
             this.ToolStrip_OpenAble.Text = "toolStrip1";
             // 
@@ -565,6 +565,7 @@
             this.toolBtn_Paste.Name = "toolBtn_Paste";
             this.toolBtn_Paste.Size = new System.Drawing.Size(32, 32);
             this.toolBtn_Paste.Text = "暂停";
+            this.toolBtn_Paste.Click += new System.EventHandler(this.toolBtn_Paste_Click);
             // 
             // toolBtn_Stop
             // 

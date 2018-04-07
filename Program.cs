@@ -23,6 +23,15 @@ namespace VocalUtau
             MainWindow mw = new MainWindow();
             mw.Visible = false;
             Application.Run(mw);
+
+            try
+            {
+                string temp = System.Environment.GetEnvironmentVariable("TEMP");
+                DirectoryInfo info = new DirectoryInfo(temp);
+                DirectoryInfo baseDir = info.CreateSubdirectory("Chorista\\Instance." + System.Diagnostics.Process.GetCurrentProcess().Id.ToString());
+                baseDir.Delete(true);
+            }
+            catch { ;}
         }
     }
 }

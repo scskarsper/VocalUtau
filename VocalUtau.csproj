@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{49F2A2D2-5ECD-4042-81D5-8A4C3A7C20E4}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VocalUtau</RootNamespace>
     <AssemblyName>VocalUtau</AssemblyName>
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -163,6 +163,10 @@
     <ProjectReference Include="..\IncludeLib\VocalUtau.Formats\VocalUtau.Formats\VocalUtau.Formats.csproj">
       <Project>{9ea2955f-3919-4939-bb75-0b38f4e6182d}</Project>
       <Name>VocalUtau.Formats</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IncludeLib\VocalUtau.WavTools\VocalUtau.Wavtools.Render\VocalUtau.Wavtools.Render.csproj">
+      <Project>{5cf6df17-5ce2-40e0-98a2-d70e8e89f7f8}</Project>
+      <Name>VocalUtau.Wavtools.Render</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

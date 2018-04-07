@@ -410,6 +410,11 @@ namespace VocalUtau.Windows
         {
             Controller.PlayingWorker.Stop();
         }
+
+        private void toolBtn_Paste_Click(object sender, EventArgs e)
+        {
+            Controller.PlayingWorker.Pause();
+        }
         
 
     }
