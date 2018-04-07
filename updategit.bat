@@ -1,3 +1,4 @@
+@REM Base GIT TLS£ºhttps://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/download/v1.14.0/GCMW-1.14.0.exe
 @echo off
 @echo ===========================
 @echo VocalUtau Main
