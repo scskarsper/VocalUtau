@@ -111,6 +111,12 @@ namespace VocalUtau.ActionWorker
             tw.LoadProjectObject(ref projectObj);
             ua.LoadProjectObject(ref projectObj);
             playworker.LoadProjectObject(ref projectObj);
+
+            tw.Text = projectObj.BasicData.ProjectFilePath;
+            if (System.IO.File.Exists(tw.Text))
+            {
+                tw.Text = "Project : "+(new System.IO.FileInfo(tw.Text)).Name;
+            }
         }
         public void NewProject()
         {
@@ -121,6 +127,7 @@ namespace VocalUtau.ActionWorker
             projectObject.BasicData.SavePassword = "";
             projectObject.BackerList.Clear();
             LoadProjectObject(ref projectObject);
+            tw.Text = "UnsavedProject";
         }
         public bool SaveProject(Form baseFrom = null,bool SaveAs=false)
         {
@@ -156,6 +163,11 @@ namespace VocalUtau.ActionWorker
                 }
                 FormSpaner.SetFromProcess(100, "完成", baseFrom);
                 FormSpaner.UnLockFrom(baseFrom);
+                tw.Text = projectObject.BasicData.ProjectFilePath;
+                if (System.IO.File.Exists(tw.Text))
+                {
+                    tw.Text = "Project : "+(new System.IO.FileInfo(tw.Text)).Name;
+                }
                 return true;
             }
             catch { ;}
@@ -226,6 +238,11 @@ namespace VocalUtau.ActionWorker
                     {
                         FormSpaner.SetFromProcess(80, "装载工程", baseFrom);
                         LoadProjectObject(ref OOP);
+                        tw.Text = OOP.BasicData.ProjectFilePath;
+                        if (System.IO.File.Exists(tw.Text))
+                        {
+                            tw.Text = "Project : "+(new System.IO.FileInfo(tw.Text)).Name;
+                        }
                     }
                     else
                     {
@@ -298,6 +315,7 @@ namespace VocalUtau.ActionWorker
                     LoadProjectObject(ref Proj);
                     FormSpaner.SetFromProcess(100, "完成", baseFrom);
                     FormSpaner.UnLockFrom(baseFrom);
+                    tw.Text = "UnsavedProject";
                     return true;
                 }
                 catch { ; }
