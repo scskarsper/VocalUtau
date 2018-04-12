@@ -37,7 +37,14 @@
 
 
 @echo ===========================
-@echo VocalUtau WavTools
+@echo VocalUtau BasePainter
+@mkdir D:\VocalUtau\IncludeLib
+@cd D:\VocalUtau\IncludeLib
+@D:
+@git clone https://github.com/scskarsper/BalthasarLib.D2DPainter.git
+
+@echo ===========================
+@echo VocalUtau Examples
 @mkdir D:\VocalUtau
 @cd D:\VocalUtau
 @D:
