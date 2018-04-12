@@ -314,7 +314,7 @@ namespace VocalUtau.Windows
 
         private void toolBtn_Play_Click(object sender, EventArgs e)
         {
-            Controller.PlayingWorker.Play();
+            Controller.PlayingWorker.Play(tw.getCurrentTimePos());
         }
 
         private void trackToolStripMenuItem_DropDownOpening(object sender, EventArgs e)

@@ -219,6 +219,7 @@ namespace VocalUtau.ObjectUtils
         }
         void FillObject(ref ProjectObject dest, ProjectObject source)
         {
+            if (source == null) return;
             dest.BackerList = source.BackerList;
             dest.BaseTempo = source.BaseTempo;
             dest.ProjectName = source.ProjectName;
@@ -227,6 +228,7 @@ namespace VocalUtau.ObjectUtils
         }
         void FillObject(ProjectObject source)
         {
+            if (source == null) return;
             ProjectObject dest = ProjectObject;
             FillObject(ref dest, source);
             try

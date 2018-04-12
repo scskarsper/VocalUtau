@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VocalUtau.Calculators;
 using VocalUtau.DirectUI.Forms;
 using VocalUtau.DirectUI.Utils.SingerUtils;
 using VocalUtau.Formats.Model.VocalObject;
@@ -70,28 +71,39 @@ namespace VocalUtau.ActionWorker
             CreatePw();
         }
 
-        public void GenerateBinaryFile()
+        public void GenerateBinaryFile(double TimePosition)
         {
             string temp = System.Environment.GetEnvironmentVariable("TEMP");
             DirectoryInfo info = new DirectoryInfo(temp);
             DirectoryInfo baseDir = info.CreateSubdirectory("Chorista\\Instance." + System.Diagnostics.Process.GetCurrentProcess().Id.ToString());
-            Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>> rst2 = new Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>>();
+           // Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>> rst2 = new Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>>();
+
+            BinaryFileStruct BFS = new BinaryFileStruct();
             for (int i = 0; i < projectObject.TrackerList.Count; i++)
             {
                 Calculators.VocalTrackCalculator tc = new Calculators.VocalTrackCalculator(SingerDataFinder);
-                rst2.Add(i, tc.CalcTracker(projectObject.TrackerList[i], projectObject.BaseTempo));
+                BFS.VocalTrackStructs.Add(i, tc.CalcTracker(TimePosition,projectObject.TrackerList[i], projectObject.BaseTempo));
+                BFS.VocalTrackVolumes.Add(i, (float)projectObject.TrackerList[i].getVolume());
             }
+
+            for (int i = 0; i < projectObject.BackerList.Count; i++)
+            {
+                BarkerCalculator bc=new BarkerCalculator();
+                BFS.BarkerTrackStructs.Add(i, bc.CalcTracker(TimePosition, projectObject.BackerList[i]));
+                BFS.BarkerTrackVolumes.Add(i, (float)projectObject.BackerList[i].getVolume());
+            }
+
             using (System.IO.FileStream ms = new System.IO.FileStream(baseDir.FullName + @"\\RendCmd.binary", System.IO.FileMode.Create))
             {
                 //序列化操作，把内存中的东西写到硬盘中
                 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter fomatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter(null, new System.Runtime.Serialization.StreamingContext(System.Runtime.Serialization.StreamingContextStates.File));
-                fomatter.Serialize(ms, rst2);
+                fomatter.Serialize(ms, BFS);
                 ms.Flush();
             }
         }
         int PlayProcessId = 0;
         CommandPipe_Server PipeServer = new CommandPipe_Server(Process.GetCurrentProcess().Id);
-        public void Play()
+        public void Play(double TimePosition=0)
         {
             if (PlayProcessId != 0)
             {
@@ -111,7 +123,7 @@ namespace VocalUtau.ActionWorker
                 catch { PlayProcessId = 0; }
             }
             if (SingerDataFinder == null) return;
-            GenerateBinaryFile();
+            GenerateBinaryFile(TimePosition);
             string[] args = new string[] {
                 Process.GetCurrentProcess().Id.ToString()
             };
@@ -133,7 +145,11 @@ namespace VocalUtau.ActionWorker
         {
             if (PlayProcessId != 0)
             {
-                Process.GetProcessById(PlayProcessId).Kill();
+                try
+                {
+                    Process.GetProcessById(PlayProcessId).Kill();
+                }
+                catch { ; }
                 PlayProcessId = 0;
             }
         }
