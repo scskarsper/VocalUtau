@@ -73,11 +73,11 @@ namespace VocalUtau.ActionWorker
 
         public void GenerateBinaryFile(double TimePosition)
         {
+            if (TimePosition < 0) TimePosition = 0;
             string temp = System.Environment.GetEnvironmentVariable("TEMP");
             DirectoryInfo info = new DirectoryInfo(temp);
             DirectoryInfo baseDir = info.CreateSubdirectory("Chorista\\Instance." + System.Diagnostics.Process.GetCurrentProcess().Id.ToString());
-           // Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>> rst2 = new Dictionary<int, List<Calculators.NoteListCalculator.NotePreRender>>();
-
+        
             BinaryFileStruct BFS = new BinaryFileStruct();
             for (int i = 0; i < projectObject.TrackerList.Count; i++)
             {
@@ -92,6 +92,8 @@ namespace VocalUtau.ActionWorker
                 BFS.BarkerTrackStructs.Add(i, bc.CalcTracker(TimePosition, projectObject.BackerList[i]));
                 BFS.BarkerTrackVolumes.Add(i, (float)projectObject.BackerList[i].getVolume());
             }
+
+            BFS.StartTimePosition = TimePosition;
 
             using (System.IO.FileStream ms = new System.IO.FileStream(baseDir.FullName + @"\\RendCmd.binary", System.IO.FileMode.Create))
             {
@@ -123,6 +125,7 @@ namespace VocalUtau.ActionWorker
                 catch { PlayProcessId = 0; }
             }
             if (SingerDataFinder == null) return;
+            isBufferEmpty = false;
             GenerateBinaryFile(TimePosition);
             string[] args = new string[] {
                 Process.GetCurrentProcess().Id.ToString()
@@ -135,10 +138,12 @@ namespace VocalUtau.ActionWorker
                 Process.GetProcessById(PlayProcessId).Kill();
                 PlayProcessId = 0;
             }
+
             Process p = new Process();
             p.StartInfo = psi;
             p.Start();
             PlayProcessId = p.Id;
+            _InitPosition = TimePosition;
         }
 
         public void Stop()
@@ -151,6 +156,7 @@ namespace VocalUtau.ActionWorker
                 }
                 catch { ; }
                 PlayProcessId = 0;
+                PipeServer_OnRecieve("Status:Finished");
             }
         }
 
@@ -164,8 +170,50 @@ namespace VocalUtau.ActionWorker
             }
         }
 
+        public delegate void ProcessStatusChangeHandler(VocalUtau.DirectUI.Forms.AttributesWindow.RenderStatus Status);
+        public event ProcessStatusChangeHandler StatusChange;
+        public delegate void ProcessTimeChangeHandler(TimeSpan Current,TimeSpan Total);
+        public event ProcessTimeChangeHandler TimeChange;
+        bool isBufferEmpty = false;
+        double _InitPosition = -1;
         void PipeServer_OnRecieve(string data)
         {
+            if (_InitPosition != -1)
+            {
+                if (TimeChange != null)
+                {
+                    TimeChange(new TimeSpan(0, 0, 0, 0, (int)_InitPosition), new TimeSpan(0, 0, 0, 0, (int)_InitPosition));
+                }
+                _InitPosition = -1;
+            }
+            string[] sp = data.Split(':');
+            switch(sp[0])
+            {
+                case "Status":
+                    switch (sp[1])
+                    {
+                        case "Playing": if (StatusChange != null) StatusChange(isBufferEmpty?VocalUtau.DirectUI.Forms.AttributesWindow.RenderStatus.Buffing:VocalUtau.DirectUI.Forms.AttributesWindow.RenderStatus.Playing); break;
+                        case "Buffering": if (StatusChange != null) StatusChange(VocalUtau.DirectUI.Forms.AttributesWindow.RenderStatus.Buffing);break;
+                        case "Paused": if (StatusChange != null) StatusChange(VocalUtau.DirectUI.Forms.AttributesWindow.RenderStatus.Paused); break;
+                        case "Finished": if (StatusChange != null) StatusChange(VocalUtau.DirectUI.Forms.AttributesWindow.RenderStatus.Ready); break;
+                    }
+                    break;
+                case "Postion":
+                    string[] s2 = sp[1].Split('/');
+                    double d1 = double.Parse(s2[0]);
+                    double d2 = double.Parse(s2[1]);
+                    bool b3 = bool.Parse(s2[2]);
+                    if (isBufferEmpty != b3)
+                    {
+                        isBufferEmpty = b3;
+                        if (StatusChange != null) StatusChange(isBufferEmpty ? VocalUtau.DirectUI.Forms.AttributesWindow.RenderStatus.Buffing : VocalUtau.DirectUI.Forms.AttributesWindow.RenderStatus.Playing); break;
+                    }
+                    if (TimeChange != null)
+                    {
+                        TimeChange(new TimeSpan(0, 0, 0, 0, (int)d1), new TimeSpan(0, 0, 0, 0, (int)d2));
+                    }
+                    break;
+            }
             Console.WriteLine(data);
         }
     }

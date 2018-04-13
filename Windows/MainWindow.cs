@@ -39,7 +39,17 @@ namespace VocalUtau.Windows
             sw.BaseController.ToolStatusChange += BaseController_ToolStatusChange;
             sw.NoteCopyMemoryChanged += sw_NoteCopyMemoryChanged;
             sw.NoteSelectListChange += sw_NoteSelectListChange;
+
+            tw.TotalTimePosChange += TotalTimePosChange;
+            sw.TotalTimePosChange += TotalTimePosChange;
             this.ShowInTaskbar = false;
+        }
+
+        void TotalTimePosChange(double Time)
+        {
+            TimeSpan Ts = new TimeSpan(0, 0, 0, 0, (int)(Time*1000));
+            //toolBtn_Mixer.Text = String.Format("{0:00}:{1:00}.{2:000}", Ts.TotalMinutes, Ts.Seconds, Math.Round(Ts.Milliseconds>0?Ts.TotalMilliseconds:0,3));
+            aw.CurrentPosTime(Ts);
         }
 
         void sw_NoteSelectListChange(List<int> SelectedIndexs)

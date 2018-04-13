@@ -47,7 +47,41 @@ namespace VocalUtau.ActionWorker
             aw.FormClosing += child_FormClosing;
             sw.BaseController.NoteActionEnd += BaseController_NoteActionEnd;
             //sw.BaseController.
-            PlayingWorker.SetDockPanel(aw.DockerPanel);
+
+            playworker.TimeChange += playworker_TimeChange;
+            playworker.StatusChange += playworker_StatusChange;
+        }
+
+        void playworker_StatusChange(AttributesWindow.RenderStatus Status)
+        {
+            aw.SetRenderStatus(Status);
+            switch (Status)
+            {
+                case AttributesWindow.RenderStatus.Ready:
+                    aw.CurrentRenderTime(new TimeSpan(0, 0, 0));
+                    aw.TotalRenderTime(new TimeSpan(0, 0, 0));
+                    tw.SetPlayPosition(0);
+                    sw.SetPlayPosition(0);
+                    sw.setMouseEnable(true);
+                    tw.setMouseEnable(true);
+                    break;
+                case AttributesWindow.RenderStatus.Playing:
+                    sw.setMouseEnable(false);
+                    tw.setMouseEnable(false);
+                    break;
+                default:
+                    sw.setMouseEnable(true);
+                    tw.setMouseEnable(true);
+                    break;
+            }
+        }
+
+        void playworker_TimeChange(TimeSpan Current, TimeSpan Total)
+        {
+            aw.CurrentRenderTime(Current);
+            aw.TotalRenderTime(Total);
+            tw.SetPlayPosition(Current.TotalSeconds);
+            sw.SetPlayPosition(Current.TotalSeconds);
         }
 
         void tw_AfterTrackNormalize()
