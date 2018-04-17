@@ -38,3 +38,4 @@ D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.WavTools.dll
 D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.WavTools.pdb
 D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.Wavtools.Render.exe
 D:\VocalUtau\VocalUtau\bin\Debug\VocalUtau.Wavtools.Render.pdb
+D:\VocalUtau\VocalUtau\bin\Debug\NUniversalCharDet.pdb
