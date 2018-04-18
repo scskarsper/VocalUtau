@@ -18,7 +18,6 @@ namespace VocalUtau.ActionWorker
     {
         ProjectObject projectObject;
         SingerDataFinder SingerDataFinder;
-        PlayerWindow pw = new PlayerWindow();
         DockPanel PanelWin;
         public PlayingWorker()
         {
@@ -36,40 +35,6 @@ namespace VocalUtau.ActionWorker
         {
             SingerDataFinder = sls;
         }
-        private void DisposePw()
-        {
-            if (pw != null)
-            {
-                try
-                {
-                    pw.Close();
-                }
-                catch { ;}
-                try
-                {
-                    pw.Dispose();
-                }
-                catch { ;}
-            }
-            pw = null;
-        }
-        private void CreatePw()
-        {
-            pw = new PlayerWindow();
-            if (this.PanelWin != null)
-            {
-                pw.Show(this.PanelWin);
-            }
-            else
-            {
-                pw.Show();
-            }
-        }
-        private void CreatwNewPw()
-        {
-            DisposePw();
-            CreatePw();
-        }
 
         public void GenerateBinaryFile(double TimePosition)
         {
@@ -79,18 +44,20 @@ namespace VocalUtau.ActionWorker
             DirectoryInfo baseDir = info.CreateSubdirectory("Chorista\\Instance." + System.Diagnostics.Process.GetCurrentProcess().Id.ToString());
         
             BinaryFileStruct BFS = new BinaryFileStruct();
+            BFS.GlobalVolume = (float)((double)projectObject.GlobalVolume/100.0);
+            BFS.TrackVolumes = new Dictionary<int, float>();
             for (int i = 0; i < projectObject.TrackerList.Count; i++)
             {
                 Calculators.VocalTrackCalculator tc = new Calculators.VocalTrackCalculator(SingerDataFinder);
                 BFS.VocalTrackStructs.Add(i, tc.CalcTracker(TimePosition,projectObject.TrackerList[i], projectObject.BaseTempo));
-                BFS.VocalTrackVolumes.Add(i, (float)projectObject.TrackerList[i].getVolume());
+                BFS.TrackVolumes.Add(i, (float)projectObject.TrackerList[i].getVolume());
             }
 
             for (int i = 0; i < projectObject.BackerList.Count; i++)
             {
                 BarkerCalculator bc=new BarkerCalculator();
                 BFS.BarkerTrackStructs.Add(i, bc.CalcTracker(TimePosition, projectObject.BackerList[i]));
-                BFS.BarkerTrackVolumes.Add(i, (float)projectObject.BackerList[i].getVolume());
+                BFS.TrackVolumes.Add(projectObject.TrackerList.Count + i, (float)projectObject.BackerList[i].getVolume());
             }
 
             BFS.StartTimePosition = TimePosition;
@@ -215,6 +182,26 @@ namespace VocalUtau.ActionWorker
                     break;
             }
             Console.WriteLine(data);
+        }
+
+        public void PipeSend_Async(string Cmd)
+        {
+            if (PlayProcessId != 0)
+            {
+                try
+                {
+                    if (Process.GetProcessById(PlayProcessId).HasExited)
+                    {
+                        PlayProcessId = 0;
+                    }
+                }
+                catch { PlayProcessId = 0; }
+            }
+            if(PlayProcessId!=0)
+            {
+                CommandPipe_Client client = new CommandPipe_Client(PlayProcessId);
+                client.SendData(Cmd);
+            }
         }
     }
 }

@@ -50,6 +50,21 @@ namespace VocalUtau.ActionWorker
 
             playworker.TimeChange += playworker_TimeChange;
             playworker.StatusChange += playworker_StatusChange;
+
+            aw.ChannelVolumeChanged += aw_ChannelVolumeChanged;
+            aw.GlobalVolumeChanged += aw_GlobalVolumeChanged;
+        }
+
+        void aw_GlobalVolumeChanged(int NewVolume)
+        {
+            float fl = (float)NewVolume / 100.0f;
+            playworker.PipeSend_Async("Volume:Global:"+fl.ToString());
+        }
+
+        void aw_ChannelVolumeChanged(int ChannelID, int NewVolume)
+        {
+            float fl = (float)NewVolume / 100.0f;
+            playworker.PipeSend_Async("Volume:Track:" + ChannelID.ToString() + ":" + fl.ToString());
         }
 
         void playworker_StatusChange(AttributesWindow.RenderStatus Status)
